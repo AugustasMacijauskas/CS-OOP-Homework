@@ -1,0 +1,27 @@
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\laleksiunas\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+G:\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+G:\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+G:\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+G:\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+G:\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+G:\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\Programavimas\C#\Algorithms\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\laleksiunas\Desktop\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\laleksiunas\Desktop\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\laleksiunas\Desktop\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\New folder (2)\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\New folder (2)\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\New folder (2)\LD_2kryžiažodis Laurynas Aleksiūnas 3NFQ\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

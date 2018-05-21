@@ -1,0 +1,7 @@
+﻿TriApskritime -1 0 1 0 0 1
+KtAplinkApskritima 0 0 0 1 1 1 1 0
+Sesiakampis 1 2 2 1 2 0 1 -1 0 0 0 4,5
+TrLygiakrastis 0 0 6 0 3 5,1962
+ApsIbreztas 0,5 0,5 0,5
+ApsAplinkTri 0 0 1
+Keturkampis -3,5 -0,5 -3,5 5,4 2,4 5,4 2,4 -0,5

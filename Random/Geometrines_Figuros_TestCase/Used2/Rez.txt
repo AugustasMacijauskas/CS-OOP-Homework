@@ -1,0 +1,24 @@
+T
+ju yra: 5
+Is ju lygiakrasciai: 0
+Bendras plotas 1484
+Bendras perimetras 259,499868163387
+P
+ju yra: 4
+Is ju lygiakrasciai: 0
+Bendras plotas 145,14
+Bendras perimetras 95,4519717293477
+K
+ju yra: 2
+Is ju lygiakrasciai: 1
+Bendras plotas 17,5
+Bendras perimetras 35,9001003301042
+A
+ju yra: 4
+Is ju lygiakrasciai: 4
+Bendras plotas 195,465
+Bendras perimetras 91,06
+Tr1 turi didziausia perimetra: 192,123362849428
+Tr1 turi didziausia plota: 1435
+staciuju trikampiu, ibreztu i aps yra: 1
+kvadratu, apibreztu apie aps yra: 1
