@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\bin\Debug\Studentai_GUI.exe
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\bin\Debug\Studentai_GUI.pdb
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.Form1.resources
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.Properties.Resources.resources
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.exe
+C:\Users\Admin\Desktop\GUI\Studentai_GUI\obj\Debug\Studentai_GUI.pdb

@@ -1,0 +1,12 @@
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Programavimas\C#\Firebase\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Admin\Desktop\Coding\AsynC ir Await\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiZodzius\bin\Debug\PasalintiZodzius.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiZodzius\bin\Debug\PasalintiZodzius.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiZodzius\obj\Debug\PasalintiZodzius.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiZodzius\obj\Debug\PasalintiZodzius.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiZodzius\obj\Debug\PasalintiZodzius.pdb

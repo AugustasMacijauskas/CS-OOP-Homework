@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\bin\Debug\K1_502_pavyzdinis.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\bin\Debug\K1_502_pavyzdinis.pdb
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\obj\Debug\K1_502_pavyzdinis.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\obj\Debug\K1_502_pavyzdinis.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\obj\Debug\K1_502_pavyzdinis.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\K1_502_pavyzdinis\obj\Debug\K1_502_pavyzdinis.pdb

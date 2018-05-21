@@ -1,0 +1,12 @@
+﻿Kaunas; Lietuva; 300; 64;
+Vilnius; Lietuva; 500; 80;
+Washington; JAV; 5000; 150;
+California; JAV; 2500; 100;
+Berlin; Vokietija; 10000; 110;
+Paris; Prancūzija; 5000; 90;
+New York; JAV; 20000; 250;
+Munich; Vokietija; 2000; 70;
+London; Didžioji Britanija; 10000; 130;
+Miami; JAV; 2500; 125;
+Boston; JAV; 5000; 135;
+Klaipėda; Lietuva; 150; 40;

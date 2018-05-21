@@ -1,0 +1,32 @@
+﻿ir ir arba a // aa aa a[[ /***/
+aadd /* aaa a a a */ /**/ dad /* //*/
+aaa/*aaa
+/*
+aaa
+aa*/
+aaww///aa
+// Surikiuoja masyvą Mas(kiek) skaičių didėjimo tvarka
+	static void MinMax(int[] Mas, int kiek)
+	{
+		int pag = 0; // pagalbinis kintamasis reikšmių sukeitimui
+		int minInd; // mažiausios reikšmės elemento indeksas
+		for (int i = 0; i < kiek - 1; i++)
+		{
+			minInd = i;
+			for (int j = i + 1; j < kiek; j++)
+			{
+				if (Mas[j] < Mas[minInd])
+					minInd = j;
+			}
+
+		/*
+		Šią	dalį reikia pašalinti!!!
+
+		Pašalinimui
+
+		123*/string eil = "Cia dabar kas\?";
+			pag = Mas[i];
+			Mas[i] = Mas[minInd];
+			Mas[minInd] = pag;
+		}
+	}

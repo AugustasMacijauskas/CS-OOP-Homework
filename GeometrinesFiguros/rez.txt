@@ -1,0 +1,52 @@
+Pradiniai duomenys: 
+--------------------------------------------------------------------------------------
+Vardas: TriApskritime Kampai: -1 0 1 0 0 1 
+Vardas: KtAplinkApskritima Kampai: 0 0 0 1 1 1 1 0 
+Vardas: Sesiakampis Kampai: 1 2 2 1 2 0 1 -1 0 0 0 4,5 
+Vardas: TrLygiakrastis Kampai: 0 0 6 0 3 5,1962 
+Vardas: Tr1 Kampai: 0 0 5 5 10 0 
+Vardas: Sesi Kampai: 0 0 -1,73205080756 1 -1,73205080756 3 0 4 1,73205080756 3 1,73205080756 1 
+Vardas: Kvad9 Kampai: 0 3 3 3 3 0 0 0 
+Vardas: Ses11 Kampai: 0 0 3 4 8 4 11 0 8 -4 3 -4 
+Vardas: ApsIbreztas; centro koordinates: 0,5; 0,5; spindulys: 0,5
+Vardas: ApsAplinkTri; centro koordinates: 0; 0; spindulys: 1
+Vardas: Aps10; centro koordinates: 1,5; 0; spindulys: 1,5
+--------------------------------------------------------------------------------------
+
+|-------------------------------------------------------------------------------------|
+|          Meniu           |  Taškai  |             Veiksmas                          |
+|-------------------------------------------------------------------------------------|
+| KokiuIrKiek              |     4    | Rasti kokių ir kiek yra figūrų.               |
+|-------------------------------------------------------------------------------------|
+| MaxPerimetras            |     8    | Rasti didžiausią perimetrą turinčios          |
+|                          |          | figūros vardą ir perimetrą.                   |
+|-------------------------------------------------------------------------------------|
+| MaxPlotas                |     8    | Rasti didžiausią plotą turinčios figūros      |
+|                          |          | vardą ir plotą.                               |
+|-------------------------------------------------------------------------------------|
+| KiekStacTrikampiu        |    10    | Rasti stačiųjų trikampių, įbrėžtų į           |
+|                          |          | apskritimus, kiekį (Tikslumas: 0.000001).     |
+|-------------------------------------------------------------------------------------|
+| KiekKvadratu             |    10    | Rasti kvadratų, apibrėžtų apie apskritimus,   |
+|                          |          | kiekį (Tikslumas: 0.000001).                  |
+|-------------------------------------------------------------------------------------|
+| InfoFiguruGrupe          |    12    | Pateikti informaciją apie pageidaujamą        |
+|                          |          | figūrų grupę atskirose eilutėse tokia seka:   |
+|                          |          | (nurodoma grupės kampų skaičius,              |
+|                          |          | pvz.: 5; apskritimams - 0 ):                  |
+|                          |          | -> figūrų kiekis;                             |
+|                          |          | -> kiek yra lygiakraščių figūrų               |
+|                          |          |    (Tikslumas: 0.000001)                      |
+|                          |          |    (apskritimams: figūrų kiekis);             |
+|                          |          | -> bendras figūrų perimetras                  |
+|                          |          |    (apskritimams: bendras apskritimų ilgis);  |
+|                          |          | -> bendras figūrų plotas                      |
+|                          |          |    (apskritimams: bendras apskritimų plotas). |
+|-------------------------------------------------------------------------------------|
+
+Iveskite savo pasirinkima, arba 0, jei norite nutraukti: 
+
+KiekKvadratu
+Apie apskritimus apibrėžtų kvadratų nėra
+
+Iveskite savo pasirinkima, arba 0, jei norite nutraukti: 

@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\bin\Debug\IsspreskUzdPlz.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\bin\Debug\IsspreskUzdPlz.pdb
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\obj\Debug\IsspreskUzdPlz.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\obj\Debug\IsspreskUzdPlz.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\obj\Debug\IsspreskUzdPlz.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\IsspreskUzdPlz\obj\Debug\IsspreskUzdPlz.pdb

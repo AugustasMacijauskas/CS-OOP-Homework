@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Labor1(2)\bin\Debug\Labor1(2).exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Labor1(2)\bin\Debug\Labor1(2).pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Labor1(2)\obj\Debug\Labor1(2).csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\Labor1(2)\obj\Debug\Labor1(2).exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Labor1(2)\obj\Debug\Labor1(2).pdb

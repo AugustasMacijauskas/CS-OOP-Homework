@@ -1,0 +1,14 @@
+
+ Studentø sàraðas (testo rezultatai)
+-----------------------------------
+ Nr. Pavardë ir vardas Paþymys 
+-----------------------------------
+  1 Jonaitis Jonas           8
+  2 Petraitis Petras         7
+  3 Antanaitis Antanas      10
+  4 Giedraitis Giedrius      5
+  5 Onaitytë Ona             8
+  6 Juozaitis Juozas         4
+  7 Ramunaitë Ramunë         5
+-----------------------------------
+

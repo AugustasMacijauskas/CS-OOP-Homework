@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD3\bin\Debug\LD3.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD3\bin\Debug\LD3.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD3\obj\Debug\LD3.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD3\obj\Debug\LD3.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD3\obj\Debug\LD3.pdb

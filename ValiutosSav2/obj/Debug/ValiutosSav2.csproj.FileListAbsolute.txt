@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\ValiutosSav2\bin\Debug\ValiutosSav2.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\ValiutosSav2\bin\Debug\ValiutosSav2.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\ValiutosSav2\obj\Debug\ValiutosSav2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\ValiutosSav2\obj\Debug\ValiutosSav2.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\ValiutosSav2\obj\Debug\ValiutosSav2.pdb

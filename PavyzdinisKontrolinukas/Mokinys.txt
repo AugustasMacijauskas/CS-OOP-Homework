@@ -1,0 +1,6 @@
+﻿KTUG
+Jonaitis; Jonas; vyras; 2000; IIIAon; 9,5
+Jonaitis; Algis; vyras; 1999; IIIAon; 9,5
+Petraitienė; Petra; moteris; 1998; IVc; 9,5
+Jonaitienė; Jonė; moteris; 2001; IIa; 9,24
+Mikaitis; Mikas; vyras; 2002; Ib; 9,6

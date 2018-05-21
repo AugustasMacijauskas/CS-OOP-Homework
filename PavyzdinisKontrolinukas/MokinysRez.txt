@@ -1,0 +1,39 @@
+Pradiniai duomenys:
+KTUG
+----------------------------------------------------------------------------------------------------------------
+   Nr.       Pavardė            Vardas              Lytis            Gim. metai          Klasė        Vidurkis  
+----------------------------------------------------------------------------------------------------------------
+    1       Jonaitis            Jonas               vyras               2000             IIIAon         9,50    
+    2       Jonaitis            Algis               vyras               1999             IIIAon         9,50    
+    3       Petraitienė         Petra               moteris             1998             IVc            9,50    
+    4       Jonaitienė          Jonė                moteris             2001             IIa            9,24    
+    5       Mikaitis            Mikas               vyras               2002             Ib             9,60    
+----------------------------------------------------------------------------------------------------------------
+
+
+Surikiuotas masyvas:
+----------------------------------------------------------------------------------------------------------------
+   Nr.       Pavardė            Vardas              Lytis            Gim. metai          Klasė        Vidurkis  
+----------------------------------------------------------------------------------------------------------------
+    1       Mikaitis            Mikas               vyras               2002             Ib             9,60    
+    2       Jonaitis            Algis               vyras               1999             IIIAon         9,50    
+    3       Jonaitis            Jonas               vyras               2000             IIIAon         9,50    
+    4       Petraitienė         Petra               moteris             1998             IVc            9,50    
+    5       Jonaitienė          Jonė                moteris             2001             IIa            9,24    
+----------------------------------------------------------------------------------------------------------------
+
+
+Įterptas elementas:
+----------------------------------------------------------------------------------------------------------------
+   Nr.       Pavardė            Vardas              Lytis            Gim. metai          Klasė        Vidurkis  
+----------------------------------------------------------------------------------------------------------------
+    1       Mikaitis            Mikas               vyras               2002             Ib             9,60    
+    2       Jonaitis            Algis               vyras               1999             IIIAon         9,50    
+    3       Jonaitis            Benas               vyras               2000             IIIm           9,50    
+    4       Jonaitis            Jonas               vyras               2000             IIIAon         9,50    
+    5       Petraitienė         Petra               moteris             1998             IVc            9,50    
+    6       Jonaitienė          Jonė                moteris             2001             IIa            9,24    
+----------------------------------------------------------------------------------------------------------------
+
+
+Sąrašas tuščias

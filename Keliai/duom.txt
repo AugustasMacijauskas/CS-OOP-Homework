@@ -1,0 +1,11 @@
+﻿10
+Panevėžys–Pajuostė;2,95;70;
+Berčiūnai–Naujamiestis;7,2;80;
+Ramygala–Krekenava;15,48;80;
+Krekenava–Skėmai–Grinkiškis;32,21;80;
+Panevėžys–Skaistgiriai–Pušalotas;22,2;80;
+Panevėžys–Pavašuokiai–Subačius;24,2;80;
+Nauradai–Naujamiestis–Krekenava;24,95;80;
+Naujamiestis–Upytė;6,13;70;
+Nauradai–Sujetai–Sinkonys;14,33;80;
+Peidžiai–Maženiai–Raguva;21,17;70;

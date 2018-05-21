@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Dviraciai\bin\Debug\Dviraciai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Dviraciai\bin\Debug\Dviraciai.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Dviraciai\obj\Debug\Dviraciai.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\Dviraciai\obj\Debug\Dviraciai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Dviraciai\obj\Debug\Dviraciai.pdb

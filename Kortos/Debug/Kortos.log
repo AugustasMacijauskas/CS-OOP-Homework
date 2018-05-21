@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\admin\desktop\coding\sprendimai\kortos\source.cpp(8): error C2275: 'std::ifstream': illegal use of this type as an expression
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\iosfwd(636): note: see declaration of 'std::ifstream'
+c:\users\admin\desktop\coding\sprendimai\kortos\source.cpp(8): error C2146: syntax error: missing ')' before identifier 'duom'
+c:\users\admin\desktop\coding\sprendimai\kortos\source.cpp(8): error C2143: syntax error: missing ')' before ';'
+c:\users\admin\desktop\coding\sprendimai\kortos\source.cpp(10): error C2059: syntax error: '}'
+c:\users\admin\desktop\coding\sprendimai\kortos\source.cpp(10): error C2143: syntax error: missing ';' before '}'

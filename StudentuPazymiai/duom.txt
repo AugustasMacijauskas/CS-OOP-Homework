@@ -1,0 +1,9 @@
+﻿Petraitis; Jonas; IF-1/8; 10 8 9 9
+Algaitis; Algis; IF-1/8; 10 9 9 9
+Petraitis; Kazys; IF-1/8; 9 9 10 10
+Algaitis; Rimas; IF-1/8; 9 9 9 9
+Petraitis; Vytas; IF-1/9; 10 8 9 7
+Petraitis; Anupras; IF-1/9; 9 8 7 6
+Petraitis; Vidas; IF-1/9; 8 9 8 9
+Petraitis; Anzelmas; IF-1/9; 8 9 9 9
+Petraitis; Šarūnas; IF-1/9; 10 9 10 9

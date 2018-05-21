@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\GeometrinesFiguros\bin\Debug\GeometrinesFiguros.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\GeometrinesFiguros\bin\Debug\GeometrinesFiguros.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\GeometrinesFiguros\obj\Debug\GeometrinesFiguros.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\GeometrinesFiguros\obj\Debug\GeometrinesFiguros.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\GeometrinesFiguros\obj\Debug\GeometrinesFiguros.pdb

@@ -1,0 +1,15 @@
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.exe.config
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.exe
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.pdb
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.csprojResolveAssemblyReference.cache
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.exe
+C:\Users\laleksiunas\Desktop\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.pdb
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.exe.config
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.exe
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.pdb
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.exe
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.pdb
+D:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.csprojResolveAssemblyReference.cache
+G:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\bin\Debug\LDS_14GeometrinesFiguros.exe.config
+G:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.exe
+G:\Programavimas\C#\Algorithms\Darbai\LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros\obj\Debug\LDS_14GeometrinesFiguros.pdb

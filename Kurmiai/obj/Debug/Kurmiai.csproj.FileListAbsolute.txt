@@ -1,0 +1,4 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Kurmiai\bin\Debug\Kurmiai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Kurmiai\bin\Debug\Kurmiai.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Kurmiai\obj\Debug\Kurmiai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Kurmiai\obj\Debug\Kurmiai.pdb

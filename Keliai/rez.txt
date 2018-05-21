@@ -1,0 +1,18 @@
+Keliu kiekis: 10
+Keliu sarasas:
+|------------------------------------------------------------------|-----------------|---------------------|
+|                                                                  |                 |                     |
+|                        Kelio pavadinimas                         |   Kelio ilgis   |  Maksimalus greitis |
+|                                                                  |                 |                     |
+|------------------------------------------------------------------|-----------------|---------------------|
+| Panevėžys–Pajuostė                                               |       2,95      |        70,00        |
+| Berčiūnai–Naujamiestis                                           |       7,20      |        80,00        |
+| Ramygala–Krekenava                                               |      15,48      |        80,00        |
+| Krekenava–Skėmai–Grinkiškis                                      |      32,21      |        80,00        |
+| Panevėžys–Skaistgiriai–Pušalotas                                 |      22,20      |        80,00        |
+| Panevėžys–Pavašuokiai–Subačius                                   |      24,20      |        80,00        |
+| Nauradai–Naujamiestis–Krekenava                                  |      24,95      |        80,00        |
+| Naujamiestis–Upytė                                               |       6,13      |        70,00        |
+| Nauradai–Sujetai–Sinkonys                                        |      14,33      |        80,00        |
+| Peidžiai–Maženiai–Raguva                                         |      21,17      |        70,00        |
+------------------------------------------------------------------------------------------------------------

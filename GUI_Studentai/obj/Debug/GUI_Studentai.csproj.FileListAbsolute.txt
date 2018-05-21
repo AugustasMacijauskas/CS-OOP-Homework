@@ -1,0 +1,5 @@
+Z:\Sprendimai\GUI_Studentai\bin\Debug\GUI_Studentai.exe.config
+Z:\Sprendimai\GUI_Studentai\obj\Debug\GUI_Studentai.csprojResolveAssemblyReference.cache
+Z:\Sprendimai\GUI_Studentai\obj\Debug\GUI_Studentai.Form1.resources
+Z:\Sprendimai\GUI_Studentai\obj\Debug\GUI_Studentai.Properties.Resources.resources
+Z:\Sprendimai\GUI_Studentai\obj\Debug\GUI_Studentai.csproj.GenerateResource.Cache

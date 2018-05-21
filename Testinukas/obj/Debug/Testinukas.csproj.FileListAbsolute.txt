@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Testinukas\bin\Debug\Testinukas.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Testinukas\bin\Debug\Testinukas.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Testinukas\obj\Debug\Testinukas.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\Testinukas\obj\Debug\Testinukas.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Testinukas\obj\Debug\Testinukas.pdb

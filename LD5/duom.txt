@@ -1,0 +1,9 @@
+﻿4
+Komanda1; Kaunas; Pavardė1; Vardas1
+Komanda2; Vilnius; Pavardė2; Vardas2
+Komanda3; Klaipėda; Pavardė3; Vardas3
+Komanda4; Jonava; Pavardė4; Vardas4
+0; 3; 2; 5;
+0; 0; 3; 2;
+1; 3; 0; 4;
+0; 0; 2; 0;

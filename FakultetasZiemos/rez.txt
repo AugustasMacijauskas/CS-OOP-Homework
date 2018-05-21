@@ -1,0 +1,87 @@
+Pradiniai duomenys: Informatikos fakultetas
+------------------------------------------
+ Pavardė    Vardas     Grupė    Pažymiai  
+------------------------------------------
+Petraitis    Jonas     IF-1/8  10  8  9  9
+Algaitis     Algis     IF-1/8  10  9  9  9
+Petraitis    Kazys     IF-1/8   9  9 10 10
+Algaitis     Rimas     IF-1/8   9  9  9  9
+Petraitis    Vytas     IF-1/9  10  8  9  7
+Petraitis    Anupras   IF-1/9   9  8  7  6
+Petraitis    Vidas     IF-1/9   8  9  8  9
+Petraitis    Anzelmas  IF-1/9   8  9  9  9
+Petraitis    Šarūnas   IF-1/9  10  9 10  9
+Petraitis    Jonas     IF-1/7  10  8  9  9
+Algaitis     Algis     IF-1/6   7  6  7  6
+Petraitis    Kazys     IF-1/7   9  9 10 10
+Algaitis     Rimas     IF-1/7   9  9  9  9
+Petraitis    Vytas     IF-1/6   5  8  9  7
+Petraitis    Anupras   IF-1/6   9  8  7  6
+Petraitis    Vidas     IF-1/7   8  9  8  9
+Petraitis    Anzelmas  IF-1/6   8  7  9  9
+Petraitis    Šarūnas   IF-1/6  10  9 10  9
+Petraitis    Jonas     IF-1/5  10  8  9  9
+Algaitis     Algis     IF-1/5  10  9  9  9
+Petraitis    Kazys     IF-1/5   9  9 10 10
+Algaitis     Rimas     IF-1/4   9  9  9  9
+Petraitis    Vytas     IF-1/4  10  8  9  7
+Petraitis    Anupras   IF-1/5   9  8  7  6
+Petraitis    Vidas     IF-1/4   8  9  8  9
+Petraitis    Anzelmas  IF-1/4   8  9  9  9
+Petraitis    Šarūnas   IF-1/5  10  9 10  9
+------------------------------------------
+
+Grupiu masyvas: 
+------------------------------------------
+ Pavardė    Vardas     Grupė    Pažymiai  
+------------------------------------------
+Grupė nr. 1, IF-1/4
+Algaitis     Rimas     IF-1/4   9  9  9  9
+Petraitis    Anzelmas  IF-1/4   8  9  9  9
+Petraitis    Vidas     IF-1/4   8  9  8  9
+Petraitis    Vytas     IF-1/4  10  8  9  7
+------------------------------------------
+Grupė nr. 2, IF-1/5
+Algaitis     Algis     IF-1/5  10  9  9  9
+Petraitis    Anupras   IF-1/5   9  8  7  6
+Petraitis    Jonas     IF-1/5  10  8  9  9
+Petraitis    Kazys     IF-1/5   9  9 10 10
+Petraitis    Šarūnas   IF-1/5  10  9 10  9
+------------------------------------------
+Grupė nr. 3, IF-1/6
+Algaitis     Algis     IF-1/6   7  6  7  6
+Petraitis    Anupras   IF-1/6   9  8  7  6
+Petraitis    Anzelmas  IF-1/6   8  7  9  9
+Petraitis    Šarūnas   IF-1/6  10  9 10  9
+Petraitis    Vytas     IF-1/6   5  8  9  7
+------------------------------------------
+Grupė nr. 4, IF-1/7
+Algaitis     Rimas     IF-1/7   9  9  9  9
+Petraitis    Jonas     IF-1/7  10  8  9  9
+Petraitis    Kazys     IF-1/7   9  9 10 10
+Petraitis    Vidas     IF-1/7   8  9  8  9
+------------------------------------------
+Grupė nr. 5, IF-1/8
+Algaitis     Algis     IF-1/8  10  9  9  9
+Algaitis     Rimas     IF-1/8   9  9  9  9
+Petraitis    Jonas     IF-1/8  10  8  9  9
+Petraitis    Kazys     IF-1/8   9  9 10 10
+------------------------------------------
+Grupė nr. 6, IF-1/9
+Petraitis    Anupras   IF-1/9   9  8  7  6
+Petraitis    Anzelmas  IF-1/9   8  9  9  9
+Petraitis    Šarūnas   IF-1/9  10  9 10  9
+Petraitis    Vidas     IF-1/9   8  9  8  9
+Petraitis    Vytas     IF-1/9  10  8  9  7
+------------------------------------------
+
+
+Grupiu vidurkiai: 
+Grupės IF-1/4 vidurkis yra  8,69
+Grupės IF-1/5 vidurkis yra  8,95
+Grupės IF-1/6 vidurkis yra  7,80
+Grupės IF-1/7 vidurkis yra  9,00
+Grupės IF-1/8 vidurkis yra  9,19
+Grupės IF-1/9 vidurkis yra  8,55
+
+

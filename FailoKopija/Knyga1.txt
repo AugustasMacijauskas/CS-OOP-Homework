@@ -1,0 +1,8 @@
+﻿Dviejuose tekstiniuose failuose Knyga1.txt ir Knyga2.txt duotas tekstas sudarytas iš žodžių, atskirtų skyrikliais.
+Skyriklių aibė žinoma ir abejuose failuose yra ta pati. Analizuojant tekstus, didžiosios ir mažosios raidės nesvarbios.
+Raskite, spausdinkite faile Analizė.txt ir išveskite ekrane teksto analizės rezultatus: ilgiausių žodžių, kuris yra
+abejuose failuose, sąrašą (ne daugiau nei 10 žodžių) ir jų pasikartojimo skaičių kiekviename iš failų; ilgiausią sakinį,
+jo ilgį (simboliais ir žodžiais) ir vietą (sakinio pradžios eilutės numerį) pirmame ir antrame faile.
+Spausdinkite faile ManoKnyga.txt apjungtą tekstą, sudarytą pagal tokias taisykles: kopijuojamas pirmojo failo tekstas tol,
+kol sutinkamas pirmasis antrojo failo žodis arba pasiekiama failo pabaiga; kopijuojamas antrojo failo tekstas tol, kol sutinkamas
+pirmasis nenukopijuotas pirmojo failo žodis arba pasiekiama failo pabaiga; kartojama tol, kol pasiekiama abiejų failų pabaiga.

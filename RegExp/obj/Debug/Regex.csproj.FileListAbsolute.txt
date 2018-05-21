@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\obj\Debug\Regex.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\obj\Debug\Regex.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

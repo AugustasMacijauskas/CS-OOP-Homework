@@ -1,0 +1,22 @@
+Dviraciu punktas: Lek su vejeliu 
+ORION 2 1935 365,10
+POLARIS 1 1988 87,09
+INDUSTRIERAD 10 1995 58,10
+Bauer 25 2008 285,58
+HERREN 15 2012 940,42
+
+Dviraciu punktas: Neskubek ir busi pirmas 
+VOLTA 1 1955 290,02
+POLARIS 2 1990 100,13
+BANANA 3 1995 145,06
+INDUSTRIERAD 10 2010 260,94
+ORION 15 2012 1040,42
+POLARIS 20 2012 945,07
+
+|---------------------------|-----------|--------------------------------------------------|
+|        Pavadinimas        |   Kaina   |                      Punktas                     | 
+|---------------------------|-----------|--------------------------------------------------|
+| HERREN                    |   940,42  | Lek su vejeliu                                   |
+| ORION                     |  1040,42  | Neskubek ir busi pirmas                          |
+| ORION                     |  1040,42  | Neskubek ir busi pirmas                          |
+--------------------------------------------------------------------------------------------

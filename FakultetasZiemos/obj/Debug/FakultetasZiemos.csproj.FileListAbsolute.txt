@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\bin\Debug\FakultetasZiemos.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\bin\Debug\FakultetasZiemos.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.pdb

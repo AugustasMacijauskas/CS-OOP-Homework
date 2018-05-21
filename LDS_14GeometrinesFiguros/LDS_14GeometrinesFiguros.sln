@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDS_14GeometrinesFiguros", "LDS_14GeometrinesFiguros\LDS_14GeometrinesFiguros.csproj", "{D937A3F2-406A-45C3-9874-65933823CAAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8793C555-D728-47ED-9A31-7813C4E9AE9F}"
+	ProjectSection(SolutionItems) = preProject
+		LDS_14GeometrinesFiguros\bin\Debug\AtsakymuFailas.txt = LDS_14GeometrinesFiguros\bin\Debug\AtsakymuFailas.txt
+		LDS_14GeometrinesFiguros\bin\Debug\FiguruDuomenys.txt = LDS_14GeometrinesFiguros\bin\Debug\FiguruDuomenys.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D937A3F2-406A-45C3-9874-65933823CAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D937A3F2-406A-45C3-9874-65933823CAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D937A3F2-406A-45C3-9874-65933823CAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D937A3F2-406A-45C3-9874-65933823CAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿Jonaitis Jonas; 8;
+Petraitis Petras; 7;
+Antanaitis Antanas; 10;
+Giedraitis Giedrius; 5;
+Onaitytė Ona; 8;
+Juozaitis Juozas; 4;
+Ramunaitė Ramunė; 5;

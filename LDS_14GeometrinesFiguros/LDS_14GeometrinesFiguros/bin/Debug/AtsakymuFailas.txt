@@ -1,0 +1,23 @@
+---------------------------------------------------
+Pasirinkimas: 4
+---------------------------------------------------
+Ibreztu staciuju trikampiu yra: 1
+TriApskritime 
+---------------------------------------------------
+Pasirinkimas: 5
+---------------------------------------------------
+Apibreztu kvadratu yra: 1
+KtAplinkApskritima 
+---------------------------------------------------
+Pasirinkimas: 3
+---------------------------------------------------
+Didziausia plota turinti figura:
+Ses11, jos plotas: 64
+---------------------------------------------------
+Pasirinkimas: 1
+---------------------------------------------------
+Yra 3 apskritimai: ApsIbreztas ApsAplinkTri Aps10 
+Yra 3 3-kampiai: TriApskritime TrLygiakrastis Tr1 
+Yra 2 4-kampiai: KtAplinkApskritima Kvad9 
+Yra 3 6-kampiai: Sesiakampis Sesi Ses11 
+---------------------------------------------------

@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD2\bin\Debug\LD2.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD2\bin\Debug\LD2.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD2\obj\Debug\LD2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD2\obj\Debug\LD2.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\LD2\obj\Debug\LD2.pdb

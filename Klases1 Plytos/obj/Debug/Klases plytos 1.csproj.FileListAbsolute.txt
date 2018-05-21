@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\ConsoleApp1\obj\Debug\Klases plytos 1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

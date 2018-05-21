@@ -1,0 +1,13 @@
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\bin\Debug\Sportas.exe.config
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\bin\Debug\Sportas.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\bin\Debug\Sportas.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\obj\Debug\Sportas.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\obj\Debug\Sportas.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\Sportas\obj\Debug\Sportas.pdb
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\bin\Debug\Sportas.exe.config
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\bin\Debug\Sportas.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\bin\Debug\Sportas.pdb
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\obj\Debug\Sportas.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\obj\Debug\Sportas.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\obj\Debug\Sportas.exe
+C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\Sportas\obj\Debug\Sportas.pdb

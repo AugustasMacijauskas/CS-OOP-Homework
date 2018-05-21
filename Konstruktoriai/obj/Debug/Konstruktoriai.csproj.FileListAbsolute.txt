@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Konstruktoriai\bin\Debug\Konstruktoriai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Konstruktoriai\bin\Debug\Konstruktoriai.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Konstruktoriai\obj\Debug\Konstruktoriai.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\Konstruktoriai\obj\Debug\Konstruktoriai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Konstruktoriai\obj\Debug\Konstruktoriai.pdb

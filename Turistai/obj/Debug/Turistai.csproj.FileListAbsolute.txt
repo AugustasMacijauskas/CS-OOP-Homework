@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\Turistai\obj\Debug\Turistai.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\Turistai\bin\Debug\Turistai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Turistai\bin\Debug\Turistai.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\Turistai\obj\Debug\Turistai.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\Turistai\obj\Debug\Turistai.pdb

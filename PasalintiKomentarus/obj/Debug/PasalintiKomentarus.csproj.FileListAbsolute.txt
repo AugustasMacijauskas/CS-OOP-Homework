@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiKomentarus\bin\Debug\PasalintiKomentarus.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiKomentarus\bin\Debug\PasalintiKomentarus.pdb
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiKomentarus\obj\Debug\PasalintiKomentarus.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiKomentarus\obj\Debug\PasalintiKomentarus.exe
+C:\Users\Admin\Desktop\Coding\Sprendimai\PasalintiKomentarus\obj\Debug\PasalintiKomentarus.pdb
