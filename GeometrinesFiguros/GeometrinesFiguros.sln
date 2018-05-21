@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometrinesFiguros", "GeometrinesFiguros.csproj", "{77250E49-6975-4986-B375-BEA31B861915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butai", "..\Butai\Butai.csproj", "{0ED39F52-7425-4288-9D4E-2AAC4FCA5A26}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentuPazymiai", "..\StudentuPazymiai\StudentuPazymiai.csproj", "{144E8C35-297B-4816-9A99-04CFE24AABFC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{77250E49-6975-4986-B375-BEA31B861915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77250E49-6975-4986-B375-BEA31B861915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77250E49-6975-4986-B375-BEA31B861915}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0ED39F52-7425-4288-9D4E-2AAC4FCA5A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0ED39F52-7425-4288-9D4E-2AAC4FCA5A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0ED39F52-7425-4288-9D4E-2AAC4FCA5A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0ED39F52-7425-4288-9D4E-2AAC4FCA5A26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{144E8C35-297B-4816-9A99-04CFE24AABFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{144E8C35-297B-4816-9A99-04CFE24AABFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{144E8C35-297B-4816-9A99-04CFE24AABFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{144E8C35-297B-4816-9A99-04CFE24AABFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

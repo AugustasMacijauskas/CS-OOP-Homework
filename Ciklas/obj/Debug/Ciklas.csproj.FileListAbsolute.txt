@@ -1,0 +1,6 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\bin\Debug\Ciklas.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\bin\Debug\Ciklas.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\bin\Debug\Ciklas.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\obj\Debug\Ciklas.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\obj\Debug\Ciklas.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\Ciklas\obj\Debug\Ciklas.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+Z:\Sprendimai\Matricos1\bin\Debug\Matricos1.exe.config
+Z:\Sprendimai\Matricos1\obj\Debug\Matricos1.csprojResolveAssemblyReference.cache
+Z:\Sprendimai\Matricos1\bin\Debug\Matricos1.exe
+Z:\Sprendimai\Matricos1\bin\Debug\Matricos1.pdb
+Z:\Sprendimai\Matricos1\obj\Debug\Matricos1.exe
+Z:\Sprendimai\Matricos1\obj\Debug\Matricos1.pdb

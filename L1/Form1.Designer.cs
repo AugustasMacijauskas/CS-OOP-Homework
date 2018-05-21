@@ -97,6 +97,7 @@
             this.textBox1.Size = new System.Drawing.Size(254, 26);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "Įveskite norimą amžių";
+            this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
             // 
             // Form1
             // 
@@ -110,7 +111,7 @@
             this.Controls.Add(this.skaiciuoti);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Krepšininkai";
             this.ResumeLayout(false);
             this.PerformLayout();
 

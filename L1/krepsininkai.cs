@@ -35,7 +35,8 @@ namespace L1
         /// </summary>
         public void DetiStudenta(Krepsininkas ob)
         {
-            Krep[Kiek++] = ob;
+            if (Kiek + 1 < Max)
+                Krep[Kiek++] = ob;
         }
 
         public void Rikiuoti()

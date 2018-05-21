@@ -1,0 +1,21 @@
+
+       Pirma matrica
+   1  -1  -5   9  12
+   7  -5   6  -2  14
+   1   0  -2  -3  17
+  19   9   5  -1  -1
+   7   8   9  12  15
+
+       Antra matrica
+   1   2   3   4   9   9
+   1   9   4   6   1   0
+  11  12  17   1  13   8
+   7  -8  -9  -3   8  -3
+   1   1  -2  -3   6   8
+   7   8   9  44  88  99
+
+      Pirmo masyvo stulpeių antros mažiausios reikšmės:
+   7   8   6   9  15
+
+      Antro masyvo stulpeių antros mažiausios reikšmės:
+   7   9   9   6  13   9

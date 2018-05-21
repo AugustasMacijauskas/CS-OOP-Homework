@@ -1,0 +1,9 @@
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\bin\Debug\L2.exe.config
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\bin\Debug\L2.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\bin\Debug\L2.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.Form1.resources
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.Properties.Resources.resources
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.csproj.GenerateResource.Cache
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L2\obj\Debug\L2.pdb

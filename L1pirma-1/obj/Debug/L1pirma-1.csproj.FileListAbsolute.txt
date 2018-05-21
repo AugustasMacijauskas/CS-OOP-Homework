@@ -1,0 +1,5 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\bin\Debug\L1pirma-1.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\bin\Debug\L1pirma-1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\bin\Debug\L1pirma-1.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\obj\Debug\L1pirma-1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\obj\Debug\L1pirma-1.pdb

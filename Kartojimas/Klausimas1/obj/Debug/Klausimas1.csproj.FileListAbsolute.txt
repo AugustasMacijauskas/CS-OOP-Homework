@@ -1,0 +1,12 @@
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\bin\Debug\Klausimas1.exe.config
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\bin\Debug\Klausimas1.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\bin\Debug\Klausimas1.pdb
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\obj\Debug\Klausimas1.csprojResolveAssemblyReference.cache
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\obj\Debug\Klausimas1.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas1\obj\Debug\Klausimas1.pdb
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\bin\Debug\Klausimas1.exe.config
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\obj\Debug\Klausimas1.exe
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\obj\Debug\Klausimas1.pdb
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\bin\Debug\Klausimas1.exe
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\bin\Debug\Klausimas1.pdb
+C:\Users\amacijauskas\Desktop\Kartojimas\Klausimas1\obj\Debug\Klausimas1.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+Lygiakrasciu figuru yra 2
+Didziausio ploto daugiakampiai:
+Tr2 40 34,8
+Tr3 40 34,8
+Diziausio ploto kvadratai:
+Kt1 16 16
+Kt1 16 16

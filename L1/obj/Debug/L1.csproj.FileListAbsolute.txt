@@ -17,3 +17,12 @@ C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\L1\obj\Debug\L1.csproj.Generate
 C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\L1\obj\Debug\L1.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\L1\obj\Debug\L1.exe
 C:\Users\Admin\Desktop\Coding\Mokykla\Sprendimai\L1\obj\Debug\L1.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\bin\Debug\L1.exe.config
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\bin\Debug\L1.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\bin\Debug\L1.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.Form1.resources
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.Properties.Resources.resources
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\L1\obj\Debug\L1.csproj.GenerateResource.Cache

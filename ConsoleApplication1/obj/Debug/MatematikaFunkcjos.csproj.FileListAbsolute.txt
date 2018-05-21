@@ -1,0 +1,12 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\obj\Debug\MatematikaFunkcjos.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\L1pirma-1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\ConsoleApplication1\obj\Debug\MatematikaFunkcjos.csprojResolveAssemblyReference.cache

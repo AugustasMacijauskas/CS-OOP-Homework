@@ -1,0 +1,28 @@
+
+       Komanda
+
+|            Vardas Pavardė    |    Metai    |    Ūgis     |    Taškai     |
+|               Jonas Jonaitis |        1993 |         182 |            20 |
+|             Petras Petraitis |        1989 |         211 |            12 |
+|               Rytis Rytaitis |        1998 |         205 |             8 |
+|             Juozas Juozaitis |        1990 |         185 |           6,3 |
+|            Paulius Paulaitis |        1985 |         204 |           3,5 |
+
+       Nauji žaidėjai
+
+|            Vardas Pavardė    |    Metai    |    Ūgis     |    Taškai     |
+|               Gedas Gedaitis |        1998 |         205 |             2 |
+|             Juozas Petraitis |        1990 |         185 |            12 |
+|               Mikas Mikaitis |        1985 |         204 |            24 |
+
+       Įterpti nauji žaidėjai: 
+
+|            Vardas Pavardė    |    Metai    |    Ūgis     |    Taškai     |
+|               Mikas Mikaitis |        1985 |         204 |            24 |
+|               Jonas Jonaitis |        1993 |         182 |            20 |
+|             Juozas Petraitis |        1990 |         185 |            12 |
+|             Petras Petraitis |        1989 |         211 |            12 |
+|               Rytis Rytaitis |        1998 |         205 |             8 |
+|             Juozas Juozaitis |        1990 |         185 |           6,3 |
+|            Paulius Paulaitis |        1985 |         204 |           3,5 |
+|               Gedas Gedaitis |        1998 |         205 |             2 |

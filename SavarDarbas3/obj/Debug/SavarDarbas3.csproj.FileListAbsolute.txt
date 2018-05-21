@@ -1,0 +1,6 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\bin\Debug\SavarDarbas3.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\bin\Debug\SavarDarbas3.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\bin\Debug\SavarDarbas3.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\obj\Debug\SavarDarbas3.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\obj\Debug\SavarDarbas3.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\SavarDarbas3\obj\Debug\SavarDarbas3.pdb

@@ -53,6 +53,8 @@
     <Content Include="Analizė.txt" />
     <Content Include="Knyga1.txt" />
     <Content Include="Knyga2.txt" />
+    <Content Include="Mano1.txt" />
+    <Content Include="Mano2.txt" />
     <Content Include="ManoKnyga.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

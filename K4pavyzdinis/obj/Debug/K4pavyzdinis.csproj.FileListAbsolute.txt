@@ -1,0 +1,5 @@
+Z:\Sprendimai\K4pavyzdinis\bin\Debug\K4pavyzdinis.exe.config
+Z:\Sprendimai\K4pavyzdinis\bin\Debug\K4pavyzdinis.exe
+Z:\Sprendimai\K4pavyzdinis\bin\Debug\K4pavyzdinis.pdb
+Z:\Sprendimai\K4pavyzdinis\obj\Debug\K4pavyzdinis.exe
+Z:\Sprendimai\K4pavyzdinis\obj\Debug\K4pavyzdinis.pdb

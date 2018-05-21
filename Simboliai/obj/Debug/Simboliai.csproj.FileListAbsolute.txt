@@ -1,0 +1,6 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\bin\Debug\Simboliai.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\obj\Debug\Simboliai.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\bin\Debug\Simboliai.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\bin\Debug\Simboliai.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\obj\Debug\Simboliai.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\Simboliai\obj\Debug\Simboliai.pdb

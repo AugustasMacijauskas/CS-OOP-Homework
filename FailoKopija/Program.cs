@@ -19,42 +19,191 @@ namespace FailoKopija
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.UTF8;
 
-            string skyrikliai = " .,!?:;()\t'\"";
+            char[] skyrikliai = { ' ', '-', '.', ',', '!', '?', ':', ';', '(', ')', '\'', '\t', '\"', '\n', '\r' };
             string text1 = File.ReadAllText(duom1);
+            
             string text2 = File.ReadAllText(duom2);
+
+            if (File.Exists(rez1))
+                File.Delete(rez1);
+
+            if (File.Exists(rez2))
+                File.Delete(rez2);
+
+            //Spausdinti(rez1, text1);
+            //Spausdinti(rez1, text2);
 
             IlgiausiZodziai(text1, text2, skyrikliai);
 
             Spausdinti(rez1, String.Format("\nPirmame duomenų faile:"));
             IlgiausiasSakinys(text1, skyrikliai);
-            Spausdinti(rez1, String.Format("Antrame duomenų faile:"));
+            Spausdinti(rez1, String.Format("\nAntrame duomenų faile:"));
             IlgiausiasSakinys(text2, skyrikliai);
+
+
+            Formuoti(rez2, text1, text2, skyrikliai);
         }
 
-        static void IlgiausiasSakinys(string text, string skyrikliai)
+        static void Valyti(ref string x)
         {
-            string[] parts = text.Split(".!?".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-
-            int ilgisSim = parts[0].Length;
-            int ilgisŽod = parts[0].Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Length;
-            int ind = text.IndexOf(parts[0]);
-
-            for (int i = 1; i < parts.Length; i++)
+            string txt = "";
+            for (int i = 0; i < x.Length; i++)
             {
-                if (parts[i].Length > ilgisSim)
+                if (x[i] != '\r')
                 {
-                    ilgisSim = parts[i].Length;
-                    ilgisŽod = parts[i].Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Length;
-                    ind = text.IndexOf(parts[i]);
+                    txt += x[i];
                 }
             }
 
+            x = txt;
+        }
+
+        static void Formuoti(string rez, string text1, string text2, char[] skyrikliai)
+        {
+            Valyti(ref text1);
+            Valyti(ref text2);
+
+            //Spausdinti(rez1, text1);
+            //Spausdinti(rez1, text2);
+
+            while (text1.Length > 0 && text2.Length > 0)
+            {
+                Tikrinti(rez, ref text1, text2, skyrikliai);
+                Tikrinti(rez, ref text2, text1, skyrikliai);
+            }
+        }
+
+        static void Tikrinti(string rez, ref string text1, string text2, char[] skyrikliai)
+        {
+            Console.WriteLine("\nNaujas -------------------------------------------------\n");
+            string[] parts1 = text1.Split(skyrikliai, StringSplitOptions.RemoveEmptyEntries);
+            string[] parts2 = text2.Split(skyrikliai, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string x in parts1)
+            {
+                Console.WriteLine(x);
+            }
+            Console.WriteLine("\n\n");
+
+            foreach (string x in parts2)
+            {
+                Console.WriteLine(x);
+            }
+
+            string pagalb = parts2[0];
+            Console.WriteLine("------------------>" + pagalb);
+            Console.WriteLine("\n\n");
+
+            foreach (string zodis1 in parts1)
+            {
+                //MATRIX HACK LMAO
+                
+                if (zodis1.ToLower().Trim() == pagalb.Trim().ToLower())
+                {
+                    Console.WriteLine(zodis1.ToLower().Trim() + ":::" + pagalb.Trim().ToLower());
+                    int at = text1.IndexOf(pagalb, StringComparison.CurrentCultureIgnoreCase);
+                    Console.WriteLine(at.ToString() + "                     IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
+
+                    if (at > 0)
+                    {
+                        Console.WriteLine("PERSPEJIMAS          111111111111111111111");
+                        Spausdinti(rez, text1.Substring(0, text1.IndexOf(pagalb, StringComparison.CurrentCultureIgnoreCase)));
+                        text1 = text1.Substring(text1.IndexOf(pagalb, StringComparison.CurrentCultureIgnoreCase) + pagalb.Length);
+                        Console.WriteLine(text1 + '\n');
+                        break;
+                    }
+                    else if (at == 0)
+                    {
+                        Console.WriteLine("PERSPEJIMAS        222222222222222222222222222222");
+                        Spausdinti(rez, text1.Substring(0, text1.IndexOf(pagalb, StringComparison.CurrentCultureIgnoreCase)));
+                        text1 = text1.Substring(text1.IndexOf(pagalb, StringComparison.CurrentCultureIgnoreCase) + pagalb.Length);
+                        Console.WriteLine(text1 + '\n');
+                        break;
+                    }                 
+                }
+                //else
+                //{
+                //    if (pagalb == "")
+                //    {
+                //        Spausdinti(rez, "->" + text1.Substring(0));
+                //        text1 = "";
+                //        Spausdinti(rez, text2);
+                //        text2 = "";
+                //    }
+                //}
+            }
+        }
+
+        static string Removal(string text)
+        {
+            string nauja = "";
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == '\r' || text[i] == '\n')
+                {
+
+                }
+                else
+                {
+                    nauja += text.Substring(i);
+                    break;
+                }
+            }
+
+            return nauja;
+        }
+
+        static void IlgiausiasSakinys(string text, char[] skyrikliai)
+        {
+            string[] parts = text.Split(".!?".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            int ilgisSim = 0;
+            int pagalbSim = 0;
+            int ilgisŽod = 0;
+            int ind = text.IndexOf(parts[0]);
+            int pagalb = 0;
+
+            for (int i = 0; i < parts.Length; i++)
+            {
+                pagalbSim = 0;
+                for (int j = 0; j < parts[i].Length; j++)
+                {
+                    if (parts[i][j] != '\r' && parts[i][j] != '\n')
+                        pagalbSim++;
+                }
+                if (pagalbSim > ilgisSim)
+                {
+                    ilgisSim = pagalbSim;
+                    ind = text.IndexOf(parts[i]);
+                    pagalb = i;
+                }
+            }
+
+            parts[pagalb] = Removal(parts[pagalb]);
+            ind = text.IndexOf(parts[pagalb]);
+
+            Spausdinti(rez1, parts[pagalb]);
+
+            //ilgisSim = 0;
+            //for (int i = 0; i < parts[pagalb].Length; i++)
+            //{
+            //    if (parts[pagalb][i] != '\r' && parts[pagalb][i] != '\n')
+            //        ilgisSim++;
+            //}
+
+            ilgisŽod = parts[pagalb].Split(skyrikliai, StringSplitOptions.RemoveEmptyEntries).Length;
+
             int count = 1;
-            
+
             for (int i = 0; i < text.Length; i++)
             {
                 if (ind == i)
+                {
+                    if (text[i] == '\n' || text[i] == '\r')
+                        count++;
                     break;
+                }
                 if (text[i] == '\n')
                     count++;
             }
@@ -63,10 +212,10 @@ namespace FailoKopija
 
         }
 
-        static void IlgiausiZodziai(string text1, string text2, string skyrikliai)
+        static void IlgiausiZodziai(string text1, string text2, char[] skyrikliai)
         {
-            string[] parts1 = text1.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-            string[] parts2 = text2.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string[] parts1 = text1.Split(skyrikliai, StringSplitOptions.RemoveEmptyEntries);
+            string[] parts2 = text2.Split(skyrikliai, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> naujas1 = new List<string>();
             List<string> naujas2 = new List<string>();
@@ -87,14 +236,14 @@ namespace FailoKopija
             {
                 for (int i = 0; i < 10; i++)
                 {
-                    Spausdinti(rez1, String.Format("{0, -20} {1, 5} {2, 5}", A[i], PasikartojimuSkaicius(A[i], parts1), PasikartojimuSkaicius(A[i], parts2)));
+                    Spausdinti(rez1, String.Format("{0, -30}  {1, 5}  {2, 5}", A[i], PasikartojimuSkaicius(A[i], parts1), PasikartojimuSkaicius(A[i], parts2)));
                 }
             }
             else
             {
                 for (int i = 0; i < A.Count; i++)
                 {
-                    Spausdinti(rez1, String.Format("{0, -20} {1, 5} {2, 5}", A[i], PasikartojimuSkaicius(A[i], parts1), PasikartojimuSkaicius(A[i], parts2)));
+                    Spausdinti(rez1, String.Format("{0, -30}  {1, 5}  {2, 5}", A[i], PasikartojimuSkaicius(A[i], parts1), PasikartojimuSkaicius(A[i], parts2)));
                 }
             }
         }
@@ -134,7 +283,7 @@ namespace FailoKopija
             int kiekPasikartojimu = 0;
             for (int i = 0; i < masyvas.Length; i++)
             {
-                if (masyvas[i].ToLower().Trim() == x.ToLower())
+                if (masyvas[i].ToLower().Trim() == x.ToLower().Trim())
                     kiekPasikartojimu++;
             }
 

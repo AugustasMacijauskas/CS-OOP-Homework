@@ -1,0 +1,6 @@
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\bin\Debug\PašalintiEilutes.exe.config
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\bin\Debug\PašalintiEilutes.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\bin\Debug\PašalintiEilutes.pdb
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\obj\Debug\PašalintiEilutes.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\obj\Debug\PašalintiEilutes.exe
+C:\Users\amacijauskas\Desktop\Sprendimai\PašalintiEilutes\obj\Debug\PašalintiEilutes.pdb

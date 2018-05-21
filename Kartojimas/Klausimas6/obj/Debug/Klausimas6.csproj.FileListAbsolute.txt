@@ -1,0 +1,10 @@
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas6\bin\Debug\Klausimas6.exe.config
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas6\bin\Debug\Klausimas6.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas6\bin\Debug\Klausimas6.pdb
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas6\obj\Debug\Klausimas6.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Klausimas6\obj\Debug\Klausimas6.pdb
+E:\KS\Gimnazija\2016_2017\P175B117\Band_egzaminas1\Klausimas6\bin\Debug\Klausimas6.exe.config
+E:\KS\Gimnazija\2016_2017\P175B117\Band_egzaminas1\Klausimas6\obj\Debug\Klausimas6.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Band_egzaminas1\Klausimas6\obj\Debug\Klausimas6.pdb
+E:\KS\Gimnazija\2016_2017\P175B117\Band_egzaminas1\Klausimas6\bin\Debug\Klausimas6.exe
+E:\KS\Gimnazija\2016_2017\P175B117\Band_egzaminas1\Klausimas6\bin\Debug\Klausimas6.pdb

@@ -1,0 +1,5 @@
+Jonas Jonaitis;1993;182;20
+Petras Petraitis;1989;211;12
+Rytis Rytaitis;1998;205;8
+Juozas Juozaitis;1990;185;6,3
+Paulius Paulaitis;1985;204;3,5

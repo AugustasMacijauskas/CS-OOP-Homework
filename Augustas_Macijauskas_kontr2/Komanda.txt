@@ -1,7 +1,5 @@
-﻿Jonaitis Jonas; 2000; 195; 12,5
-Petraitis Petras; 2000; 202; 5,5
-Jonaitis Algis; 1997; 196; 12,5
-
+﻿Petraitis Petras; 2000; 202; 5,5
 Lukaitis Lukas; 1999; 193; 11,5
-
+Jonaitis Algis; 1999; 197; 12,5
+Jonaitis Jonas; 2000; 195; 12,5
 Mikaitis Mikas; 1998; 205; 15,5

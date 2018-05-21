@@ -23,7 +23,7 @@ namespace GeometrinesFiguros
     {
         private string name;
         private List<Taskas> kampai;
-        private List<double> krastines = new List<double>();
+        private List<double> krastines;
 
         public Figura(string name)
         {
@@ -40,7 +40,7 @@ namespace GeometrinesFiguros
         {
             for (int i = 0; i < kampai.Count; i++)
             {
-                if (i == kampai.Count - 1)
+                if (i == kampai.Count)
                     krastines.Add(AtstumasTarpDviejuTasku(kampai[i].x, kampai[i].y, kampai[0].x, kampai[0].y));
                 else
                     krastines.Add(AtstumasTarpDviejuTasku(kampai[i].x, kampai[i].y, kampai[i + 1].x, kampai[i + 1].y));
@@ -100,45 +100,31 @@ namespace GeometrinesFiguros
         public double KoksPerimetras()
         {
             double perimetras = 0;
-            foreach (double krastine in krastines)
+            for (int i = 0; i < kampai.Count; i++)
             {
-                perimetras += krastine;
+                if (i == kampai.Count - 1)
+                    perimetras += Math.Sqrt(Math.Pow(kampai[i].x - kampai[0].x, 2) + Math.Pow(kampai[i].y - kampai[0].y, 2));
+                else
+                    perimetras += Math.Sqrt(Math.Pow(kampai[i + 1].x - kampai[i].x, 2) + Math.Pow(kampai[i + 1].y - kampai[i].y, 2));
             }
             return Math.Round(perimetras, 2);
         }
 
-        public bool ArStatusisTrikampis()
+        public bool ArStatusisTrikampus()
         {
-            Console.WriteLine(kampai.Count);
             if (kampai.Count == 3)
             {
-
-                Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2));
-                Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2));
-                Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2));
-
-                if ((Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2)) == Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2))
-                {
-                    Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2));
+                if ((Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) == Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2))
+                    || (Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) == Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2))
+                    || (Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) == Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2)))
                     return true;
-                }
-                else if ((Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2)) == Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2))
-                {
-                    Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2));
-                    return true;
-                }
-                else if (Math.Round((Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2))) == Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2))
-                {
-                    Console.WriteLine(Math.Pow(AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[0].x, kampai[0].y), 2) + " " + Math.Pow(AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y), 2));
-                    return true;
-                }
             }
             return false;
         }
 
         public double AtstumasTarpDviejuTasku(double x1, double y1, double x2, double y2)
         {
-            double atstumas = Math.Pow((Math.Pow(x1 - x2, 2)) + (Math.Pow(y1 - y2, 2)), 0.5);
+            double atstumas = Math.Pow((Math.Pow(x1 + x2, 2)) + (Math.Pow(y1 + y2, 2)), 0.5);
             return atstumas;
         }
 
@@ -177,10 +163,11 @@ namespace GeometrinesFiguros
         {
             if (kampai.Count == 4)
             {
-                if (krastines.All(x => x == krastines[0]))
+                if (AtstumasTarpDviejuTasku(kampai[0].x, kampai[0].y, kampai[1].x, kampai[1].y) == AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y) 
+                    && AtstumasTarpDviejuTasku(kampai[1].x, kampai[1].y, kampai[2].x, kampai[2].y) == AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[3].x, kampai[3].y)
+                    && AtstumasTarpDviejuTasku(kampai[2].x, kampai[2].y, kampai[3].x, kampai[3].y) == AtstumasTarpDviejuTasku(kampai[3].x, kampai[3].y, kampai[0].x, kampai[0].y))
                 {
                     double x1 = kampai[0].x, y1 = kampai[0].y, x2 = kampai[1].x, y2 = kampai[1].y, x3 = kampai[2].x, y3 = kampai[2].y, x4 = kampai[3].x, y4 = kampai[3].y;
-                    Console.WriteLine(AtstumasTarpDviejuTasku(x1, y1, x3, y3)  + " " + AtstumasTarpDviejuTasku(x2, y2, x4, y4));
                     if (AtstumasTarpDviejuTasku(x1, y1, x3, y3) == AtstumasTarpDviejuTasku(x2, y2, x4, y4))
                         return true;
                 }
@@ -289,25 +276,32 @@ namespace GeometrinesFiguros
             Skaitymas(duom, figuros, apskritimai, out n, out na);
             Spausdinimas(rez, figuros, n, apskritimai, na, "Pradiniai duomenys: ");
 
-            Isvesti(rez, meniu + "\n");
+            Console.WriteLine(meniu + "\n");
+            PridetiTeksto(rez, meniu + "\n");
             string x = "tuscias";
 
             while (x != "0")
             {
-                Isvesti(rez, "Iveskite savo pasirinkima, arba 0, jei norite nutraukti: ");
+                Console.Write("Iveskite savo pasirinkima, arba 0, jei norite nutraukti: ");
+                PridetiTeksto(rez, "Iveskite savo pasirinkima, arba 0, jei norite nutraukti: ");
                 x = Console.ReadLine();
                 switch (x)
                 {
                     case "KokiuIrKiek":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "KokiuIrKiek");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
+                        Console.WriteLine("KokiuIrKiek");
+                        PridetiTeksto(rez, "KokiuIrKiek");
                         KiekIrKokiu(figuros, n, apskritimai, na, kiekirkokiu);
                         SpausdintiKiekIrKokiu(rez, kiekirkokiu);
-                        Isvesti(rez, "");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
                         break;
                     case "MaxPerimetras":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "MaxPerimetras");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
+                        Console.WriteLine("MaxPerimetras");
+                        PridetiTeksto(rez, "MaxPerimetras");
                         double maxF, maxA;
                         maxF = DidziausiasPerimetrasFiguros(figuros, n);
                         maxA = DidziausiasPerimetrasApskritimo(apskritimai, na);
@@ -317,11 +311,14 @@ namespace GeometrinesFiguros
                             SpausdintiDidziausioPerimetroFiguras(rez, maxF, figuros, apskritimai, n, na, "Didžiausio perimetro figūros: ");
                         else if (maxA > maxF)
                             SpausdintiDidziausioPerimetroFiguras(rez, maxA, figuros, apskritimai, n, na, "Didžiausio perimetro figūros: ");
-                        Isvesti(rez, "");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
                         break;
                     case "MaxPlotas":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "MaxPlotas");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
+                        Console.WriteLine("MaxPlotas");
+                        PridetiTeksto(rez, "MaxPlotas");
                         double maxFP, maxAP;
                         maxFP = DidziausiasPlotasFiguros(figuros, n);
                         maxAP = DidziausiasPlotasApskritimo(apskritimai, na);
@@ -331,137 +328,84 @@ namespace GeometrinesFiguros
                             SpausdintiDidziausioPlotoFiguras(rez, maxFP, figuros, apskritimai, n, na, "Didžiausio ploto figūros: ");
                         else if (maxAP > maxFP)
                             SpausdintiDidziausioPlotoFiguras(rez, maxAP, figuros, apskritimai, n, na, "Didžiausio ploto figūros: ");
-                        Isvesti(rez, "");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
                         break;
                     case "KiekStacTrikampiu":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "KiekStacTrikampiu");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
+                        Console.WriteLine("KiekStacTrikampiu");
+                        PridetiTeksto(rez, "KiekStacTrikampiu");
                         int kiekis = 0;
                         kiekis = KiekIbreztuStaciujuTrikampiu(figuros, n, apskritimai, na);
                         if (kiekis > 0)
                         {
+                            Console.WriteLine("Į apskritimus įbrėžtų stačiųjų trikampių kiekis yra: {0}", kiekis);
                             string z = String.Format("Į apskritimus įbrėžtų stačiųjų trikampių kiekis yra: {0}", kiekis);
-                            Isvesti(rez, z);
+                            PridetiTeksto(rez, z);
                         }
                         else
                         {
-                            Isvesti(rez, "Į apskritimus įbrėžtų stačiųjų trikampių nėra");
+                            Console.WriteLine("Į apskritimus įbrėžtų stačiųjų trikampių nėra");
+                            PridetiTeksto(rez, "Į apskritimus įbrėžtų stačiųjų trikampių nėra");
                         }
-                        Isvesti(rez, "");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
                         break;
                     case "KiekKvadratu":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "KiekKvadratu");
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
+                        Console.WriteLine("KiekKvadratu");
+                        PridetiTeksto(rez, "KiekKvadratu");
                         int kiek = 0;
-                        kiek = KiekApibreztuKvadratu(figuros, n, apskritimai, na);
+                        kiek = KiekIbreztuStaciujuTrikampiu(figuros, n, apskritimai, na);
                         if (kiek > 0)
                         {
+                            Console.WriteLine("Apie apskritimus apibrėžtų kvadratų kiekis yra: {0}", kiek);
                             string c = String.Format("Apie apskritimus apibrėžtų kvadratų kiekis yra: {0}", kiek);
-                            Isvesti(rez, c);
+                            PridetiTeksto(rez, c);
                         }
                         else
-                            Isvesti(rez, "Apie apskritimus apibrėžtų kvadratų nėra");
-                        Isvesti(rez, "");
+                        {
+                            Console.WriteLine("Apie apskritimus apibrėžtų kvadratų nėra");
+                            PridetiTeksto(rez, "Apie apskritimus apibrėžtų kvadratų nėra");
+                        }
+                        Console.WriteLine();
+                        PridetiTeksto(rez, "");
                         break;
                     case "InfoFiguruGrupe":
-                        Isvesti(rez, "");
-                        Isvesti(rez, "InfoFiguruGrupe");
-                        Isvesti(rez, "Įveskite savo pasirinkimą:");
-                        int kokiaFigura = int.Parse(Console.ReadLine());
-                        Isvesti(rez, string.Format("{0}", kokiaFigura));
-                        int figuruKiekis, lygiakrasciuFiguruKiekis;
-                        double bendrasFiguruPerimetras, bendrasFiguruPlotas;
-                        if (kokiaFigura == 0)
-                        {
-                            InformacijaApieApskritimus(kokiaFigura, apskritimai, na, out figuruKiekis, out bendrasFiguruPerimetras, out bendrasFiguruPlotas);
-                            if (figuruKiekis > 0)
-                            {
-                                string d = string.Format("Jūsų figūra turi 0 kampų \nTokių figūrų yra {0}; \nBendras jų plotas: {1,8:f}; \nBendras jų perimetras: {2,8:f}", figuruKiekis, bendrasFiguruPlotas, bendrasFiguruPerimetras);
-                                Isvesti(rez, d);
-                            }
-                            else
-                                Isvesti(rez, "Tokiu figuru nera!");
-                        }
-                        else if (kokiaFigura > 0 && kokiaFigura != 1 && kokiaFigura != 2)
-                        {
-                            InformacijaApieFiguras(kokiaFigura, figuros, n, out figuruKiekis, out lygiakrasciuFiguruKiekis, out bendrasFiguruPerimetras, out bendrasFiguruPlotas);
-                            if (figuruKiekis > 0)
-                            {
-                                string d = string.Format("Jūsų figūra turi {0} kampus (-ų) \nTokių figūrų yra {1}; \nIš jų lygiakraščių: {2}; \nBendras jų plotas: {3,8:f}; \nBendras jų perimetras: {4,8:f}", kokiaFigura, figuruKiekis, lygiakrasciuFiguruKiekis, bendrasFiguruPlotas, bendrasFiguruPerimetras);
-                                Isvesti(rez, d);
-                            }
-                            else
-                                Isvesti(rez, "Tokiu figuru nera!");
-                        }
-                        else
-                            Isvesti(rez, "Netinkamas figuros pasirinkimas");
-                        Isvesti(rez, "");
+
                         break;
                     default:
                         if (x != "0")
                         {
-                            Isvesti(rez, "");
-                            Isvesti(rez, x);
-                            Isvesti(rez, "Netinkamas pasirinkimas");
-                            Isvesti(rez, "");
+                            Console.WriteLine();
+                            PridetiTeksto(rez, "");
+                            Console.WriteLine(x);
+                            PridetiTeksto(rez, x);
+                            Console.WriteLine("Netinkamas pasirinkimas");
+                            PridetiTeksto(rez, "Netinkamas pasirinkimas");
+                            Console.WriteLine();
+                            PridetiTeksto(rez, "");
                         }
                         break;
                 }
             }
-            Isvesti(rez, "");
-            Isvesti(rez, "0");
-            Isvesti(rez, "Programa baigė darbą!");
-            Isvesti(rez, "");
-        }
-
-        static void Isvesti(string rez, string x)
-        {
-            using (var fr = File.AppendText(rez))
-            {
-                fr.WriteLine(x);
-            }
-            Console.WriteLine(x);
-        }
-
-        static void InformacijaApieApskritimus(int kokiaFigura, Apskritimas[] aps, int n, out int figuruKiekis, out double bendrasPer, out double bendrasPl)
-        {
-            figuruKiekis = 0;
-            bendrasPer = 0;
-            bendrasPl = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-                figuruKiekis++;
-                bendrasPer += aps[i].KoksPerimetras();
-                bendrasPl = aps[i].KoksPlotas();
-            }
-        }
-
-        static void InformacijaApieFiguras(int kokiaFigura, Figura[] fig, int n, out int figuruKiekis, out int lygiakrasciuFiguruKiekis, out double bendrasPer, out double bendrasPl)
-        {
-            figuruKiekis = 0;
-            lygiakrasciuFiguruKiekis = 0;
-            bendrasPer = 0;
-            bendrasPl = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-                if (fig[i].KiekKampu() == kokiaFigura)
-                {
-                    figuruKiekis++;
-                    if (fig[i].ArLygiakrasteFigura())
-                        lygiakrasciuFiguruKiekis++;
-                    bendrasPer += fig[i].KoksPerimetras();
-                    bendrasPl += fig[i].KoksPlotas();
-                }
-            }
+            Console.WriteLine();
+            PridetiTeksto(rez, "");
+            Console.WriteLine("0");
+            PridetiTeksto(rez, "0");
+            Console.WriteLine("Programa baigė darbą!");
+            PridetiTeksto(rez, "Programa baigė darbą!");
+            Console.WriteLine();
+            PridetiTeksto(rez, "");
         }
 
         static int KiekApibreztuKvadratu(Figura[] figuros, int n, Apskritimas[] apskritimai, int na)
         {
             int kiekis = 0;
 
-            for (int i = 0; i < na; i++)
+            for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
@@ -480,11 +424,11 @@ namespace GeometrinesFiguros
         {
             int kiekis = 0;
 
-            for (int i = 0; i < na; i++)
+            for(int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (figuros[j].ArStatusisTrikampis())
+                    if (figuros[j].ArStatusisTrikampus())
                     {
                         double ilgiausia, x, y;
                         figuros[j].IlgiausiaTrikampioKrastine(figuros[j].GautiKampus(0).x, figuros[j].GautiKampus(0).y, figuros[j].GautiKampus(1).x, figuros[j].GautiKampus(1).y, figuros[j].GautiKampus(2).x, figuros[j].GautiKampus(2).y, out x, out y, out ilgiausia);
@@ -499,74 +443,48 @@ namespace GeometrinesFiguros
 
         static double DidziausiasPerimetrasFiguros(Figura[] figuros, int n)
         {
-            double didzP;
-            if (n > 0)
+            double didzP = figuros[0].KoksPerimetras();
+            for (int i = 1; i < n; i++)
             {
-                didzP = figuros[0].KoksPerimetras();
-                for (int i = 1; i < n; i++)
-                {
-                    if (figuros[i].KoksPerimetras() > didzP)
-                        didzP = figuros[i].KoksPerimetras();
-                }
+                if (figuros[i].KoksPerimetras() > didzP)
+                    didzP = figuros[i].KoksPerimetras();
             }
-            else
-                didzP = Double.MinValue;
 
             return didzP;
         }
 
         static double DidziausiasPlotasFiguros(Figura[] figuros, int n)
         {
-            double didzP;
-            if (n > 0)
+            double didzP = figuros[0].KoksPlotas();
+            for (int i = 1; i < n; i++)
             {
-                didzP = figuros[0].KoksPlotas();
-                for (int i = 1; i < n; i++)
-                {
-                    if (figuros[i].KoksPlotas() > didzP)
-                        didzP = figuros[i].KoksPlotas();
-                }
+                if (figuros[i].KoksPlotas() > didzP)
+                    didzP = figuros[i].KoksPlotas();
             }
-            else
-                didzP = Double.MinValue;
-
 
             return didzP;
         }
 
         static double DidziausiasPerimetrasApskritimo(Apskritimas[] figuros, int n)
         {
-            double didzP;
-            if (n > 0)
+            double didzP = figuros[0].KoksPerimetras();
+            for (int i = 1; i < n; i++)
             {
-                didzP = figuros[0].KoksPerimetras();
-                for (int i = 1; i < n; i++)
-                {
-                    if (figuros[i].KoksPerimetras() > didzP)
-                        didzP = figuros[i].KoksPerimetras();
-                }
+                if (figuros[i].KoksPerimetras() > didzP)
+                    didzP = figuros[i].KoksPerimetras();
             }
-            else
-                didzP = Double.MinValue;
 
             return didzP;
         }
 
         static double DidziausiasPlotasApskritimo(Apskritimas[] figuros, int n)
         {
-            double didzP;
-            if (n > 0)
+            double didzP = figuros[0].KoksPlotas();
+            for (int i = 1; i < n; i++)
             {
-                didzP = figuros[0].KoksPlotas();
-                for (int i = 1; i < n; i++)
-                {
-                    if (figuros[i].KoksPlotas() > didzP)
-                        didzP = figuros[i].KoksPlotas();
-                }
+                if (figuros[i].KoksPlotas() > didzP)
+                    didzP = figuros[i].KoksPlotas();
             }
-            else
-                didzP = Double.MinValue;
-
 
             return didzP;
         }
@@ -701,9 +619,7 @@ namespace GeometrinesFiguros
                         {
                             Taskas k = new Taskas(double.Parse(skaidymas[i]), double.Parse(skaidymas[i + 1]));
                             figuros[iterator1].PridetiKampu(k);
-
                         }
-                        figuros[iterator1].UzpildytiKrastines();
                         iterator1++;
                     }
                     else
@@ -714,6 +630,14 @@ namespace GeometrinesFiguros
                 }
                 n = iterator1;
                 na = iterator2;
+            }
+        }
+
+        static void PridetiTeksto(string rez, string x)
+        {
+            using (var prideti = File.AppendText(rez))
+            {
+                prideti.WriteLine(x);
             }
         }
 

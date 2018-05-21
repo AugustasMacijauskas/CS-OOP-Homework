@@ -1,0 +1,6 @@
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\bin\Debug\PaveldejimasPrekes.exe.config
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\bin\Debug\PaveldejimasPrekes.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\bin\Debug\PaveldejimasPrekes.pdb
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\obj\Debug\PaveldejimasPrekes.csprojResolveAssemblyReference.cache
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\obj\Debug\PaveldejimasPrekes.exe
+C:\Users\amacijauskas\Desktop\Darbai_2\Sprendimai2\PaveldejimasPrekes\obj\Debug\PaveldejimasPrekes.pdb

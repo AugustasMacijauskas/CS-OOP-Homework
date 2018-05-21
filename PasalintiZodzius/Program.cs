@@ -20,7 +20,7 @@ namespace PasalintiZodzius
             if (File.Exists(rez))
                 File.Delete(rez);
 
-            string skyrikliai = "*;:";
+            string skyrikliai = " .,!?:;()\t'";
             string pasalinti = "Sabonis";
 
             Apdoroti(duom, rez, skyrikliai, pasalinti);
@@ -36,50 +36,49 @@ namespace PasalintiZodzius
             {
                 foreach (string line in lines)
                 {
-                    StringBuilder nauja = new StringBuilder();
-                    Zodziai(line, skyrikliai, pasalinti, nauja);
-                    Console.WriteLine(nauja);
+                    string[] parts = line.Split(' ');
+
+                    for (int i = 0; i < parts.Length; i++)
+                    {
+                        StringBuilder nauja = new StringBuilder();
+                        Zodziai(parts[i], skyrikliai, pasalinti, nauja);
+                        if (nauja != null && nauja.ToString() != "" && i != parts.Length - 1)
+                        {
+                            fw.Write(nauja + " ");
+                            Console.Write(nauja + " ");
+                        }
+                        else
+                        {
+                            fw.Write(nauja);
+                            Console.Write(nauja);
+                        }
+                    }
+                    Console.WriteLine();
+                    fw.WriteLine();
                 }
             }
         }
 
-        static void Zodziai(string line, string skyrikliai, string pasalinti, StringBuilder nauja)
+        static void Zodziai(string word, string skyrikliai, string pasalinti, StringBuilder nauja)
         {
-            string pagalbine = " " + line + " ";
-            int ind = pagalbine.IndexOf(pasalinti);
+            string znkl = ",:;";
+            int ind = word.IndexOf(pasalinti);
 
-            while(ind != -1)
+            if (ind >= 0)
             {
-                if ((pagalbine[ind - 1] == '"' && pagalbine[ind + pasalinti.Length] == '"') || (pagalbine[ind - 1] == '\'' && pagalbine[ind + pasalinti.Length] == '\''))
+                nauja.Append(word.Substring(ind + pasalinti.Length));
+                if (nauja.Length > 0)
                 {
-                    pagalbine = pagalbine.Remove(ind - 2, pasalinti.Length + 3);
-
-                    if (skyrikliai.IndexOf(pagalbine[ind - 2]) != -1)
+                    if (znkl.Contains(nauja[0]))
                     {
-                        pagalbine = pagalbine.Remove(ind - 2, 1);
+                        nauja.Remove(0, 1);
                     }
                 }
-                else if (ind + pasalinti.Length < pagalbine.Length && skyrikliai.IndexOf(pagalbine[ind + pasalinti.Length]) != -1)
-                {
-                    pagalbine = pagalbine.Remove(ind, pasalinti.Length + 2);
-                }
-                else
-                {
-                    if (ind + pasalinti.Length + 1 < pagalbine.Length)
-                    {
-                        pagalbine = pagalbine.Remove(ind - 1, pasalinti.Length + 1);
-                    }
-                    else
-                    {
-                        pagalbine = pagalbine.Remove(ind, pasalinti.Length);
-                    }
-                }
-
-                ind = pagalbine.IndexOf(pasalinti, ind + 1);
             }
-            if (pagalbine[0] == ' ')
-                pagalbine = pagalbine.Remove(0, 1);
-            nauja.Append(pagalbine);
+            else
+            {
+                nauja.Append(word);
+            }
         }
     }
 }

@@ -13,8 +13,8 @@ namespace L1
 {
     public partial class Form1 : Form
     {
-        const string duom1 = "..\\..\\duom1.txt";
-        const string duom2 = "..\\..\\duom2.txt";
+        const string duom1 = "..\\..\\duom1_2.txt";
+        const string duom2 = "..\\..\\duom2_2.txt";
         const string rez = "..\\..\\rez.txt";
 
 
@@ -36,6 +36,11 @@ namespace L1
 
         }
 
+        /// <summary>
+        /// Atlieka duomenų nuskaitymą ir surašymą į konteinerius.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void read_Click(object sender, EventArgs e)
         {
             mokykla1 = Skaityti(duom1, out mokPav1);
@@ -52,58 +57,79 @@ namespace L1
             skaiciuoti.Enabled = true;
         }
 
+        /// <summary>
+        /// Atliekami reikiami skaičiavimai, jų rezultatai įvedami į duomenų failą.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void skaiciuoti_Click(object sender, EventArgs e)
         {
             double amzVid1 = AmziausVidurkis(mokykla1);
             SpausdintiTeksta(rez, string.Format("Amžiaus vidurkis pirmoje ({0}) mokykloje yra: {1, 5:f} m.", mokPav1, amzVid1));
             double amzVid2 = AmziausVidurkis(mokykla2);
-            SpausdintiTeksta(rez, string.Format("Amžiaus vidurkis antroje ({0}) mokykloje yra: {1, 5:f} m.\n", mokPav2, amzVid2));
+            SpausdintiTeksta(rez, string.Format("Amžiaus vidurkis antroje ({0}) mokykloje yra: {1, 5:f} m.\r\n", mokPav2, amzVid2));
 
             double ugioVid1 = ŪgioVidurkis(mokykla1);
             SpausdintiTeksta(rez, string.Format("Ūgio vidurkis pirmoje ({0}) mokykloje yra: {1, 5:f} m.", mokPav1, ugioVid1));
             double ugioVid2 = ŪgioVidurkis(mokykla2);
-            SpausdintiTeksta(rez, string.Format("Ūgio vidurkis antroje ({0}) mokykloje yra: {1, 5:f} m.\n", mokPav2, ugioVid2));
+            SpausdintiTeksta(rez, string.Format("Ūgio vidurkis antroje ({0}) mokykloje yra: {1, 5:f} m.\r\n", mokPav2, ugioVid2));
 
-            UgisDidesnisUzVidurki(mokykla1, naujasKonteineris, Math.Round(((ugioVid1 + ugioVid2) / 2), 2));
-            UgisDidesnisUzVidurki(mokykla2, naujasKonteineris, Math.Round(((ugioVid1 + ugioVid2) / 2), 2));
+            double vidur = Math.Round(((ugioVid1 + ugioVid2) / 2), 2);
+            UgisDidesnisUzVidurki(mokykla1, naujasKonteineris, vidur);
+            UgisDidesnisUzVidurki(mokykla2, naujasKonteineris, vidur);
             Spausdinti(rez, naujasKonteineris, "Abi mokyklos", "Konteineris studentų, kurių ūgis didesnis už vidurkį:");
 
-            mokykla1.Rikiuoti();
-            Spausdinti(rez, mokykla1, mokPav1, "Surikiuotas konteineris:");
-            mokykla2.Rikiuoti();
-            Spausdinti(rez, mokykla2, mokPav2, "Surikiuotas konteineris:");
+            //mokykla1.Rikiuoti();
+            //Spausdinti(rez, mokykla1, mokPav1, "Surikiuotas konteineris:");
+            //mokykla2.Rikiuoti();
+            //Spausdinti(rez, mokykla2, mokPav2, "Surikiuotas konteineris:");
             naujasKonteineris.Rikiuoti();
             Spausdinti(rez, naujasKonteineris, "Abi mokyklos", "Surikiuotas konteineris:");
 
             int amz = int.Parse(textBox1.Text);
-            mokykla1.Šalinti(amz);
-            Spausdinti(rez, mokykla1, mokPav1, "Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:");
-            mokykla2.Šalinti(amz);
-            Spausdinti(rez, mokykla2, mokPav2, "Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:");
+            //mokykla1.Šalinti(amz);
+            //Spausdinti(rez, mokykla1, mokPav1, "Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:");
+            //mokykla2.Šalinti(amz);
+            //Spausdinti(rez, mokykla2, mokPav2, "Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:");
             naujasKonteineris.Šalinti(amz);
             Spausdinti(rez, naujasKonteineris, "Abi mokyklos", "Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:");
 
             print.Enabled = true;
         }
 
+        /// <summary>
+        /// Spaudina tekstą iš duomenų failo į programos langą.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void print_Click(object sender, EventArgs e)
         {
             string x = File.ReadAllText(rez);
             richTextBox1.Text = x;
         }
 
+        /// <summary>
+        /// Užėjus ant teksto lauko, jį išvalo.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox1.Text = "";
+        }
+
+        /// <summary>
+        /// Baigia programos veikimą.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void baigti_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void AtliktiSkaiciavimus()
-        {
-
-        }
-
         /// <summary>
-        /// Formuoja naują konteinerį iš krepšininkų, kurių ūgis didesnis už vidurkį
+        /// Formuoja naują konteinerį iš krepšininkų, kurių ūgis didesnis už vidurkį.
         /// </summary>
         /// <param name="kont1">Pirmas konteineris</param>
         /// <param name="kont2">Antras kont</param>
@@ -120,7 +146,7 @@ namespace L1
         }
 
         /// <summary>
-        /// Randa krepšininkų amžiaus vidurkį
+        /// Randa krepšininkų amžiaus vidurkį.
         /// </summary>
         /// <param name="kont">Konteineris</param>
         /// <returns>Amžiaus vidurkis</returns>
@@ -136,7 +162,7 @@ namespace L1
         }
 
         /// <summary>
-        /// Randa krepšininkų ūgio vidurkį
+        /// Randa krepšininkų ūgio vidurkį.
         /// </summary>
         /// <param name="kont">Konteineris</param>
         /// <returns>Ūgio vidurkis</returns>
@@ -151,7 +177,12 @@ namespace L1
             return suma / kont.Kiek;
         }
 
-        //Nuskaito failus
+        /// <summary>
+        /// Nuskaito duomenų failus.
+        /// </summary>
+        /// <param name="fr"></param>
+        /// <param name="pav"></param>
+        /// <returns></returns>
         private Krepsininkai Skaityti(string fr, out string pav)
         {
             Krepsininkai konteineris = new Krepsininkai();
@@ -175,7 +206,13 @@ namespace L1
             }
         }
 
-        //Rašo į failus
+        /// <summary>
+        /// Spausdina duomenis į failą lentele.
+        /// </summary>
+        /// <param name="fw"></param>
+        /// <param name="kont"></param>
+        /// <param name="pav"></param>
+        /// <param name="antraste"></param>
         private void Spausdinti(string fw, Krepsininkai kont, string pav, string antraste)
         {
             const string virsus =
@@ -195,15 +232,20 @@ namespace L1
                         Krepsininkas krep = kont.ImtiKrepsininka(i);
                         fr.WriteLine("{0, 3} {1}", i + 1, krep);
                     }
-                    fr.WriteLine("------------------------------------------\n");
+                    fr.WriteLine("------------------------------------------\r\n");
                 }
                 else
                 {
-                    fr.WriteLine("Studentų konteineris tuščias!\n");
+                    fr.WriteLine("Studentų konteineris tuščias!\r\n");
                 }
             }
         }
 
+        /// <summary>
+        /// Spausdina tekstą į failą.
+        /// </summary>
+        /// <param name="rez"></param>
+        /// <param name="x"></param>
         private void SpausdintiTeksta(string rez, string x)
         {
             using (StreamWriter fw = new StreamWriter(File.Open(rez, FileMode.Append)))
