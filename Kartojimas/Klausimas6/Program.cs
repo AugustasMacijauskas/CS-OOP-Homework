@@ -59,14 +59,34 @@ namespace Klausimas6
 
 
         //Užrašykite palyginimo pagal taškus ir vardus operatorius (>=; <=).
+        public static bool operator <=(Krepsininkas k1, Krepsininkas k2)
+        {
+            int poz = String.Compare(k1.vardas, k2.vardas, StringComparison.CurrentCulture);
 
+            return ((k1.taskai > k2.taskai) || ((k1.taskai == k2.taskai) && (poz < 0)));
+        }
+
+        public static bool operator >=(Krepsininkas k1, Krepsininkas k2)
+        {
+            int poz = String.Compare(k1.vardas, k2.vardas, StringComparison.CurrentCulture);
+
+            return ((k1.taskai < k2.taskai) || ((k1.taskai == k2.taskai) && (poz > 0)));
+        }
 
         //Užrašykite palyginimo pagal  taškus ir vardus operatorius (==; !=).
+        public static bool operator ==(Krepsininkas k1, Krepsininkas k2)
+        {
+            int poz = String.Compare(k1.vardas, k2.vardas, StringComparison.CurrentCulture);
 
+            return ((k1.taskai == k2.taskai) && (k1.ugis == k2.ugis) && (k1.metai == k2.metai) && (poz == 0));
+        }
 
+        public static bool operator !=(Krepsininkas k1, Krepsininkas k2)
+        {
+            int poz = String.Compare(k1.vardas, k2.vardas, StringComparison.CurrentCulture);
 
-
-
+            return ((k1.taskai != k2.taskai) || (k1.ugis != k2.ugis) || (k1.metai != k2.metai) || (poz != 0));
+        }
     }
 
     class Komanda
@@ -95,12 +115,47 @@ namespace Klausimas6
     
 
         // Užrašykite paprastos paieškos rikiuotame masyve metodą.
+        public int Paieška(Krepsininkas naujas)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                if (komanda[i] == naujas)
+                {
+                    return i;
+                }
+            }
 
+            return -1;
+        }
 
 
         // Užrašykite konteinerio Naujas žaidėjų išmetimo iš kito, rikiuoto konteinerio, metodą.
         // Panaudokite susikurtą paprastos paieškos metodą.
+        public void DetiIndex(int index, Krepsininkas ob)
+        {
+            komanda[index] = ob;
+        }
 
+        public void Išmesti(Komanda sena, Komanda nauja)
+        {
+            for (int i = 0; i < nauja.n; i++)
+            {
+                Krepsininkas temp = nauja.ImtiKrepsininka(i);
+                int index = sena.Paieška(temp);
+                if (index > -1)
+                {
+                    for (int j = index; j < n - 1; j++)
+                    {
+                        sena.DetiIndex(j, sena.ImtiKrepsininka(j + 1));
+                    }
+                    sena.n--;
+                }
+                else if (index == -1)
+                {
+                    Console.WriteLine("Krepšininko nr. {0} senajame konteineryje nėra!", i + 1);
+                }
+            }
+        }
     }
 
 
@@ -109,6 +164,7 @@ namespace Klausimas6
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.GetEncoding(1257);
             const string fileIn = "..\\..\\Komanda.txt";
             const string fileIn1 = "..\\..\\Komandan.txt";
             const string fileOut = "..\\..\\Rez.txt";
@@ -122,17 +178,9 @@ namespace Klausimas6
             Print(fileOut, Naujas, "Nauji žaidėjai");
 
             // Atlikite visus nurodytus skaičiavimus.
-
-
-
+            Komanda1.Išmesti(Komanda1, Naujas);
+            Print(fileOut, Komanda1, "Išmesti žaidėjai:");
         }
-
-
-
-        
-
-
-
 
         static Komanda Read(string fileIn)
         {
