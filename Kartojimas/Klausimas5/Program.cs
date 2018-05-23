@@ -70,23 +70,23 @@ namespace Klausimas5
             string zodisPakeisti = tinkami[tinkami.Count - 2];
             string paskutinisZodis = words[words.Length - 1];
 
-            // Console.WriteLine(line);
-            // Console.WriteLine(zodisPakeisti + " --> " + paskutinisZodis);
-            // const string lotPrieb = "qwrtpsdfghjklzxcvbnm";
-            // Regex r = new Regex($@"(\G|^|[{skyrikliai}])([a-z0-9]*[{lotPrieb}])([{skyrikliai}]|$)", RegexOptions.IgnoreCase);
-            // Regex r = new Regex($@"(\b([a-z0-9]*[{lotPrieb}])\b)", RegexOptions.IgnoreCase);
-            // Surasti ir pašalinti
-            Match match1 = Regex.Match(line, $@"\b{zodisPakeisti}\b", RegexOptions.RightToLeft);
+            MatchCollection matches = Regex.Matches(line, $@"\b{zodisPakeisti}\b");
+            Match match;
             if (tinkami[tinkami.Count - 1] == zodisPakeisti)
             {
-                // Console.WriteLine("!");
-                match1 = match1.NextMatch();
+                match = matches[matches.Count - 2];
             }
-            //MatchCollection matches = Regex.Matches(line, $@"\b{zodisPakeisti}\b");
-            //Match match1 = matches[matches.Count - ((tinkami[tinkami.Count - 1] == zodisPakeisti) ? 2 : 1)];
-            line = line.Remove(match1.Index, match1.Length);
-            line = line.Insert(match1.Index, paskutinisZodis);
-            line = new Regex($@"\b{paskutinisZodis}\b", RegexOptions.RightToLeft).Replace(line, zodisPakeisti, 1);
+            else
+            {
+                match = matches[matches.Count - 1];
+            }
+            line = line.Remove(match.Index, match.Length);
+            line = line.Insert(match.Index, paskutinisZodis);
+
+            matches = Regex.Matches(line, $@"\b{paskutinisZodis}\b");
+            match = matches[matches.Count - 1];
+            line = line.Remove(match.Index, match.Length);
+            line = line.Insert(match.Index, zodisPakeisti);
             return line;
         }
 
