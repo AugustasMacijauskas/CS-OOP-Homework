@@ -123,6 +123,11 @@ namespace Klausimas6
                 {
                     return i;
                 }
+                else if (naujas <= komanda[i])
+                {
+                    // Console.WriteLine("Sustosim ant indekso {0}!", i + 1);
+                    break;
+                }
             }
 
             return -1;
