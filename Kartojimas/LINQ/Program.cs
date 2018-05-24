@@ -92,6 +92,14 @@ namespace LINQ
                 prieb = -1;
                 while ((line = reader.ReadLine()) != null)
                 {
+                    int ilgis = line.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+                        .Where(x => balses.Contains(x.Last()))
+                        .Select(x => x.Length)
+                        .OrderByDescending(x => x)
+                        .Skip(1)
+                        .FirstOrDefault();
+                    if (ilgis != 0)
+                        Console.WriteLine(ilgis);
                     List<string> temp1 = line.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Where(x => balses.Contains(x[x.Length - 1]) && x.Length > ilgiausiasSuBalse.Length)
                         .OrderByDescending(x => x.Length).ToList();
 

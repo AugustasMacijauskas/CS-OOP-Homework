@@ -70,23 +70,23 @@ namespace Klausimas5
             string zodisPakeisti = tinkami[tinkami.Count - 2];
             string paskutinisZodis = words[words.Length - 1];
 
-            MatchCollection matches = Regex.Matches(line, $@"\b{zodisPakeisti}\b");
-            Match match;
+            MatchCollection matches = Regex.Matches(line, $@"(\G|[{skyrikliai}])({zodisPakeisti})([{skyrikliai}]|$)");
+            Match match1;
             if (tinkami[tinkami.Count - 1] == zodisPakeisti)
             {
-                match = matches[matches.Count - 2];
+                match1 = matches[matches.Count - 2];
             }
             else
             {
-                match = matches[matches.Count - 1];
+                match1 = matches[matches.Count - 1];
             }
-            line = line.Remove(match.Index, match.Length);
-            line = line.Insert(match.Index, paskutinisZodis);
+            matches = Regex.Matches(line, $@"(\G|[{skyrikliai}])({paskutinisZodis})([{skyrikliai}]|$)");
+            Match match2 = matches[matches.Count - 1];
+            Group gr1 = match1.Groups[2];
+            Group gr2 = match2.Groups[2];
+            line = line.Remove(gr2.Index, gr2.Length).Insert(gr2.Index, zodisPakeisti);
+            line = line.Remove(gr1.Index, gr1.Length).Insert(gr1.Index, paskutinisZodis);
 
-            matches = Regex.Matches(line, $@"\b{paskutinisZodis}\b");
-            match = matches[matches.Count - 1];
-            line = line.Remove(match.Index, match.Length);
-            line = line.Insert(match.Index, zodisPakeisti);
             return line;
         }
 
@@ -102,6 +102,46 @@ namespace Klausimas5
         }
     }
 }
+
+//static string SukeistiZodzius(string line, string skyrikliai)
+//{
+//    string[] words = line.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+//    List<string> tinkami = new List<string>();
+
+//    foreach (string word in words)
+//    {
+//        if (BaigiasiLotyniskaPriebalse(word))
+//        {
+//            tinkami.Add(word);
+//        }
+//    }
+
+//    if (tinkami.Count < 2)
+//    {
+//        return line;
+//    }
+//    string zodisPakeisti = tinkami[tinkami.Count - 2];
+//    string paskutinisZodis = words[words.Length - 1];
+
+//    MatchCollection matches = Regex.Matches(line, $@"\b{zodisPakeisti}\b");
+//    Match match;
+//    if (tinkami[tinkami.Count - 1] == zodisPakeisti)
+//    {
+//        match = matches[matches.Count - 2];
+//    }
+//    else
+//    {
+//        match = matches[matches.Count - 1];
+//    }
+//    line = line.Remove(match.Index, match.Length);
+//    line = line.Insert(match.Index, paskutinisZodis);
+
+//    matches = Regex.Matches(line, $@"\b{paskutinisZodis}\b");
+//    match = matches[matches.Count - 1];
+//    line = line.Remove(match.Index, match.Length);
+//    line = line.Insert(match.Index, zodisPakeisti);
+//    return line;
+//}
 
 //static string SukeistiZodzius(string line, string skyrikliai)
 //{
