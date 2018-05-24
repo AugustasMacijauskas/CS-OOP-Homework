@@ -52,8 +52,8 @@ namespace Klausimas5
                                 gr1 = gr2;
                                 gr2 = temp;
                             }
-                            line = line.Remove(gr2.Index, gr2.Length).Insert(gr2.Index, paskutinisSuSkaitmeniu);
-                            line = line.Remove(gr1.Index, gr1.Length).Insert(gr1.Index, paskutinisSuLyginiu);
+                            line = line.Remove(gr2.Index, gr2.Length).Insert(gr2.Index, gr1.Value);
+                            line = line.Remove(gr1.Index, gr1.Length).Insert(gr1.Index, gr2.Value);
                         }
 
                         ats.WriteLine(line);
