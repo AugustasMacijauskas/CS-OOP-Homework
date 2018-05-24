@@ -42,30 +42,18 @@ namespace Klausimas5
 
                         if (paskutinisSuLyginiu != "" && paskutinisSuSkaitmeniu != "" && paskutinisSuLyginiu != paskutinisSuSkaitmeniu)
                         {
-                            MatchCollection matches1 = Regex.Matches(line, $@"\b{paskutinisSuLyginiu}\b");
-                            MatchCollection matches2 = Regex.Matches(line, $@"\b{paskutinisSuSkaitmeniu}\b");
-                            Match match1 = matches1[matches1.Count - 1];
-                            Match match2 = matches2[matches2.Count - 1];
-                            if (match1.Index < match2.Index)
+                            MatchCollection matches1 = Regex.Matches(line, $@"(\G|[{skyrikliai}])({paskutinisSuLyginiu})([{skyrikliai}]|$)");
+                            MatchCollection matches2 = Regex.Matches(line, $@"(\G|[{skyrikliai}])({paskutinisSuSkaitmeniu})([{skyrikliai}]|$)");
+                            Group gr1 = matches1[matches1.Count - 1].Groups[2];
+                            Group gr2 = matches2[matches2.Count - 1].Groups[2];
+                            if (gr1.Index > gr2.Index)
                             {
-                                line = line.Remove(match2.Index, match2.Length);
-                                line = line.Insert(match2.Index, paskutinisSuLyginiu);
-
-                                MatchCollection matches = Regex.Matches(line, $@"\b{paskutinisSuLyginiu}\b");
-                                Match match = matches[matches.Count - 2];
-                                line = line.Remove(match.Index, match.Length);
-                                line = line.Insert(match.Index, paskutinisSuSkaitmeniu);
+                                Group temp = gr1;
+                                gr1 = gr2;
+                                gr2 = temp;
                             }
-                            else if (match1.Index > match2.Index)
-                            {
-                                line = line.Remove(match1.Index, match1.Length);
-                                line = line.Insert(match1.Index, paskutinisSuSkaitmeniu);
-
-                                MatchCollection matches = Regex.Matches(line, $@"\b{paskutinisSuSkaitmeniu}\b");
-                                Match match = matches[matches.Count - 2];
-                                line = line.Remove(match.Index, match.Length);
-                                line = line.Insert(match.Index, paskutinisSuLyginiu);
-                            }
+                            line = line.Remove(gr2.Index, gr2.Length).Insert(gr2.Index, paskutinisSuSkaitmeniu);
+                            line = line.Remove(gr1.Index, gr1.Length).Insert(gr1.Index, paskutinisSuLyginiu);
                         }
 
                         ats.WriteLine(line);
