@@ -17,10 +17,16 @@ namespace Klausimas9
             string skyrikliai = " !?.,<>/?;:'\"\\|{[}]()";
             int antrasBalseIlgiausias;
             int trumpiausiasPriebalse;
-            Skaityti(duom, skyrikliai, out antrasBalseIlgiausias, out trumpiausiasPriebalse);
-            if (antrasBalseIlgiausias != -1 && trumpiausiasPriebalse != -1)
+            string eil1;
+            string eil2;
+            Skaityti(duom, skyrikliai, out antrasBalseIlgiausias, out trumpiausiasPriebalse, out eil1, out eil2);
+            if (antrasBalseIlgiausias > trumpiausiasPriebalse)
             {
-                Sukeisti(rez, antrasBalseIlgiausias, trumpiausiasPriebalse);
+
+            }
+            if (antrasBalseIlgiausias != -1 && trumpiausiasPriebalse != -1 && eil1 != "" && eil2 != "")
+            {
+                Sukeisti(duom, rez, antrasBalseIlgiausias, trumpiausiasPriebalse, eil1, eil2);
             }
             else
             {
@@ -30,9 +36,31 @@ namespace Klausimas9
             Console.WriteLine("Programa baigė darbą!");
         }
 
-        static void Sukeisti(string rez, int eil1, int eil2)
+        static void Sukeisti(string duom, string rez, int ind1, int ind2, string eil1, string eil2)
         {
+            using (StreamReader reader = new StreamReader(duom))
+            {
+                using (StreamWriter writer = new StreamWriter(rez))
+                {
+                    string line;
+                    int i;
+                    for (i = 0; (i < ind1) && ((line = reader.ReadLine()) != null); i++)
+                    {
+                        writer.WriteLine(line);
+                    }
+                    writer.WriteLine(eil1);
+                    for (; (i < ind2) && ((line = reader.ReadLine()) != null); i++)
+                    {
+                        writer.WriteLine(line);
+                    }
+                    writer.WriteLine(eil2);
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        writer.WriteLine(line);
+                    }
 
+                }
+            }
         }
 
         static string SurastiAntrąPagalDydįSuBalse(string eil, string skyrikliai)
@@ -141,7 +169,7 @@ namespace Klausimas9
             return trumpiausias;
         }
 
-        static void Skaityti(string duom, string skyrikliai, out int balse, out int prieb)
+        static void Skaityti(string duom, string skyrikliai, out int balse, out int prieb, out string eil1, out string eil2)
         {
             using (StreamReader reader = new StreamReader(duom))
             {
@@ -149,6 +177,8 @@ namespace Klausimas9
                 int i = 0;
                 string ilgiausiasSuBalse = "";
                 string trumpiausiasSuPriebalse = "";
+                eil1 = "";
+                eil2 = "";
                 balse = -1;
                 prieb = -1;
                 while ((line = reader.ReadLine()) != null)
@@ -161,6 +191,7 @@ namespace Klausimas9
                         {
                             ilgiausiasSuBalse = temp1;
                             balse = i;
+                            eil1 = line;
                         }
                     }
                     if (temp2 != "")
@@ -169,6 +200,7 @@ namespace Klausimas9
                         {
                             trumpiausiasSuPriebalse = temp1;
                             prieb = i;
+                            eil2 = line;
                         }
                     }
                     i++;

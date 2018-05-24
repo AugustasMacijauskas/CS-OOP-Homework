@@ -1,0 +1,21 @@
+
+       Pirma matrica
+   1   3  -5   9  -2
+   7  -5   6   8  14
+  -1   0  -4  -3  17
+  19  -3   5   7  -9
+  -1   8   9  12  15
+
+       Antra matrica
+   1   2   3   4   9   9
+   1   9   4   6   0   0
+  11  12  17  19  13   8
+   7  -8   9   1   8   8
+   1   1   2   2   6   8
+   7   8   9  44  88  99
+
+      Iš Pirmos matricos suformuotas masyvas
+   1   3   5   9  15
+
+      Iš Antros matricos suformuotas masyvas
+   7   8   9  19  13   9

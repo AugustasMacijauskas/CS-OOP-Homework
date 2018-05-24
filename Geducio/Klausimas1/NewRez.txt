@@ -1,0 +1,6 @@
+|            Vardas            |    Metai    |    Ugis     |    Taskai     |
+|              Lukas Lekavicius|         1993|          182|            3,5|
+|                  Augusto Lima|         1989|          211|            6,3|
+|            Isaiah Hartenstein|         1998|          205|              8|
+|                  Kevin Pangos|         1990|          185|             12|
+|              Paulius Jankunas|         1985|          204|             20|
