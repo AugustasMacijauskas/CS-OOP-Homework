@@ -1,4 +1,4 @@
 Suraskite faile eilutę, kurios antras pagal dydį žodis,
 žodis, pasibaigiantis priebalseiiiiiiiii, priebalseiiiiiiii yra mažiausias.
 sukeiskite vietomis su eilute, kurios trumpiausias
-pasibaigiantis balse, yra didžiausias ir šią eilutę
+pasibaigiantis balse, yra didžiausias ir ir  ir šią eilutę

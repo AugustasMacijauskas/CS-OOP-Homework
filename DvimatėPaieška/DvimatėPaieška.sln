@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvimatėPaieška", "DvimatėPaieška.csproj", "{D9296D60-B04A-457F-AD7C-D63E88D46334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9296D60-B04A-457F-AD7C-D63E88D46334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9296D60-B04A-457F-AD7C-D63E88D46334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9296D60-B04A-457F-AD7C-D63E88D46334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9296D60-B04A-457F-AD7C-D63E88D46334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0CE80E-1FA8-4678-A61D-6F90967B18E5}
+	EndGlobalSection
+EndGlobal

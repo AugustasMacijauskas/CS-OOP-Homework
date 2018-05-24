@@ -14,19 +14,31 @@ namespace Klausimas9
 
         static void Main(string[] args)
         {
+            if (File.Exists(rez))
+                File.Delete(rez);
+            Console.OutputEncoding = Encoding.GetEncoding(1257);
             string skyrikliai = " !?.,<>/?;:'\"\\|{[}]()";
-            int antrasBalseIlgiausias;
-            int trumpiausiasPriebalse;
+            int ind1;
+            int ind2;
             string eil1;
             string eil2;
-            Skaityti(duom, skyrikliai, out antrasBalseIlgiausias, out trumpiausiasPriebalse, out eil1, out eil2);
-            if (antrasBalseIlgiausias > trumpiausiasPriebalse)
+            Skaityti(duom, skyrikliai, out ind1, out ind2, out eil1, out eil2);
+            Console.WriteLine(ind1 + " " + ind2);
+            Console.WriteLine(eil1 + "\n" + eil2);
+            if (ind1 > ind2)
             {
-
+                int temp = ind1;
+                ind1 = ind2;
+                ind2 = temp;
+                string pagalb = eil1;
+                eil1 = eil2;
+                eil2 = pagalb;
             }
-            if (antrasBalseIlgiausias != -1 && trumpiausiasPriebalse != -1 && eil1 != "" && eil2 != "")
+            Console.WriteLine(ind1 + " " + ind2);
+            Console.WriteLine(eil1 + "\n" + eil2);
+            if (ind1 != -1 && ind2 != -1 && eil1 != "" && eil2 != "" && ind1 != ind2)
             {
-                Sukeisti(duom, rez, antrasBalseIlgiausias, trumpiausiasPriebalse, eil1, eil2);
+                Sukeisti(duom, rez, ind1, ind2, eil1, eil2);
             }
             else
             {
@@ -43,17 +55,18 @@ namespace Klausimas9
                 using (StreamWriter writer = new StreamWriter(rez))
                 {
                     string line;
-                    int i;
-                    for (i = 0; (i < ind1) && ((line = reader.ReadLine()) != null); i++)
+                    for (int i = 0; (i < ind1) && ((line = reader.ReadLine()) != null); i++)
                     {
                         writer.WriteLine(line);
                     }
-                    writer.WriteLine(eil1);
-                    for (; (i < ind2) && ((line = reader.ReadLine()) != null); i++)
-                    {
-                        writer.WriteLine(line);
-                    }
+                    line = reader.ReadLine();
                     writer.WriteLine(eil2);
+                    for (int i = ind1 + 1; (i < ind2) && ((line = reader.ReadLine()) != null); i++)
+                    {
+                        writer.WriteLine(line);
+                    }
+                    line = reader.ReadLine();
+                    writer.WriteLine(eil1);
                     while ((line = reader.ReadLine()) != null)
                     {
                         writer.WriteLine(line);
@@ -65,6 +78,7 @@ namespace Klausimas9
 
         static string SurastiAntrąPagalDydįSuBalse(string eil, string skyrikliai)
         {
+            // string antrasIlgiausias1 = eil.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Where(x => TuriBalse(x) == true).OrderByDescending(x => x.Length).Skip(1).FirstOrDefault();
             string[] words = eil.Split(skyrikliai.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             List<string> tinkami = new List<string>();
 
@@ -105,6 +119,9 @@ namespace Klausimas9
                     }
                 }
             }
+
+            // Console.WriteLine(antrasIlgiausias);
+            // Console.WriteLine(antrasIlgiausias1);
             
             return antrasIlgiausias;
         }
