@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Klausimas8
 {
@@ -36,19 +37,15 @@ namespace Klausimas8
 
     class Program
     {
+        const string duom = "..\\..\\duom.txt";
+
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.GetEncoding(1257);
             MiestoTemp temp = new MiestoTemp();
-            Console.Write("Įveskite matricos eilučių skaičių: ");
-            int n = int.Parse(Console.ReadLine());
-            temp.N = n;
-            Console.Write("Įveskite matricos eilučių skaičių: ");
-            int m = int.Parse(Console.ReadLine());
-            temp.M = m;
-            Console.WriteLine("Po vieną įveskite {0} * {1} matricos duomenis (sveikieji skaičiai):", n, m);
-            Įvesti(temp);
-            Print(temp);
+            
+            Įvesti(duom, temp);
+            Print(temp, "Pradiniai duomenys:");
 
             double didzTemp;
             DidžiausiaVidTemp(temp, out didzTemp);
@@ -65,7 +62,7 @@ namespace Klausimas8
             {
                 if (VidutinėTemperatūra(temp, i) == didzTemp)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine(i + 1);
                 }
             }
         }
@@ -73,6 +70,7 @@ namespace Klausimas8
         static void DidžiausiaVidTemp(MiestoTemp temp, out double didzTemp)
         {
             didzTemp = VidutinėTemperatūra(temp, 0);
+
             for (int i = 1; i < temp.N; i++)
             {
                 if (VidutinėTemperatūra(temp, i) > didzTemp)
@@ -84,7 +82,7 @@ namespace Klausimas8
 
         static double VidutinėTemperatūra(MiestoTemp temp, int k)
         {
-            int suma = 0;
+            double suma = 0;
 
             for (int j = 0; j < temp.M; j++)
             {
@@ -94,29 +92,75 @@ namespace Klausimas8
             return suma / temp.M;
         }
 
-        static void Print(MiestoTemp temp)
+        static void Print(MiestoTemp temp, string antraste)
         {
+            Console.WriteLine(antraste);
             for (int i = 0; i < temp.N; i++)
             {
                 for (int j = 0; j < temp.M; j++)
                 {
-                    Console.Write(temp.ImtiTemp(i, j) + " ");
+                    Console.Write("{0, 3:d} ", temp.ImtiTemp(i, j));
                 }
-                Console.WriteLine();
+                Console.WriteLine(" - {0, 5:f1}", VidutinėTemperatūra(temp, i));
             }
+            Console.WriteLine();
         }
 
-        static void Įvesti(MiestoTemp temp)
+        static void Įvesti(string duom, MiestoTemp temp)
         {
-            for (int i = 0; i < temp.N; i++)
+            using (StreamReader reader = new StreamReader(duom))
             {
-                Console.WriteLine("Nauja eilutė");
-                for (int j = 0; j < temp.M; j++)
+                string line;
+                string[] parts;
+                temp.N = int.Parse(reader.ReadLine());
+                temp.M = int.Parse(reader.ReadLine());
+
+                for (int i = 0; i < temp.N; i++)
                 {
-                    int temperatūra = int.Parse(Console.ReadLine());
-                    temp.DetiTemp(i, j, temperatūra);
+                    line = reader.ReadLine();
+                    parts = line.Split(';');
+                    for (int j = 0; j < temp.M; j++)
+                    {
+                        int temperatūra = int.Parse(parts[j].Trim());
+                        temp.DetiTemp(i, j, temperatūra);
+                    }
                 }
             }
         }
     }
 }
+
+//static void Main(string[] args)
+//{
+//    Console.OutputEncoding = Encoding.GetEncoding(1257);
+//    MiestoTemp temp = new MiestoTemp();
+//    Console.Write("Įveskite matricos eilučių skaičių: ");
+//    int n = int.Parse(Console.ReadLine());
+//    temp.N = n;
+//    Console.Write("Įveskite matricos eilučių skaičių: ");
+//    int m = int.Parse(Console.ReadLine());
+//    temp.M = m;
+//    Console.WriteLine("Po vieną įveskite {0} * {1} matricos duomenis (sveikieji skaičiai):", n, m);
+//    Įvesti(temp);
+//    Print(temp);
+
+//    double didzTemp;
+//    DidžiausiaVidTemp(temp, out didzTemp);
+//    Console.WriteLine("Didžiausia temperatūra: {0}", didzTemp);
+//    SpausdintiDidžiausius(temp, didzTemp);
+
+//    Console.WriteLine("Programa baigė darbą!");
+//}
+
+//static void Įvesti(MiestoTemp temp)
+//{
+//    for (int i = 0; i < temp.N; i++)
+//    {
+//        Console.WriteLine("{0} eilutė:", i + 1);
+//        for (int j = 0; j < temp.M; j++)
+//        {
+//            int temperatūra = int.Parse(Console.ReadLine());
+//            temp.DetiTemp(i, j, temperatūra);
+//        }
+//    }
+//}
