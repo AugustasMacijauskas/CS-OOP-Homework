@@ -29,9 +29,19 @@ namespace Sportas
             return string.Format(" {0, -15} {1, -15} {2}         {3, -15} {4, 4:d} ", Pavardė, Vardas, Sportas, Komanda, Rungtynės);
         }
 
-        public virtual void PapildomasRodiklis()
+        public virtual int SkaičiuotiVidurkį()
         {
+            return 0;
+        }
 
+        public virtual int SkaičiuotiPapildomąVidurkį()
+        {
+            return 0;
+        }
+
+        public virtual int Rikiuoti()
+        {
+            return 0;
         }
     }
 
@@ -52,6 +62,21 @@ namespace Sportas
         {
             return string.Format(" {0}          {1, 4:d}                       {2, 4:d}                           {3, 4:d} ", base.ToString(), Taškai, AtkovotiKamuoliai, RezultatyvūsPerdavimai);
         }
+
+        public override int SkaičiuotiVidurkį()
+        {
+            return this.Taškai;
+        }
+
+        public override int SkaičiuotiPapildomąVidurkį()
+        {
+            return this.RezultatyvūsPerdavimai;
+        }
+
+        public override int Rikiuoti()
+        {
+            return this.RezultatyvūsPerdavimai;
+        }
     }
 
     class Futbolininkas : Sportininkas
@@ -68,6 +93,21 @@ namespace Sportas
         public override string ToString()
         {
             return string.Format(" {0}          {1, 4:d}                       {2, 4:d} ", base.ToString(), Ivarciai, GeltonųKortelių);
+        }
+
+        public override int SkaičiuotiVidurkį()
+        {
+            return this.Ivarciai;
+        }
+
+        public override int SkaičiuotiPapildomąVidurkį()
+        {
+            return this.GeltonųKortelių;
+        }
+
+        public override int Rikiuoti()
+        {
+            return this.GeltonųKortelių;
         }
     }
     
@@ -96,8 +136,8 @@ namespace Sportas
 
     class Program
     {
-        const string komandosDuom = "..\\..\\Komandos.txt";
-        const string sportininkaiDuom = "..\\..\\Sportininkai.txt";
+        const string komandosDuom = "..\\..\\Komandos2.txt";
+        const string sportininkaiDuom = "..\\..\\Sportininkai2.txt";
         const string rez = "..\\..\\Rezultatai.txt";
 
         static void Main(string[] args)
@@ -115,74 +155,63 @@ namespace Sportas
 
             List<Sportininkas> naujas = new List<Sportininkas>();
             Formuoti(sportininkai, naujas, komandos);
-            SpausdintiSportininkus(rez, naujas, "Krepšininkai/futbolininkai, kurie žaidė visose varžybose ir įmetė taškų/pelnė įvarčių ne mažiau nei komandos vidurkis:");
+            SpausdintiSportininkus(rez, naujas, "Krepšininkai/futbolininkai, kurie žaidė visose varžybose ir atitiko vidurkio kriterijus:");
+
+            naujas = naujas.OrderBy(x => x.Rikiuoti()).ToList();
+            SpausdintiSportininkus(rez, naujas, "Surikiuotas masyvas:");
 
             Console.WriteLine("Programa baigė darbą!");
         }
 
         static void Formuoti(List<Sportininkas> A, List<Sportininkas> naujas, List<Komanda> komandos)
         {
-            double vidurkisK = SkaiciuotiVidurki(A, typeof(Krepšininkas));
-            double vidurkisF = SkaiciuotiVidurki(A, typeof(Futbolininkas));
-            Console.WriteLine(vidurkisK + " " + vidurkisF);
-
             for (int i = 0; i < A.Count; i++)
             {
-                Komanda test = komandos.Find(x => (x.Pavadinimas == A[i].Komanda && x.Sportas == A[i].Sportas));
-                if (A[i].Rungtynės == test.Rungtynės)
+                Komanda tempKomanda = komandos.Find(x => (x.Pavadinimas == A[i].Komanda && x.Sportas == A[i].Sportas));
+                double vidurkis = SkaiciuotiVidurki(A, tempKomanda);
+                double papildomasVidurkis = SkaiciuotiPapildomaVidurki(A, tempKomanda);
+                var tempSportininkas = A[i];
+                Console.WriteLine($"Vidurkis: {vidurkis}");
+                Console.WriteLine($"Papildomas vidurkis: {papildomasVidurkis}");
+
+                if (tempSportininkas.Rungtynės == tempKomanda.Rungtynės)
                 {
-                    Console.WriteLine(A[i].Pavardė + " " + A[i].Rungtynės + " " + test.Pavadinimas + " " + test.Rungtynės);
-                    if (A[i].GetType() == typeof(Krepšininkas))
+                    Console.WriteLine(A[i].Pavardė + " " + tempSportininkas.Rungtynės + " " + tempKomanda.Pavadinimas + " " + tempKomanda.Rungtynės);
+                    if (tempSportininkas.SkaičiuotiVidurkį() >= vidurkis && tempSportininkas.SkaičiuotiPapildomąVidurkį() > papildomasVidurkis)
                     {
-                        Krepšininkas temp = A[i] as Krepšininkas;
-                        if (temp.Taškai >= vidurkisK)
-                        {
-                            Console.WriteLine(temp.Taškai);
-                            naujas.Add(temp);
-                        }
-                    }
-                    else if (A[i].GetType() == typeof(Futbolininkas))
-                    {
-                        Futbolininkas temp = A[i] as Futbolininkas;
-                        if (temp.Ivarciai >= vidurkisF)
-                        {
-                            Console.WriteLine(temp.Ivarciai);
-                            naujas.Add(temp);
-                        }
+                        naujas.Add(A[i]);
                     }
                 }
             }
-
         }
 
-        //static Komanda RastiKomanda(Sportininkas A, List<Komanda> komandos)
-        //{
-        //    Komanda laikina = komandos[0];
-        //    for (int i = 1; i < komandos.Count; i++)
-        //    {
-        //        if (A.Komanda == komandos[i].Pavadinimas)
-        //        {
-        //            return komandos[i];
-        //        }
-        //    }
-        //}
-
-        static double SkaiciuotiVidurki(List<Sportininkas> A, Type tipas)
+        static double SkaiciuotiPapildomaVidurki(List<Sportininkas> A, Komanda komanda)
         {
             double suma = 0;
             int kiekis = 0;
             for (int i = 0; i < A.Count; i++)
             {
-                if (tipas == typeof(Krepšininkas) && A[i].GetType() == tipas)
+                var temp = A[i];
+                if (temp.Sportas == komanda.Sportas && temp.Komanda == komanda.Pavadinimas)
                 {
-                    Krepšininkas naujas = A[i] as Krepšininkas;
-                    suma += naujas.Taškai;
+                    suma += temp.SkaičiuotiPapildomąVidurkį();
                     kiekis++;
                 }
-                else if (tipas == typeof(Futbolininkas) && A[i].GetType() == tipas)
+            }
+
+            return suma / kiekis;
+        }
+
+        static double SkaiciuotiVidurki(List<Sportininkas> A, Komanda komanda)
+        {
+            double suma = 0;
+            int kiekis = 0;
+            for (int i = 0; i < A.Count; i++)
+            {
+                var temp = A[i];
+                if (temp.Sportas == komanda.Sportas && temp.Komanda == komanda.Pavadinimas)
                 {
-                    Futbolininkas naujas = A[i] as Futbolininkas;
-                    suma += naujas.Ivarciai;
+                    suma += temp.SkaičiuotiVidurkį();
                     kiekis++;
                 }
             }
@@ -205,24 +234,24 @@ namespace Sportas
                 while ((line = reader.ReadLine()) != null)
                 {
                     parts = line.Split(';');
-                    sportas = parts[0];
-                    komanda = parts[1];
-                    pavardė = parts[2];
-                    vardas = parts[3];
-                    rungtynės = int.Parse(parts[4]);
+                    sportas = parts[0].Trim();
+                    komanda = parts[1].Trim();
+                    pavardė = parts[2].Trim();
+                    vardas = parts[3].Trim();
+                    rungtynės = int.Parse(parts[4].Trim());
 
                     if (sportas == "k")
                     {
-                        int taškai = int.Parse(parts[5]);
-                        int atkovotiKamuoliai = int.Parse(parts[6]);
-                        int rezultatyvūsPerdavimai = int.Parse(parts[7]);
+                        int taškai = int.Parse(parts[5].Trim());
+                        int atkovotiKamuoliai = int.Parse(parts[6].Trim());
+                        int rezultatyvūsPerdavimai = int.Parse(parts[7].Trim());
                         Krepšininkas naujas = new Krepšininkas(sportas, komanda, pavardė, vardas, rungtynės, taškai, atkovotiKamuoliai, rezultatyvūsPerdavimai);
                         A.Add(naujas);
                     }
                     else if (sportas == "f")
                     {
-                        int ivarciai = int.Parse(parts[5]);
-                        int geltonųKortelių = int.Parse(parts[6]);
+                        int ivarciai = int.Parse(parts[5].Trim());
+                        int geltonųKortelių = int.Parse(parts[6].Trim());
                         Futbolininkas naujas = new Futbolininkas(sportas, komanda, pavardė, vardas, rungtynės, ivarciai, geltonųKortelių);
                         A.Add(naujas);
                     }
@@ -245,11 +274,11 @@ namespace Sportas
                 while ((line = reader.ReadLine()) != null)
                 {
                     parts = line.Split(';');
-                    sportas = parts[0];
-                    pavadinimas = parts[1];
-                    miestas = parts[2];
-                    treneris = parts[3];
-                    rungtynės = int.Parse(parts[4]);
+                    sportas = parts[0].Trim();
+                    pavadinimas = parts[1].Trim();
+                    miestas = parts[2].Trim();
+                    treneris = parts[3].Trim();
+                    rungtynės = int.Parse(parts[4].Trim());
                     Komanda nauja = new Komanda(sportas, pavadinimas, miestas, treneris, rungtynės);
                     A.Add(nauja);
                 }
