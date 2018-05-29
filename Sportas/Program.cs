@@ -7,21 +7,21 @@ using System.IO;
 
 namespace Sportas
 {
-    class Sportininkas
+    abstract class Sportininkas
     {
-        public string Sportas { get; private set; }
-        public string Komanda { get; private set; }
-        public string Pavardė { get; private set; }
-        public string Vardas { get; private set; }
-        public int Rungtynės { get; private set; }
+        public string Sportas { get; set; }
+        protected string komanda;
+        protected string pavardė;
+        protected string vardas;
+        protected int rungtynės;
 
         public Sportininkas(string sport, string kom, string pvrd, string vrd, int rung)
         {
             Sportas = sport;
-            Komanda = kom;
-            Pavardė = pvrd;
-            Vardas = vrd;
-            Rungtynės = rung;
+            komanda = kom;
+            pavardė = pvrd;
+            vardas = vrd;
+            rungtynės = rung;
         }
 
         public override string ToString()
@@ -29,20 +29,36 @@ namespace Sportas
             return string.Format(" {0, -15} {1, -15} {2}         {3, -15} {4, 4:d} ", Pavardė, Vardas, Sportas, Komanda, Rungtynės);
         }
 
-        public virtual int SkaičiuotiVidurkį()
+        //public abstract string Sportas
+        //{
+        //    get;
+        //}
+
+        public abstract string Komanda
         {
-            return 0;
+            get;
         }
 
-        public virtual int SkaičiuotiPapildomąVidurkį()
+        public abstract string Pavardė
         {
-            return 0;
+            get;
         }
 
-        public virtual int Rikiuoti()
+        public abstract string Vardas
         {
-            return 0;
+            get;
         }
+
+        public abstract int Rungtynės
+        {
+            get;
+        }
+
+        public abstract int SkaičiuotiVidurkį();
+
+        public abstract int SkaičiuotiPapildomąVidurkį();
+
+        public abstract int Rikiuoti();
     }
 
     class Krepšininkas : Sportininkas
@@ -77,6 +93,46 @@ namespace Sportas
         {
             return this.RezultatyvūsPerdavimai;
         }
+
+        //public override string Sportas
+        //{
+        //    get
+        //    {
+        //        return sportas;
+        //    }
+        //}
+
+        public override string Komanda
+        {
+            get
+            {
+                return komanda;
+            }
+        }
+
+        public override string Pavardė
+        {
+            get
+            {
+                return pavardė;
+            }
+        }
+
+        public override string Vardas
+        {
+            get
+            {
+                return vardas;
+            }
+        }
+
+        public override int Rungtynės
+        {
+            get
+            {
+                return rungtynės;
+            }
+        }
     }
 
     class Futbolininkas : Sportininkas
@@ -108,6 +164,38 @@ namespace Sportas
         public override int Rikiuoti()
         {
             return this.GeltonųKortelių;
+        }
+
+        public override string Komanda
+        {
+            get
+            {
+                return komanda;
+            }
+        }
+
+        public override string Pavardė
+        {
+            get
+            {
+                return pavardė;
+            }
+        }
+
+        public override string Vardas
+        {
+            get
+            {
+                return vardas;
+            }
+        }
+
+        public override int Rungtynės
+        {
+            get
+            {
+                return rungtynės;
+            }
         }
     }
     
