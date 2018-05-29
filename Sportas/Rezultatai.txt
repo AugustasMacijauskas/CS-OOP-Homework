@@ -1,24 +1,24 @@
 Pradiniai sportininkų duomenys:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
- Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Atkovoti kamuoliai/Geltonų kortelių  Rezultatyvūs perdavimai 
+ Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Rezultatyvūs perdavimai/Geltonų kortelių  Atkovoti kamuoliai 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-  1   Kavaliauskas    Antanas         k         Žalgiris          36            225                         95                             34 
-  2   Šernas          Darvynas        f         Žalgiris          40              6                          8 
-  3   Mikoliūnas      Saulius         f         Žalgiris          44              5                          9 
-  4   Milaknis        Artūras         k         Žalgiris          36            250                         53                             28 
-  5   Ulanovas        Edgaras         k         Žalgiris          34            101                        110                             80 
-  6   Klimavičius     Arūnas          f         Jonava            44              3                         10 
-  7   Jucikas         Matas           k         Neptūnas          19             34                         28                              5 
-  8   Einikis         Aidas           k         Neptūnas           5              7                          4                              2 
-  9   Ball            Lamelo          k         Vytautas          10             52                          9                             19 
- 10   Jomantas        Artūras         k         Lietuvos Rytas    32            107                         33                             11 
- 11   Žukauskas       Eigirdas        k         Vytautas          36            298                        129                             82 
- 12   Vorobjovas      Modestas        f         Trakai            44              2                          2 
- 13   Šeškus          Edvinas         k         Vytautas          36            222                         68                             48 
- 14   Seibutis        Renaldas        k         Neptūnas          36            421                         78                             54 
- 15   Giedraitis      Rokas           k         Lietuvos Rytas    36            359                         97                             54 
- 16   Marazas         Justinas        f         Trakai            40              2                          1 
- 17   Lukauskas       Mindaugas       k         Lietuvos Rytas    28             84                         45                             16 
+  1   Kavaliauskas    Antanas         k         Žalgiris           36            225                           34                             95 
+  2   Šernas          Darvynas        f         Žalgiris           40              6                            8 
+  3   Mikoliūnas      Saulius         f         Žalgiris           44              5                            9 
+  4   Milaknis        Artūras         k         Žalgiris           36            250                           28                             53 
+  5   Ulanovas        Edgaras         k         Žalgiris           34            101                           80                            110 
+  6   Klimavičius     Arūnas          f         Jonava             44              3                           10 
+  7   Jucikas         Matas           k         Neptūnas           19             34                            5                             28 
+  8   Einikis         Aidas           k         Neptūnas            5              7                            2                              4 
+  9   Ball            Lamelo          k         Vytautas           10             52                           19                              9 
+ 10   Jomantas        Artūras         k         Lietuvos Rytas     32            107                           11                             33 
+ 11   Žukauskas       Eigirdas        k         Vytautas           36            298                           82                            129 
+ 12   Vorobjovas      Modestas        f         Trakai             44              2                            2 
+ 13   Šeškus          Edvinas         k         Vytautas           36            222                           48                             68 
+ 14   Seibutis        Renaldas        k         Neptūnas           36            421                           54                             78 
+ 15   Giedraitis      Rokas           k         Lietuvos Rytas     36            359                           54                             97 
+ 16   Marazas         Justinas        f         Trakai             40              2                            1 
+ 17   Lukauskas       Mindaugas       k         Lietuvos Rytas     28             84                           16                             45 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Pradiniai komandų duomenys:
@@ -36,21 +36,21 @@ Pradiniai komandų duomenys:
 
 Krepšininkai/futbolininkai, kurie žaidė visose varžybose ir atitiko vidurkio kriterijus:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
- Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Atkovoti kamuoliai/Geltonų kortelių  Rezultatyvūs perdavimai 
+ Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Rezultatyvūs perdavimai/Geltonų kortelių  Atkovoti kamuoliai 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-  1   Žukauskas       Eigirdas        k         Vytautas          36            298                        129                             82 
-  2   Vorobjovas      Modestas        f         Trakai            44              2                          2 
-  3   Seibutis        Renaldas        k         Neptūnas          36            421                         78                             54 
-  4   Giedraitis      Rokas           k         Lietuvos Rytas    36            359                         97                             54 
+  1   Žukauskas       Eigirdas        k         Vytautas           36            298                           82                            129 
+  2   Vorobjovas      Modestas        f         Trakai             44              2                            2 
+  3   Seibutis        Renaldas        k         Neptūnas           36            421                           54                             78 
+  4   Giedraitis      Rokas           k         Lietuvos Rytas     36            359                           54                             97 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Surikiuotas masyvas:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
- Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Atkovoti kamuoliai/Geltonų kortelių  Rezultatyvūs perdavimai 
+ Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Rezultatyvūs perdavimai/Geltonų kortelių  Atkovoti kamuoliai 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-  1   Vorobjovas      Modestas        f         Trakai            44              2                          2 
-  2   Seibutis        Renaldas        k         Neptūnas          36            421                         78                             54 
-  3   Giedraitis      Rokas           k         Lietuvos Rytas    36            359                         97                             54 
-  4   Žukauskas       Eigirdas        k         Vytautas          36            298                        129                             82 
+  1   Vorobjovas      Modestas        f         Trakai             44              2                            2 
+  2   Seibutis        Renaldas        k         Neptūnas           36            421                           54                             78 
+  3   Giedraitis      Rokas           k         Lietuvos Rytas     36            359                           54                             97 
+  4   Žukauskas       Eigirdas        k         Vytautas           36            298                           82                            129 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 

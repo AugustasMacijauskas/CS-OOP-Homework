@@ -10,48 +10,23 @@ namespace Sportas
     abstract class Sportininkas
     {
         public string Sportas { get; set; }
-        protected string komanda;
-        protected string pavardė;
-        protected string vardas;
-        protected int rungtynės;
+        public string Komanda { get; set; }
+        public string Pavardė { get; set; }
+        public string Vardas { get; set; }
+        public int Rungtynės { get; set; }
 
         public Sportininkas(string sport, string kom, string pvrd, string vrd, int rung)
         {
             Sportas = sport;
-            komanda = kom;
-            pavardė = pvrd;
-            vardas = vrd;
-            rungtynės = rung;
+            Komanda = kom;
+            Pavardė = pvrd;
+            Vardas = vrd;
+            Rungtynės = rung;
         }
 
         public override string ToString()
         {
-            return string.Format(" {0, -15} {1, -15} {2}         {3, -15} {4, 4:d} ", Pavardė, Vardas, Sportas, Komanda, Rungtynės);
-        }
-
-        //public abstract string Sportas
-        //{
-        //    get;
-        //}
-
-        public abstract string Komanda
-        {
-            get;
-        }
-
-        public abstract string Pavardė
-        {
-            get;
-        }
-
-        public abstract string Vardas
-        {
-            get;
-        }
-
-        public abstract int Rungtynės
-        {
-            get;
+            return string.Format(" {0, -15} {1, -15} {2}         {3, -15}  {4, 4:d} ", Pavardė, Vardas, Sportas, Komanda, Rungtynės);
         }
 
         public abstract int SkaičiuotiVidurkį();
@@ -76,7 +51,7 @@ namespace Sportas
 
         public override string ToString()
         {
-            return string.Format(" {0}          {1, 4:d}                       {2, 4:d}                           {3, 4:d} ", base.ToString(), Taškai, AtkovotiKamuoliai, RezultatyvūsPerdavimai);
+            return string.Format(" {0}          {1, 4:d}                         {2, 4:d}                           {3, 4:d} ", base.ToString(), Taškai, RezultatyvūsPerdavimai, AtkovotiKamuoliai);
         }
 
         public override int SkaičiuotiVidurkį()
@@ -93,46 +68,6 @@ namespace Sportas
         {
             return this.RezultatyvūsPerdavimai;
         }
-
-        //public override string Sportas
-        //{
-        //    get
-        //    {
-        //        return sportas;
-        //    }
-        //}
-
-        public override string Komanda
-        {
-            get
-            {
-                return komanda;
-            }
-        }
-
-        public override string Pavardė
-        {
-            get
-            {
-                return pavardė;
-            }
-        }
-
-        public override string Vardas
-        {
-            get
-            {
-                return vardas;
-            }
-        }
-
-        public override int Rungtynės
-        {
-            get
-            {
-                return rungtynės;
-            }
-        }
     }
 
     class Futbolininkas : Sportininkas
@@ -148,7 +83,7 @@ namespace Sportas
 
         public override string ToString()
         {
-            return string.Format(" {0}          {1, 4:d}                       {2, 4:d} ", base.ToString(), Ivarciai, GeltonųKortelių);
+            return string.Format(" {0}          {1, 4:d}                         {2, 4:d} ", base.ToString(), Ivarciai, GeltonųKortelių);
         }
 
         public override int SkaičiuotiVidurkį()
@@ -164,38 +99,6 @@ namespace Sportas
         public override int Rikiuoti()
         {
             return this.GeltonųKortelių;
-        }
-
-        public override string Komanda
-        {
-            get
-            {
-                return komanda;
-            }
-        }
-
-        public override string Pavardė
-        {
-            get
-            {
-                return pavardė;
-            }
-        }
-
-        public override string Vardas
-        {
-            get
-            {
-                return vardas;
-            }
-        }
-
-        public override int Rungtynės
-        {
-            get
-            {
-                return rungtynės;
-            }
         }
     }
     
@@ -376,7 +279,7 @@ namespace Sportas
         static void SpausdintiSportininkus(string rez, List<Sportininkas> A, string antraste)
         {
             const string virsus = "--------------------------------------------------------------------------------------------------------------------------------------------------------\r\n" +
-                                  " Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Atkovoti kamuoliai/Geltonų kortelių  Rezultatyvūs perdavimai \r\n" +
+                                  " Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Rezultatyvūs perdavimai/Geltonų kortelių  Atkovoti kamuoliai \r\n" +
                                   "--------------------------------------------------------------------------------------------------------------------------------------------------------";
 
             using (var fr = File.AppendText(rez))
