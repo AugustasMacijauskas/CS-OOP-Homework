@@ -1,0 +1,26 @@
+﻿----------------------------------------------------------------------------------------------
+
+Meniu punktai:
+-> Įvesti - pasirenkami du failai, vienas - įvedimui, kitas - išvedimui.
+
+-> Skaičiuoti - su nuskaitytais duomenimis atlieka atitinkamus skaičiavimus. 
+   SVARBU: prieš tai reikia įvesti pasirinktą automobilio modelį šalia esančiame teksto lauke.
+
+-> Spausdinti - spausdina atliktų skaičiavimų rezultatus.
+
+-> Informacija - atspausdina ekrane pagalbą vartotojui.
+
+-> Baigti - uždaro programą.
+
+----------------------------------------------------------------------------------------------
+
+Programos laukai:
+-> Didelis teksto laukas duomenims spausdinti.
+
+-> Teksto laukelis norimam žaidėjų amžiui įvesti.
+
+-> Pranešimo laukas - spausdina pranešimus apie programos veikimą.
+
+----------------------------------------------------------------------------------------------
+@Copyright - Augustas Mačijauskas, 2018
+

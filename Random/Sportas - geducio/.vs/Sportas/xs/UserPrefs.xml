@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{45954536-AC5A-42E2-82E4-6DD5304DCAF2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Zaidejas.cs">
+    <Files>
+      <File FileName="Komanda.cs" Line="84" Column="4" />
+      <File FileName="Program.cs" Line="83" Column="20" />
+      <File FileName="Zaidejas.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sportas PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
