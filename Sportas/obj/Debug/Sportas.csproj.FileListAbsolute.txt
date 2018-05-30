@@ -18,3 +18,9 @@ C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\Sportas\obj\Debu
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\Sportas\obj\Debug\Sportas.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\Sportas\obj\Debug\Sportas.exe
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\Sportas\obj\Debug\Sportas.pdb
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\bin\Debug\Sportas.exe.config
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\obj\Debug\Sportas.exe
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\obj\Debug\Sportas.pdb
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\bin\Debug\Sportas.exe
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\bin\Debug\Sportas.pdb
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\Sportas\obj\Debug\Sportas.csprojResolveAssemblyReference.cache

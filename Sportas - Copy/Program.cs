@@ -7,7 +7,7 @@ using System.IO;
 
 namespace Sportas
 {
-    abstract class Sportininkas
+    abstract class Sportininkas : IComparable<Sportininkas>
     {
         public string Sportas { get; set; }
         public string Komanda { get; set; }
@@ -34,15 +34,29 @@ namespace Sportas
         public abstract int SkaičiuotiPapildomąVidurkį();
 
         public abstract int Rikiuoti();
+
+        public int CompareTo(Sportininkas other)
+        {
+            if (this is Krepšininkas && other is Futbolininkas)
+                return -1;
+            if (this is Futbolininkas && other is Krepšininkas)
+                return 1;
+            if (this is Krepšininkas && other is Krepšininkas)
+                return ((Krepšininkas)this).CompareTo((Krepšininkas)other);
+            if (this is Futbolininkas && other is Futbolininkas)
+                return ((Futbolininkas)this).CompareTo((Futbolininkas)other);
+
+            return 0;
+        }
     }
 
-    class Krepšininkas : Sportininkas
+    class Krepšininkas : Sportininkas, IComparable<Krepšininkas>
     {
         public int Taškai { get; set; }
         public int AtkovotiKamuoliai { get; set; }
         public int RezultatyvūsPerdavimai { get; set; }
 
-        public Krepšininkas (string sport, string kom, string pvrd, string vrd, int rung, int tsk, int atk, int rezp) : base(sport, kom, pvrd, vrd, rung)
+        public Krepšininkas(string sport, string kom, string pvrd, string vrd, int rung, int tsk, int atk, int rezp) : base(sport, kom, pvrd, vrd, rung)
         {
             Taškai = tsk;
             AtkovotiKamuoliai = atk;
@@ -68,9 +82,24 @@ namespace Sportas
         {
             return this.RezultatyvūsPerdavimai;
         }
+
+        public int CompareTo(Krepšininkas other)
+        {
+            return RezultatyvūsPerdavimai.CompareTo(other.RezultatyvūsPerdavimai);
+        }
+
+        public static bool operator <(Krepšininkas k1, Krepšininkas k2)
+        {
+            return k1.RezultatyvūsPerdavimai < k2.RezultatyvūsPerdavimai;
+        }
+
+        public static bool operator >(Krepšininkas k1, Krepšininkas k2)
+        {
+            return k1.RezultatyvūsPerdavimai > k2.RezultatyvūsPerdavimai;
+        }
     }
 
-    class Futbolininkas : Sportininkas
+    class Futbolininkas : Sportininkas, IComparable<Futbolininkas>
     {
         public int Ivarciai { get; set; }
         public int GeltonųKortelių { get; set; }
@@ -96,12 +125,27 @@ namespace Sportas
             return this.GeltonųKortelių;
         }
 
+        public static bool operator <(Futbolininkas f1, Futbolininkas f2)
+        {
+            return f1.GeltonųKortelių < f2.GeltonųKortelių;
+        }
+
+        public static bool operator >(Futbolininkas f1, Futbolininkas f2)
+        {
+            return f1.GeltonųKortelių > f2.GeltonųKortelių;
+        }
+
         public override int Rikiuoti()
         {
             return this.GeltonųKortelių;
         }
+
+        public int CompareTo(Futbolininkas other)
+        {
+            return -GeltonųKortelių.CompareTo(other.GeltonųKortelių);
+        }
     }
-    
+
     class Komanda
     {
         public string Sportas { get; set; }
@@ -150,7 +194,8 @@ namespace Sportas
             {
                 SpausdintiSportininkus(rez, naujas, "Krepšininkai/futbolininkai, kurie žaidė visose varžybose ir atitiko vidurkio kriterijus:");
 
-                naujas = naujas.OrderBy(x => x.Rikiuoti()).ToList();
+                Rikiuoti(naujas, typeof(Futbolininkas));
+                Rikiuoti(naujas, typeof(Krepšininkas));
                 SpausdintiSportininkus(rez, naujas, "Surikiuotas masyvas:");
             }
             else
@@ -159,6 +204,25 @@ namespace Sportas
             }
 
             Console.WriteLine("Programa baigė darbą!");
+        }
+
+        static void Rikiuoti(List<Sportininkas> A, Type tipas)
+        {
+            int minIndex;
+            for (int i = 0; i < A.Count - 1; i++)
+            {
+                minIndex = i;
+                for (int j = i + 1; j < A.Count; j++)
+                {
+                    if (A[j].CompareTo(A[minIndex]) == 1)
+                    {
+                        minIndex = j;
+                    }
+                }
+                var temp = A[i];
+                A[i] = A[minIndex];
+                A[minIndex] = temp;
+            }
         }
 
         static void PrintText(string fn, string text)
