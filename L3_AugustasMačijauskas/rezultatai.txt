@@ -1,11 +1,62 @@
 Pradiniai duomenys:
----------------------------------------------------------------------------------------------------------------------------------
- Nr. Valstybinis numeris     Gamintojas     Modelis     Pagaminimo data     Techninė apžiūra      Kuro likutis     Kuro sąnaudos 
----------------------------------------------------------------------------------------------------------------------------------
-  1  ABC123                  Nissan         NX              2004 05            2018 03 23             40,0              10,0
-  2  KVK564                  Mazda          TurboX          2005 07            2018 10 28             35,0               8,0
-  3  OLE753                  Audi           A4              2009 06            2018 04 09             30,0               7,0
-  4  KEB001                  Mercedes       Gelik           2011 01            2018 07 22             20,0               9,0
-  5  LEK159                  BMW            X6              2017 12            2018 06 20             15,0               6,0
----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+ Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
+------------------------------------------------------------------------------------------------------------------------------------
+  1         ABC123           Nissan         NX                   2004 05            2018 03 23         Benzinas            10,0
+  2         GHJ456           Nissan         Quasquai             2004 05            2018 03 23         Benzinas            10,0
+  3         IBF781           Chevrolet      TurboX               2005 07            2018 10 28         Dyzelinas            8,0
+  4         KVK564           Alfa romeo     TurboX               2005 07            2018 10 28         Dyzelinas            8,0
+  5         OLE753           Audi           Z4                   2009 06            2018 04 09         Hibridas             7,0
+  6         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             7,0
+  7         REP427           Toyota         Auris                2009 06            2018 04 09         Hibridas             7,0
+  8         KEB001           Mercedes       300SL                2011 01            2018 07 22         Dujos                9,0
+  9         PLM562           Mercedes       W25 Silver Arrow     2011 01            2018 07 22         Dujos                9,0
+ 10         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+ 11         LEK159           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+------------------------------------------------------------------------------------------------------------------------------------
+
+Naujausias automobilis:
+      Valstybinis numeris :               ASD653
+               Gamintojas :                Tesla
+                  Modelis :               ModelX
+          Pagaminimo data :              2017 12
+         Techninė apžiūra :           2018 06 20
+               Kuro tipas :              Elektra
+            Kuro sąnaudos :                    6
+
+Antras naujausias automobilis:
+      Valstybinis numeris :               LEK159
+               Gamintojas :                Tesla
+                  Modelis :               ModelX
+          Pagaminimo data :              2017 12
+         Techninė apžiūra :           2018 06 20
+               Kuro tipas :              Elektra
+            Kuro sąnaudos :                    6
+
+ModelX markės automobiliai:
+------------------------------------------------------------------------------------------------------------------------------------
+ Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
+------------------------------------------------------------------------------------------------------------------------------------
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             7,0
+  2         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+  3         LEK159           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+------------------------------------------------------------------------------------------------------------------------------------
+
+Surikiuoti ModelX markės automobiliai:
+------------------------------------------------------------------------------------------------------------------------------------
+ Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
+------------------------------------------------------------------------------------------------------------------------------------
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             7,0
+  2         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+  3         LEK159           Tesla          ModelX               2017 12            2018 06 20         Elektra              6,0
+------------------------------------------------------------------------------------------------------------------------------------
+
+Gamintojų sąrašas:
+Nissan
+Chevrolet
+Alfa romeo
+Audi
+Tesla
+Toyota
+Mercedes
 

@@ -52,7 +52,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1202, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1241, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,7 +75,7 @@
             // Baigti
             // 
             this.Baigti.Name = "Baigti";
-            this.Baigti.Size = new System.Drawing.Size(180, 22);
+            this.Baigti.Size = new System.Drawing.Size(104, 22);
             this.Baigti.Text = "Baigti";
             this.Baigti.Click += new System.EventHandler(this.Baigti_Click);
             // 
@@ -87,18 +87,18 @@
             this.skaičiavimasToolStripMenuItem.Name = "skaičiavimasToolStripMenuItem";
             this.skaičiavimasToolStripMenuItem.Size = new System.Drawing.Size(86, 19);
             this.skaičiavimasToolStripMenuItem.Text = "Skaičiavimas";
-            this.skaičiavimasToolStripMenuItem.Click += new System.EventHandler(this.skaičiavimasToolStripMenuItem_Click);
             // 
             // Skaiciuoti
             // 
             this.Skaiciuoti.Name = "Skaiciuoti";
-            this.Skaiciuoti.Size = new System.Drawing.Size(180, 22);
+            this.Skaiciuoti.Size = new System.Drawing.Size(129, 22);
             this.Skaiciuoti.Text = "Skaičiuoti";
+            this.Skaiciuoti.Click += new System.EventHandler(this.Skaiciuoti_Click);
             // 
             // Spausdinti
             // 
             this.Spausdinti.Name = "Spausdinti";
-            this.Spausdinti.Size = new System.Drawing.Size(180, 22);
+            this.Spausdinti.Size = new System.Drawing.Size(129, 22);
             this.Spausdinti.Text = "Spausdinti";
             this.Spausdinti.Click += new System.EventHandler(this.Spausdinti_Click);
             // 
@@ -113,17 +113,17 @@
             // Informacija
             // 
             this.Informacija.Name = "Informacija";
-            this.Informacija.Size = new System.Drawing.Size(180, 22);
+            this.Informacija.Size = new System.Drawing.Size(134, 22);
             this.Informacija.Text = "Informacija";
             this.Informacija.Click += new System.EventHandler(this.Informacija_Click);
             // 
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Courier New", 11.25F);
-            this.richTextBox1.Location = new System.Drawing.Point(18, 35);
+            this.richTextBox1.Location = new System.Drawing.Point(13, 35);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1171, 462);
+            this.richTextBox1.Size = new System.Drawing.Size(1215, 462);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
@@ -135,6 +135,7 @@
             this.textBox1.Size = new System.Drawing.Size(409, 24);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Įveskite norimą automobilio modelį";
+            this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
             // 
             // label1
             // 
@@ -151,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1202, 588);
+            this.ClientSize = new System.Drawing.Size(1241, 588);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.richTextBox1);
