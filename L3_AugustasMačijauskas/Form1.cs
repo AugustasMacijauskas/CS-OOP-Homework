@@ -10,7 +10,7 @@ using System.IO;
 
 namespace L3_AugustasMačijauskas
 {
-    public partial class Form1 : Form
+    public partial class Autumobiliai : Form
     {
         List<Automobilis> automobiliai;
         List<Automobilis> markes;
@@ -18,7 +18,7 @@ namespace L3_AugustasMačijauskas
         string rez = "";
         const string info = "..\\..\\informacijaVartotojui.txt";
 
-        public Form1()
+        public Autumobiliai()
         {
             InitializeComponent();
             Skaiciuoti.Enabled = false;
@@ -265,6 +265,7 @@ namespace L3_AugustasMačijauskas
         {
             string txt = File.ReadAllText(rez);
             richTextBox1.Text = txt;
+            skaičiavimasToolStripMenuItem.Enabled = false;
         }
 
         private void Informacija_Click(object sender, EventArgs e)

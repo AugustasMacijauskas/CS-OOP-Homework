@@ -1,6 +1,6 @@
 ﻿namespace L3_AugustasMačijauskas
 {
-    partial class Form1
+    partial class Autumobiliai
     {
         /// <summary>
         /// Required designer variable.
@@ -148,7 +148,7 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Pranešimas";
             // 
-            // Form1
+            // Autumobiliai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +160,7 @@
             this.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Autumobiliai";
             this.Text = "Automobiliai";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
