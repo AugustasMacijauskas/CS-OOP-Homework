@@ -68,14 +68,14 @@
             // Ivesti
             // 
             this.Ivesti.Name = "Ivesti";
-            this.Ivesti.Size = new System.Drawing.Size(104, 22);
+            this.Ivesti.Size = new System.Drawing.Size(152, 22);
             this.Ivesti.Text = "Įvesti";
             this.Ivesti.Click += new System.EventHandler(this.įvestiToolStripMenuItem_Click);
             // 
             // Baigti
             // 
             this.Baigti.Name = "Baigti";
-            this.Baigti.Size = new System.Drawing.Size(104, 22);
+            this.Baigti.Size = new System.Drawing.Size(152, 22);
             this.Baigti.Text = "Baigti";
             this.Baigti.Click += new System.EventHandler(this.Baigti_Click);
             // 
@@ -91,14 +91,14 @@
             // Skaiciuoti
             // 
             this.Skaiciuoti.Name = "Skaiciuoti";
-            this.Skaiciuoti.Size = new System.Drawing.Size(129, 22);
+            this.Skaiciuoti.Size = new System.Drawing.Size(152, 22);
             this.Skaiciuoti.Text = "Skaičiuoti";
             this.Skaiciuoti.Click += new System.EventHandler(this.Skaiciuoti_Click);
             // 
             // Spausdinti
             // 
             this.Spausdinti.Name = "Spausdinti";
-            this.Spausdinti.Size = new System.Drawing.Size(129, 22);
+            this.Spausdinti.Size = new System.Drawing.Size(152, 22);
             this.Spausdinti.Text = "Spausdinti";
             this.Spausdinti.Click += new System.EventHandler(this.Spausdinti_Click);
             // 
@@ -113,13 +113,13 @@
             // Informacija
             // 
             this.Informacija.Name = "Informacija";
-            this.Informacija.Size = new System.Drawing.Size(134, 22);
+            this.Informacija.Size = new System.Drawing.Size(152, 22);
             this.Informacija.Text = "Informacija";
             this.Informacija.Click += new System.EventHandler(this.Informacija_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Courier New", 11.25F);
+            this.richTextBox1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.richTextBox1.Location = new System.Drawing.Point(13, 35);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
@@ -129,6 +129,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.textBox1.Location = new System.Drawing.Point(18, 506);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
@@ -140,6 +141,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(722, 506);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);

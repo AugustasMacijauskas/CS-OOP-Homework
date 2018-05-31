@@ -10,10 +10,12 @@ Pradiniai duomenys:
   6         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
   7         REP427           Toyota         Auris                2009 06            2018 04 09         Hibridas             3,0
   8         KEB001           Mercedes       300SL                2011 01            2018 07 22         Dujos                8,0
-  9         PLM562           Mercedes       W25 Silver Arrow     2011 01            2018 07 22         Dujos               10,0
- 10         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
- 11         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
- 12         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+  9         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,0
+ 10         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,0
+ 11         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,0
+ 12         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 13         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 14         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Naujausias automobilis:
@@ -34,24 +36,22 @@ Antras naujausias automobilis:
                Kuro tipas :              Elektra
             Kuro sąnaudos :                    0
 
-ModelX markės automobiliai:
+W25 Silver Arrow markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
-  2         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
-  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
-  4         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+  1         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,0
+  2         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,0
+  3         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
-Surikiuoti ModelX markės automobiliai:
+Surikiuoti W25 Silver Arrow markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
-  2         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
-  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
-  4         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  1         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,0
+  2         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,0
+  3         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Gamintojų sąrašas:
@@ -75,9 +75,11 @@ Automobiliai paseno:
   6         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,2
   7         REP427           Toyota         Auris                2009 06            2018 04 09         Hibridas             3,2
   8         KEB001           Mercedes       300SL                2011 01            2018 07 22         Dujos                8,4
-  9         PLM562           Mercedes       W25 Silver Arrow     2011 01            2018 07 22         Dujos               10,5
- 10         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
- 11         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
- 12         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+  9         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,5
+ 10         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,5
+ 11         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,5
+ 12         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 13         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 14         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 

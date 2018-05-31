@@ -17,3 +17,6 @@ C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\L2\obj\Debug\L2.
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\L2\obj\Debug\L2.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\L2\obj\Debug\L2.exe
 C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\L2\obj\Debug\L2.pdb
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\L2\bin\Debug\L2.exe.config
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\L2\obj\Debug\L2.exe
+C:\Users\amacijauskas\Desktop\CS-OOP-Homework\L2\obj\Debug\L2.pdb
