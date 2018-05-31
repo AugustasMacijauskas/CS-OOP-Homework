@@ -178,11 +178,25 @@ namespace L3_AugustasMačijauskas
             {
                 Write(rez, "Modelių sąrašas tuščias!\n");
             }
+
             gamintojai = AtrinktiGamintojus(automobiliai);
             Write(rez, gamintojai, "Gamintojų sąrašas:");
+
+            Paseno(automobiliai);
+            Write(rez, automobiliai, "Automobiliai paseno:");
+
             Skaiciuoti.Enabled = false;
             Spausdinti.Enabled = true;
-            label1.Text = "Skaičiavimai atlikti. Galima spausdinti";
+            label1.Text = "Skaičiavimai atlikti. Galima spausdinti.";
+        }
+
+        private void Paseno(List<Automobilis> automobiliai)
+        {
+            // automobiliai.ForEach(x => x.Nusidėvėjimas());
+            foreach (Automobilis auto in automobiliai)
+            {
+                auto.Nusidėvėjimas();
+            }
         }
 
         private List<string> AtrinktiGamintojus(List<Automobilis> automobiliai)
@@ -227,7 +241,12 @@ namespace L3_AugustasMačijauskas
             {
                 if (automobiliai[i].Modelis == marke)
                 {
-                    ret.Add(automobiliai[i]);
+                    Automobilis naujas = new Automobilis(automobiliai[i].ValstybinisNumeris,
+                        automobiliai[i].Gamintojas, automobiliai[i].Modelis,
+                        automobiliai[i].PagaminimoData, automobiliai[i].TechninėApžiūra,
+                        automobiliai[i].Kuras, automobiliai[i].VidutinėsSąnaudos);
+
+                    ret.Add(naujas);
                 }
             }
 

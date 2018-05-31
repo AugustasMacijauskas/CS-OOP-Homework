@@ -46,5 +46,10 @@ namespace L3_AugustasMačijauskas
         {
             return string.Format("        {0, 6}           {1, -10}     {2, -20} {3:yyyy MM}            {4:yyyy MM dd}         {5, -15}    {6, 5:f1}", ValstybinisNumeris, Gamintojas, Modelis, PagaminimoData, TechninėApžiūra, Kuras, VidutinėsSąnaudos);
         }
+
+        public override void Nusidėvėjimas()
+        {
+            VidutinėsSąnaudos *= 1.05;
+        }
     }
 }

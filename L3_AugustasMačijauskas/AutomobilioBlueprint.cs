@@ -5,7 +5,7 @@ using System.Text;
 
 namespace L3_AugustasMačijauskas
 {
-    class AutomobilioBlueprint
+    abstract class AutomobilioBlueprint
     {
         public string Gamintojas { get; set; }
         public string Modelis { get; set; }
@@ -24,5 +24,7 @@ namespace L3_AugustasMačijauskas
         {
             return string.Format(" {0, -10}     {1, -7}         {2:yyyy MM}            {3, -15} ", Gamintojas, Modelis, PagaminimoData, Kuras);
         }
+
+        public abstract void Nusidėvėjimas();
     }
 }

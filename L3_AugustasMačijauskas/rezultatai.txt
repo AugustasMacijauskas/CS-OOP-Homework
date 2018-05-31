@@ -11,12 +11,13 @@ Pradiniai duomenys:
   7         REP427           Toyota         Auris                2009 06            2018 04 09         Hibridas             3,0
   8         KEB001           Mercedes       300SL                2011 01            2018 07 22         Dujos                8,0
   9         PLM562           Mercedes       W25 Silver Arrow     2011 01            2018 07 22         Dujos               10,0
- 10         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
- 11         LEK159           Tesla          ModelX               2017 12            2018 06 01         Elektra              0,0
+ 10         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 11         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 12         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Naujausias automobilis:
-      Valstybinis numeris :               ASD653
+      Valstybinis numeris :               KLG576
                Gamintojas :                Tesla
                   Modelis :               ModelX
           Pagaminimo data :              2017 12
@@ -25,26 +26,32 @@ Naujausias automobilis:
             Kuro sąnaudos :                    0
 
 Antras naujausias automobilis:
-      Valstybinis numeris :               LEK159
+      Valstybinis numeris :               ASD653
                Gamintojas :                Tesla
                   Modelis :               ModelX
           Pagaminimo data :              2017 12
-         Techninė apžiūra :           2018 06 01
+         Techninė apžiūra :           2018 06 20
                Kuro tipas :              Elektra
             Kuro sąnaudos :                    0
 
-Turbo10 markės automobiliai:
+ModelX markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         KVK564           Alfa romeo     Turbo10              2005 07            2018 10 28         Dyzelinas            9,0
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
+  2         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  4         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
-Surikiuoti Turbo10 markės automobiliai:
+Surikiuoti ModelX markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         KVK564           Alfa romeo     Turbo10              2005 07            2018 10 28         Dyzelinas            9,0
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
+  2         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  4         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Gamintojų sąrašas:
@@ -55,4 +62,22 @@ Audi
 Tesla
 Toyota
 Mercedes
+
+Automobiliai paseno:
+------------------------------------------------------------------------------------------------------------------------------------
+ Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
+------------------------------------------------------------------------------------------------------------------------------------
+  1         ABC123           Nissan         NX                   2004 05            2018 03 23         Benzinas             8,4
+  2         GHJ456           Nissan         Quasquai             2004 05            2018 03 23         Benzinas             7,4
+  3         IBF781           Chevrolet      TurboX               2005 07            2018 10 28         Dyzelinas            8,4
+  4         KVK564           Alfa romeo     Turbo10              2005 07            2018 10 28         Dyzelinas            9,5
+  5         OLE753           Audi           Z4                   2009 06            2018 04 09         Hibridas             3,2
+  6         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,2
+  7         REP427           Toyota         Auris                2009 06            2018 04 09         Hibridas             3,2
+  8         KEB001           Mercedes       300SL                2011 01            2018 07 22         Dujos                8,4
+  9         PLM562           Mercedes       W25 Silver Arrow     2011 01            2018 07 22         Dujos               10,5
+ 10         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 11         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+ 12         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+------------------------------------------------------------------------------------------------------------------------------------
 
