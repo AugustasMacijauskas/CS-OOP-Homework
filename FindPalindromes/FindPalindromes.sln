@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPalindromes", "FindPalindromes.csproj", "{34A5787C-3E96-4072-A731-A88A14DD1DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PašalintiEilutes", "..\PašalintiEilutes\PašalintiEilutes.csproj", "{0FCA5E6E-C3C1-4899-95A0-6EB03EBB3FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34A5787C-3E96-4072-A731-A88A14DD1DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A5787C-3E96-4072-A731-A88A14DD1DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A5787C-3E96-4072-A731-A88A14DD1DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A5787C-3E96-4072-A731-A88A14DD1DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCA5E6E-C3C1-4899-95A0-6EB03EBB3FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCA5E6E-C3C1-4899-95A0-6EB03EBB3FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCA5E6E-C3C1-4899-95A0-6EB03EBB3FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCA5E6E-C3C1-4899-95A0-6EB03EBB3FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+Sabonio mokykla
+Jonas Jonaitis; 15; 1,95
+Saulius Saulaitis; 14; 1,89
+Andrius Andraitis; 15; 1,98
+Paulius Paulaitis; 14; 1,94

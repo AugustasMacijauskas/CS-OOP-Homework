@@ -1,0 +1,26 @@
+﻿Meniu punktai:
+-> Įvesti - pasirenkami du failai, iš kurių bus nuskaityti duomenys.
+
+-> Skaičiuoti - atlieka su nuskaitytais duomenimis atitinkamus skaičiavimus. 
+   SVARBU: prieš tai reikia įvesti norimą amžių šalia esančiame teksto lauke.
+
+-> Spausdinti - spausdina atliktų skaičiavimų rezultatus.
+
+-> Nauji žaidėjai - leidžia iš failo pridėti naujų žaidėjų.
+
+-> Išsaugoti - išsaugo žaidėjų duomenis .csv faile
+
+-> Nurodymai vartotojui - atspausdina ekrane nurodymus vartotojui.
+
+-> Naudojimo sąlygos - atspausdina ekrane naudojimo sąlygas.
+
+-> Baigti - uždaro programą.
+
+
+Programos laukai:
+-> Didelis teksto laukas duomenims spausdinti.
+
+-> Teksto laukelis norimam žaidėjų amžiui įvesti.
+
+-> Pranešimo laukas - spausdina pranešimus apie programos veikimą.
+

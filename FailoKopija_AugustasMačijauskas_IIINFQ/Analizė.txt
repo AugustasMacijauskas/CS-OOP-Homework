@@ -1,0 +1,8 @@
+
+Pirmame duomenų faile:
+1 2 3 4 5
+Ilgiausias sakinys prasideda 1 eilutėje, jo ilgis simboliais: 9, ilgis žodžiais: 5
+
+Antrame duomenų faile:
+6 7
+Ilgiausias sakinys prasideda 1 eilutėje, jo ilgis simboliais: 3, ilgis žodžiais: 2
