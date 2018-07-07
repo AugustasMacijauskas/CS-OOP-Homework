@@ -3,3 +3,11 @@ C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\bin\Debug\FakultetasZi
 C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.exe
 C:\Users\Admin\Desktop\Coding\Sprendimai\FakultetasZiemos\obj\Debug\FakultetasZiemos.pdb
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\obj\Debug\FakultetasZiemos.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\obj\Debug\FakultetasZiemos.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\obj\Debug\FakultetasZiemos.exe
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\obj\Debug\FakultetasZiemos.pdb
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\bin\Debug\FakultetasZiemos.exe.config
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\bin\Debug\FakultetasZiemos.exe
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\bin\Debug\FakultetasZiemos.pdb
+C:\Users\Admin\Desktop\Programming_repositories\CS-OOP-Homework\FakultetasZiemos\obj\Debug\FakultetasZiemos.csproj.CopyComplete

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.IO;
+using TablePrinter;
 
 namespace StudentuPazymiai
 {
@@ -69,6 +70,8 @@ namespace StudentuPazymiai
         }
 
         public string KokiaPavardė() { return pavardė; }
+
+        public string KoksVardas() { return vardas; }
 
         public string KokiaGrupė() { return grupė; }
     }
@@ -216,6 +219,7 @@ namespace StudentuPazymiai
             if (File.Exists(rez))
                 File.Delete(rez);
             Spausdinti(rez, grupes, String.Format("Pradiniai duomenys: " + FPavadinimas));
+
             Formuoti(grupes, gr);
             Atspausdinti(rez, gr, "Grupiu masyvas: ");
             AtspausdintiVidurkius(rez, gr, "Grupiu vidurkiai: ");
@@ -242,30 +246,38 @@ namespace StudentuPazymiai
 
         static void Atspausdinti(string duom, GrupesKonteineris grupes, string antraste)
         {
-            string virsus =
-                "------------------------------------------\r\n" +
-                " Pavardė    Vardas     Grupė    Pažymiai  \r\n" +
-                "------------------------------------------";
+            Table<Studentas> pavadinimas = new Table<Studentas>();
+            pavadinimas.AddColumn(x => x.KokiaPavardė(), "Pavardė");
+            pavadinimas.AddColumn(x => x.KoksVardas(), "Vardas");
+            pavadinimas.AddColumn(x => x.KokiaGrupė(), "Grupė");
+            pavadinimas.AddColumn(x => x.PažymiųSuma(), "Pažymiai");
 
-            using (var fr = File.AppendText(rez))
-            {
-                if (grupes.Imti() > 0)
-                {
-                    grupes.Sort();
-                    fr.WriteLine(antraste);
-                    fr.WriteLine(virsus);
-                    for (int i = 0; i < grupes.Imti(); i++)
-                    {
-                        fr.WriteLine("Grupė nr. {0}, {1}", i + 1, grupes.Imti(i).KoksPavadinimas());
-                        grupes.Imti(i).Sort();
-                        for (int j = 0; j < grupes.Imti(i).Kiekis(); j++)
-                            fr.WriteLine("{0}", grupes.Imti(i).Imti(j).ToString());
-                        fr.WriteLine("------------------------------------------");
-                    }
-                    fr.WriteLine("\r\n");
-                }
-                else fr.WriteLine("Sarasas tuscias");
-            }
+
+            pavadinimas.PrintPigeonContainer(grupes.Imti(0), grupes.Imti(0).Kiekis());
+            //string virsus =
+            //    "------------------------------------------\r\n" +
+            //    " Pavardė    Vardas     Grupė    Pažymiai  \r\n" +
+            //    "------------------------------------------";
+
+            //using (var fr = File.AppendText(rez))
+            //{
+            //    if (grupes.Imti() > 0)
+            //    {
+            //        grupes.Sort();
+            //        fr.WriteLine(antraste);
+            //        fr.WriteLine(virsus);
+            //        for (int i = 0; i < grupes.Imti(); i++)
+            //        {
+            //            fr.WriteLine("Grupė nr. {0}, {1}", i + 1, grupes.Imti(i).KoksPavadinimas());
+            //            grupes.Imti(i).Sort();
+            //            for (int j = 0; j < grupes.Imti(i).Kiekis(); j++)
+            //                fr.WriteLine("{0}", grupes.Imti(i).Imti(j).ToString());
+            //            fr.WriteLine("------------------------------------------");
+            //        }
+            //        fr.WriteLine("\r\n");
+            //    }
+            //    else fr.WriteLine("Sarasas tuscias");
+            //}
         }
 
         static void Formuoti(Fakultetas pradinis, GrupesKonteineris naujas)
