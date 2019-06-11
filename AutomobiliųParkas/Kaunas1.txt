@@ -1,0 +1,8 @@
+﻿Kaunas
+Uogų g. 231
+kaunas1@greitis.lt
+l; DCN631; Jeep; F10; 2008 03; 2017-05-30; dyzelinas; 8,2; 95614;
+l; DCN631; Jeep; A10; 2009 09; 2016-10-03; dujos; 8,0; 106614;
+k; ADE152; Mercedes; H16; 2015 11; 2017-08-08; dujos; 6,9; 610;
+m; UPS456; SAAB; X; 2007 06; 2018-05-02; dyzelinas; 7,3; 18;
+k; PKM856; Mercedes; X3; 2011 01; 2017-10-04; benzinas; 8,5; 590;

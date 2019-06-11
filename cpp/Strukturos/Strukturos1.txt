@@ -1,0 +1,4 @@
+Pavardenis1 4 7 8 9 10
+Pavardenis2 3 9 9 9 
+Pavardenis3 5 7 8 9 10 10
+Pavardenis4 2 7 8

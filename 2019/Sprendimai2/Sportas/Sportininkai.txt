@@ -1,0 +1,7 @@
+﻿k;Žalgiris;Kavaliauskas;Antanas;36;134;95;34;
+f;Žalgiris;Šernas;Darvynas;40;6;8;
+f;Žalgiris;Mikoliūnas;Saulius;44;5;9;
+k;Lietuvos Rytas;Milaknis;Artūras;36;158;10;35;
+k;Žalgiris;Ulanovas;Edgaras;34;101;110;80;45;
+f;Jonava;Klimavičius;Arūnas;44;3;10;
+k;Neptūnas;Jucikas;Matas;19;34;28;5;

@@ -1,0 +1,6 @@
+﻿Snaiperio krepsinio mokykla
+Jonas Jonaitis; 18; 1,95
+Saulius Saulaitis; 15; 1,89
+Andrius Andraitis; 17; 1,99
+Paulius Paulaitis; 16; 1,94
+Mikas Mikaitis; 15; 1,98

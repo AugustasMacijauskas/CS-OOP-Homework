@@ -1,0 +1,55 @@
+Pradiniai pirmos mokyklos duomenys:
+Sabonio mokykla
+--------------------------------------
+ Pavardė ir vardas     Amžius    Ūgis 
+--------------------------------------
+ Jonas Jonaitis          15      1,95
+ Saulius Saulaitis       14      1,89
+ Andrius Andraitis       15      1,98
+ Paulius Paulaitis       14      1,94
+--------------------------------------
+
+Pradiniai antros mokyklos duomenys:
+Marciulionio mokykla
+--------------------------------------
+ Pavardė ir vardas     Amžius    Ūgis 
+--------------------------------------
+ Tomas Tomaitis          15      1,96
+ Klaidas Klaidaitis      14      1,98
+ Petras Petraitis        15      1,92
+--------------------------------------
+
+Amžiaus vidurkis pirmoje (Sabonio mokykla) mokykloje yra: 14,50 m.
+Amžiaus vidurkis antroje (Marciulionio mokykla) mokykloje yra: 14,67 m.
+
+Ūgio vidurkis pirmoje (Sabonio mokykla) mokykloje yra:  1,94 m.
+Ūgio vidurkis antroje (Marciulionio mokykla) mokykloje yra:  1,95 m.
+
+Konteineris krepšininkų, kurių ūgis didesnis už vidurkį: 1,95
+Abi mokyklos
+--------------------------------------
+ Pavardė ir vardas     Amžius    Ūgis 
+--------------------------------------
+ Klaidas Klaidaitis      14      1,98
+ Tomas Tomaitis          15      1,96
+ Andrius Andraitis       15      1,98
+--------------------------------------
+
+Surikiuotas konteineris:
+Abi mokyklos
+--------------------------------------
+ Pavardė ir vardas     Amžius    Ūgis 
+--------------------------------------
+ Andrius Andraitis       15      1,98
+ Tomas Tomaitis          15      1,96
+ Klaidas Klaidaitis      14      1,98
+--------------------------------------
+
+Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:
+Abi mokyklos
+--------------------------------------
+ Pavardė ir vardas     Amžius    Ūgis 
+--------------------------------------
+ Klaidas Klaidaitis      14      1,98
+--------------------------------------
+

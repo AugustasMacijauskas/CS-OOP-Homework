@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554293319 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2013\Žvejai\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+

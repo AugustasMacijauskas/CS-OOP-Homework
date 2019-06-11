@@ -1,0 +1,14 @@
+Pradiniai duomenys:
+-------------------------------------------------------------------------------------
+ Nr.    Komandos pavadinimas     Miestas      Trenerio pavardė       Trenerio vardas 
+-------------------------------------------------------------------------------------
+  1           Komanda1           Kaunas           Pavardė1               Vardas1       
+  2           Komanda2           Vilnius          Pavardė2               Vardas2       
+  3           Komanda3           Klaipėda         Pavardė3               Vardas3       
+  4           Komanda4           Jonava           Pavardė4               Vardas4       
+
+Turnyrinė lentelė: 
+0 3 2 5 
+0 0 3 2 
+1 3 0 4 
+0 0 2 0 

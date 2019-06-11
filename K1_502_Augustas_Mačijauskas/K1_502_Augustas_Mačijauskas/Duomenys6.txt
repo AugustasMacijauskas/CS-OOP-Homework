@@ -1,0 +1,9 @@
+100;Jonaitis Jonas;G1;2016-09-10;47
+101;Petraitis Petras;G2;2017-09-10;-100
+102;Jonaitis Arnas;G4;2017-09-10;25
+103;Antanaitis Antanas;G5;2016-09-10;58
+104;Rytaitis Rytis;G6;2016-09-10;25
+105;Jonaitis Rytis;G7;2017-10-10;-100
+108;Jonaitis Jonas;G8;2017-09-10;-47
+110;Jonaitis Jonas;G9;2017-09-10;98
+106;Jonaitis Jonas;G10;2017-09-10;-100

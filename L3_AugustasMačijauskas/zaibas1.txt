@@ -1,0 +1,10 @@
+﻿ABC123;Nissan; NX; 2004-05; 2018 03-23; Benzinas; 8;
+GHJ456;Nissan; Quasquai; 2004-05; 2018 03-23; Benzinas; 7;
+IBF781;Chevrolet; TurboX; 2005 07; 2018-10-28; Dyzelinas; 8;
+VED951;Chevrolet; TurboX; 2006 08; 2018-11-25; Dujos; 6;
+CIK384;Chevrolet; TurboX; 2018 09; 2018-09-21; Benzinas; 7;
+KVK564;Alfa romeo; Turbo10; 2005 07; 2018-10-28; Dyzelinas; 9;
+OFG896;Tesla; ModelX; 2009 06; 2018 04-09; Hibridas; 4;
+KEB001;Mercedes; 300SL; 2011 01; 2018-07-22; Dujos; 8;
+ZLM562;Mercedes; W25 Silver Arrow; 2011 06; 2018-08-22; Dujos; 10;
+ASD653;Tesla; ModelX; 2017 12; 2018 06 20; Elektra; 0;

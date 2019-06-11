@@ -1,0 +1,30 @@
+Pradiniai duomenys: Informatikos fakultetas
+------------------------------------------
+ Pavardė    Vardas     Grupė    Pažymiai  
+------------------------------------------
+Petraitis    Jonas     IF-1/8  10  8  9  9
+Algaitis     Algis     IF-1/8  10  9  9  9
+Petraitis    Kazys     IF-1/8   9  9 10 10
+Algaitis     Rimas     IF-1/8   9  9  9  9
+------------------------------------------
+
+Grupiu vidurkiai: 
+Grupės IF-1/8 vidurkis yra  9,19
+
+
+Pagal vidurkius ir abėcėliškai surikiuotas grupių masyvas: 
+------------------------------------------
+ Pavardė    Vardas     Grupė    Pažymiai  
+------------------------------------------
+Grupė nr. 1, IF-1/8; Vidurkis:  9,19
+Petraitis    Jonas     IF-1/8  10  8  9  9
+Algaitis     Algis     IF-1/8  10  9  9  9
+Petraitis    Kazys     IF-1/8   9  9 10 10
+Algaitis     Rimas     IF-1/8   9  9  9  9
+------------------------------------------
+
+
+Grupiu vidurkiai surikiuoti: 
+Grupės IF-1/8 vidurkis yra  9,19
+
+

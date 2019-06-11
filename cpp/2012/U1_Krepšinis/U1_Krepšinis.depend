@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1557991326 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2012\u1_krepšinis\main.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<iostream>
+

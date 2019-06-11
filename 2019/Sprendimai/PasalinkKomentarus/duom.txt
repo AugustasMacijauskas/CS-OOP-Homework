@@ -1,0 +1,14 @@
+﻿x = 0; //darbas
+//Dirkis
+/**/y = 1; /**/ z = 3; /**/ p = 4;
+s = 5; /*d
+a
+r
+b
+a
+5*/
+/*
+aqwregwqergqw
+*/
+x//Matas
+// Pabaiga

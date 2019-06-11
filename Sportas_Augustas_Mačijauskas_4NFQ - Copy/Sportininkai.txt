@@ -1,0 +1,3 @@
+﻿f;Žalgiris;Šernas;Darvydas;43;6;8;
+f;Jonava;Klimavičius;Arūnas;43;6;8;
+f;Žalgiris;Mikoliūnas;Saulius;34;6;8;

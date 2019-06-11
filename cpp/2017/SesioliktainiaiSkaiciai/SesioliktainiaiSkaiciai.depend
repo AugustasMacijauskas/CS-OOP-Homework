@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554893799 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2017\sesioliktainiaiskaiciai\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

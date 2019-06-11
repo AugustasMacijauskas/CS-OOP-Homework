@@ -1,0 +1,1 @@
+﻿Spausdinkite faile ManoKnyga.txt apjungtą tekstą, sudarytą pagal tokias taisykles: kopijuojamas pirmojo failo tekstas tol, kol sutinkamas pirmasis antrojo failo žodis arba pasiekiama failo pabaiga; kopijuojamas antrojo failo tekstas tol, kol sutinkamas pirmasis nenukopijuotas pirmojo failo žodis arba pasiekiama failo pabaiga; kartojama tol, kol pasiekiama abiejų failų pabaiga.

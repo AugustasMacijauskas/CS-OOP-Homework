@@ -1,0 +1,11 @@
+﻿Parduotuvė2
+t;Gamintojas_T51;M_T51;2018;1200;40
+k;Gamintojas_K21;M_K21;2015;3100;16
+k;Gamintojas_K31;M_K31;2015;4100;128
+k;Gamintojas_K41;M_K41;2017;2500;32
+k;Gamintojas_K51;M_K51;2017;2800;32
+k;Gamintojas_K11;M_K11;2017;3200;64
+t;Gamintojas_T11;M_T11;2015;3900;104
+t;Gamintojas_T21;M_T21;2015;3900;104
+t;Gamintojas_T31;M_T31;2016;2850;64
+t;Gamintojas_T41;M_T41;2018;1850;52

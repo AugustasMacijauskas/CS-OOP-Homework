@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1557317682 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2019_05_pvz1\u2_mokiniai\main.cpp
+	<fstream>
+	<iomanip>
+	<vector>
+	<cmath>
+	<algorithm>
+

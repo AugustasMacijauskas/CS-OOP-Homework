@@ -1,0 +1,24 @@
+Pradiniai sportininkų duomenys:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ Nr.  Pavardė         Vardas       Sportas      Komanda        Rungtynės  Taškai/Įvarčiai  Atkovoti kamuoliai/Geltonų kortelių  Rezultatyvūs perdavimai 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+  1   Kavaliauskas    Antanas         k         Žalgiris          36            134                         95                             34 
+  2   Šernas          Darvynas        f         Žalgiris          40              6                          8 
+  3   Mikoliūnas      Saulius         f         Žalgiris          44              5                          9 
+  4   Milaknis        Artūras         k         Lietuvos Rytas    36            158                         10                             35 
+  5   Ulanovas        Edgaras         k         Žalgiris          34            101                        110                             80 
+  6   Klimavičius     Arūnas          f         Jonava            44              3                         10 
+  7   Jucikas         Matas           k         Neptūnas          19             34                         28                              5 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pradiniai komandų duomenys:
+-----------------------------------------------------------------------------------
+ Nr.  Pavadinimas  Sportas  Miestas         Treneris                     Rungtynės 
+-----------------------------------------------------------------------------------
+  1   Žalgiris        k     Kaunas          Šarūnas Jasikevičius             36
+  2   Lietuvos Rytas  k     Vilnius         Rimas Kurtinaitis                36
+  3   Jonava          f     Jonava          Felipe Ribeiro                   44
+  4   Neptūnas        k     Klaipėda        Kazys Maksvytis                  36
+  5   Žalgiris        f     Vilnius         Aurelijus Skarbalius             44
+-----------------------------------------------------------------------------------
+

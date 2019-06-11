@@ -1,0 +1,4 @@
+3
+Utenos        1 4
+ZAlytaus      2 4
+Kauno m.      2 3

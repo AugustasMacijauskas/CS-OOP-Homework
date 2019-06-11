@@ -1,0 +1,4 @@
+﻿Vadybininkas1 Pavarde1
+Vardas1 Pavarde1; 18; 2,05
+Vardas2 Pavarde2; 15; 1,98
+Vardas3 Pavarde3; 18; 1,99

@@ -1,0 +1,7 @@
+201;Jonaitis Arnas;G1;2017-09-15;25
+202;Antanaitis Rytis;G2;2017-09-10;54
+203;Rytaitis Saulius;G3;2017-09-19;25
+204;Jonaitis Rytis;G4;2017-10-15;-100
+220;Jonaitis Jonas;G5;2017-09-15;-47
+210;Jonaitis Jonas;G6;2017-09-12;98
+230;Jonaitis Jonas;G7;2017-09-15;-100

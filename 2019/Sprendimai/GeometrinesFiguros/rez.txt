@@ -1,0 +1,58 @@
+Pradiniai duomenys: 
+--------------------------------------------------------------------------------------
+Vardas: Tr1 Kampai: 1,5 -5,5 5 -1,4 8,5 -5,2 
+Vardas: Kt4 Kampai: -3,5 -0,5 -3,5 5,4 2,4 5,4 2,4 -0,5 
+Vardas: Aps3; centro koordinates: 5,5; -5,5; spindulys: 10
+--------------------------------------------------------------------------------------
+
+|-------------------------------------------------------------------------------------|
+|          Meniu           |  Taškai  |             Veiksmas                          |
+|-------------------------------------------------------------------------------------|
+| KokiuIrKiek              |     4    | Rasti kokių ir kiek yra figūrų.               |
+|-------------------------------------------------------------------------------------|
+| MaxPerimetras            |     8    | Rasti didžiausią perimetrą turinčios          |
+|                          |          | figūros vardą ir perimetrą.                   |
+|-------------------------------------------------------------------------------------|
+| MaxPlotas                |     8    | Rasti didžiausią plotą turinčios figūros      |
+|                          |          | vardą ir plotą.                               |
+|-------------------------------------------------------------------------------------|
+| KiekStacTrikampiu        |    10    | Rasti stačiųjų trikampių, įbrėžtų į           |
+|                          |          | apskritimus, kiekį (Tikslumas: 0.000001).     |
+|-------------------------------------------------------------------------------------|
+| KiekKvadratu             |    10    | Rasti kvadratų, apibrėžtų apie apskritimus,   |
+|                          |          | kiekį (Tikslumas: 0.000001).                  |
+|-------------------------------------------------------------------------------------|
+| InfoFiguruGrupe          |    12    | Pateikti informaciją apie pageidaujamą        |
+|                          |          | figūrų grupę atskirose eilutėse tokia seka:   |
+|                          |          | (nurodoma grupės kampų skaičius,              |
+|                          |          | pvz.: 5; apskritimams - 0 ):                  |
+|                          |          | -> figūrų kiekis;                             |
+|                          |          | -> kiek yra lygiakraščių figūrų               |
+|                          |          |    (Tikslumas: 0.000001)                      |
+|                          |          |    (apskritimams: figūrų kiekis);             |
+|                          |          | -> bendras figūrų perimetras                  |
+|                          |          |    (apskritimams: bendras apskritimų ilgis);  |
+|                          |          | -> bendras figūrų plotas                      |
+|                          |          |    (apskritimams: bendras apskritimų plotas). |
+|-------------------------------------------------------------------------------------|
+
+Iveskite savo pasirinkima, arba 0, jei norite nutraukti: 
+
+InfoFiguruGrupe
+Įveskite savo pasirinkimą:
+4
+Jūsų figūra turi 4 kampus (-ų) 
+Tokių figūrų yra 1; 
+Bendras jų plotas:    23,60; 
+Bendras jų perimetras:    34,81
+
+Iveskite savo pasirinkima, arba 0, jei norite nutraukti: 
+
+
+Netinkamas pasirinkimas
+
+Iveskite savo pasirinkima, arba 0, jei norite nutraukti: 
+
+0
+Programa baigė darbą!
+

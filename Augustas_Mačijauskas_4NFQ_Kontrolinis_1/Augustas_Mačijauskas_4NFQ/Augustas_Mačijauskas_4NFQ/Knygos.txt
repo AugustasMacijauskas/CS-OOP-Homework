@@ -1,0 +1,7 @@
+﻿Pavardenis1 Vardenis1;Knyga1;2000;210
+Pavardenis2 Vardenis2;Knyga2;2010;210
+Pavardenis3 Vardenis3;Knyga3;2006;300
+Pavardenis4 Vardenis4;Knyga4;2006;300
+Pavardenis5 Vardenis5;Knyga5;2007;300
+Pavardenis2 Vardenis2;Knyga6;2005;210
+Pavardenis2 Vardenis2;Knyga7;2006;310

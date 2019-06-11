@@ -1,0 +1,16 @@
+456                      1     1
+12                       1     1
+4                        1     1
+5                        1     1
+
+Pirmame duomenų faile:
+12   34,
+56
+67
+89 x
+Ilgiausias sakinys prasideda 5 eilutėje, jo ilgis simboliais: 16, ilgis žodžiais: 6
+
+Antrame duomenų faile:
+456
+1
+Ilgiausias sakinys prasideda 1 eilutėje, jo ilgis simboliais: 4, ilgis žodžiais: 2

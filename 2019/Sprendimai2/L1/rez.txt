@@ -1,0 +1,57 @@
+Pradiniai pirmos mokyklos duomenys:
+Sabonio mokykla
+------------------------------------------
+ Nr. Pavardė ir vardas     Amžius    Ūgis 
+------------------------------------------
+  1  Jonas Jonaitis          15      1,95
+  2  Saulius Saulaitis       14      1,89
+  3  Andrius Andraitis       15      1,98
+  4  Paulius Paulaitis       14      1,94
+------------------------------------------
+
+Pradiniai antros mokyklos duomenys:
+Marciulionio mokykla
+------------------------------------------
+ Nr. Pavardė ir vardas     Amžius    Ūgis 
+------------------------------------------
+  1  Tomas Tomaitis          15      1,96
+  2  Klaidas Klaidaitis      14      1,98
+  3  Petras Petraitis        15      1,92
+------------------------------------------
+
+Amžiaus vidurkis pirmoje (Sabonio mokykla) mokykloje yra: 14,50 m.
+Amžiaus vidurkis antroje (Marciulionio mokykla) mokykloje yra: 14,67 m.
+
+Ūgio vidurkis pirmoje (Sabonio mokykla) mokykloje yra:  1,94 m.
+Ūgio vidurkis antroje (Marciulionio mokykla) mokykloje yra:  1,95 m.
+
+Konteineris studentų, kurių ūgis didesnis už vidurkį:
+Abi mokyklos
+------------------------------------------
+ Nr. Pavardė ir vardas     Amžius    Ūgis 
+------------------------------------------
+  1  Andrius Andraitis       15      1,98
+  2  Tomas Tomaitis          15      1,96
+  3  Klaidas Klaidaitis      14      1,98
+------------------------------------------
+
+Surikiuotas konteineris:
+Abi mokyklos
+------------------------------------------
+ Nr. Pavardė ir vardas     Amžius    Ūgis 
+------------------------------------------
+  1  Klaidas Klaidaitis      14      1,98
+  2  Tomas Tomaitis          15      1,96
+  3  Andrius Andraitis       15      1,98
+------------------------------------------
+
+Pašalinti moksleiviai, kurių amžius didesnis už nurodytą:
+Abi mokyklos
+------------------------------------------
+ Nr. Pavardė ir vardas     Amžius    Ūgis 
+------------------------------------------
+  1  Klaidas Klaidaitis      14      1,98
+  2  Tomas Tomaitis          15      1,96
+  3  Andrius Andraitis       15      1,98
+------------------------------------------
+

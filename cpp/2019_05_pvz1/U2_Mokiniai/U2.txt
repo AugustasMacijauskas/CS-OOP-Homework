@@ -1,0 +1,7 @@
+6 5
+Antanaitis Antanas  vyr  5  6  7 10  9
+Jonaityte Jone      mot 10 10  8  8 10
+Petraityte Vytaute  mot 10 10  9 10 10
+Augaitis Augustas   vyr 10  8  8 10 10
+Povilaitis Povilas  vyr  5  7 10 10 10
+Petraityte Ausra    mot 10 10 10 10  9

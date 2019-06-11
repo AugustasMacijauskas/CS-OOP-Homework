@@ -1,0 +1,3 @@
+Vardas1 Pavardë1         10
+Vardas2 Pavardë2         20
+Vardas3 Pavardë3         30

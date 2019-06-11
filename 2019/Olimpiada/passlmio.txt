@@ -1,0 +1,14 @@
+Vartotojo vardas
+AugMac0600
+
+Slaptažodis
+59ypa2n5
+
+
+/*
+(binary_search(mazosiosRaides, mazosiosRaides + 26, badString[stringIterator]) > 0
+             || binary_search(didziosiosRaides, didziosiosRaides + 26, badString[stringIterator]) > 0)
+
+             char mazosiosRaides[] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+    char didziosiosRaides[] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Z', 'Y', 'Z' };
+*/

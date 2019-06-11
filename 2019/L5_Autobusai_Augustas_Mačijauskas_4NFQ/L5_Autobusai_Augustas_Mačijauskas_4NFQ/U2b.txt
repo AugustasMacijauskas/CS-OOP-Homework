@@ -1,0 +1,15 @@
+﻿Pavardė1; Vardas1; 7; 10:20; 3;
+Pavardė2; Vardas2; 5; 11:10; 5;
+Pavardė3; Vardas3; 6; 16:45; 7;
+Pavardė4; Vardas4; 5; 20:40; 9;
+Pavardė5; Vardas5; 1; 08:05; 1;
+Pavardė6; Vardas6; 1; 21:50; 8;
+Pavardė7; Vardas7; 3; 15:25; 6;
+Pavardė8; Vardas8; 2; 09:35; 4;
+Pavardė9; Vardas9; 4; 12:30; 2;
+Pavardė10; Vardas10; 1; 08:05; 1;
+Pavardė11; Vardas11; 2; 09:35; 4;
+Pavardė12; Vardas12; 6; 16:45; 7;
+Pavardė13; Vardas13; 3; 15:25; 6;
+Pavardė14; Vardas14; 7; 10:20; 3;
+Pavardė15; Vardas15; 4; 12:30; 2;

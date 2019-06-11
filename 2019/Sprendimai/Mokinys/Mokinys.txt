@@ -1,0 +1,6 @@
+﻿KTUG
+Pavardė1; Vardas1; vyr; 1997; IA; 9,5
+Pavardė2; Vardas2; mot; 1998; IIA; 8,5
+Pavardė3; Vardas3; vyr; 1996; IB; 8,75
+Pavardė4; Vardas4; mot; 1995; IIB; 9
+Pavardė5; Vardas5; vyr; 1997; IC; 8,4

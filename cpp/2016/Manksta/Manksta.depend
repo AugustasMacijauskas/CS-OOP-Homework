@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1555500941 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2016\manksta\main.cpp
+	<fstream>
+	<vector>
+	<set>
+

@@ -1,0 +1,41 @@
+Pradinis sąrašas:
+----------------------------------------------------------
+ Pavadinimas          Tipas                Kaina   Kiekis 
+----------------------------------------------------------
+  Duona               maisto                0,92    100
+  Sviestas            maisto                2,42    200
+----------------------------------------------------------
+
+Suformuotas sąrašas:
+Sąrašas tuščias!
+
+Veiksmai neatlikti - sąrašas tuščias!
+
+Nauji pradiniai duomenys:
+----------------------------------------------------------
+ Pavadinimas          Tipas                Kaina   Kiekis 
+----------------------------------------------------------
+  Batonas             maisto                0,99    150
+----------------------------------------------------------
+
+Nauji pradiniai duomenys įterpti į seną sąrašą:
+Sąrašas tuščias!
+
+Pradinis sąrašas su padidintomis kainomis:
+----------------------------------------------------------
+ Pavadinimas          Tipas                Kaina   Kiekis 
+----------------------------------------------------------
+  Duona               maisto                1,01    100
+  Sviestas            maisto                2,66    200
+----------------------------------------------------------
+
+Antras sąrašas su padidintomis kainomis:
+Sąrašas tuščias!
+
+Naujas (trečias) sąrašas su padidintomis kainomis:
+----------------------------------------------------------
+ Pavadinimas          Tipas                Kaina   Kiekis 
+----------------------------------------------------------
+  Batonas             maisto                1,09    150
+----------------------------------------------------------
+

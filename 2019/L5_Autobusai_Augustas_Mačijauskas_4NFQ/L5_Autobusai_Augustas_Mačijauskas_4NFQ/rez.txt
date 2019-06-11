@@ -1,0 +1,60 @@
+Pradiniai maršrutų duomenys:
+--------------------------------------------------------
+  Nr. Savaitės diena       Išvykimo laikas        Kaina
+--------------------------------------------------------
+    1 Pirmadienis          08:05                   5,55
+    2 Ketvirtadienis       12:30                   2,50
+    3 Sekmadienis          10:20                   3,99
+    4 Antradienis          09:35                   5,55
+    5 Penktadienis         11:10                   6,00
+    6 Trečiadienis         15:25                   1,65
+    7 Šeštadienis          16:45                   4,15
+    8 Pirmadienis          21:50                   3,80
+    9 Penktadienis         20:40                   2,95
+   10 Šeštadienis          00:00                1000,00
+--------------------------------------------------------
+
+Pradiniai keleivių duomenys:
+--------------------------------------------------------------------------------
+ Pavardė         Vardas          Savaitės diena       Išvykimo laikas       Nr.
+--------------------------------------------------------------------------------
+ Pavardė1        Vardas1         Sekmadienis          10:20                   3
+ Pavardė2        Vardas2         Penktadienis         11:10                   5
+ Pavardė3        Vardas3         Šeštadienis          16:45                   7
+ Pavardė4        Vardas4         Penktadienis         20:40                   9
+ Pavardė5        Vardas5         Pirmadienis          08:05                   1
+ Pavardė6        Vardas6         Pirmadienis          21:50                   8
+ Pavardė7        Vardas7         Trečiadienis         15:25                   6
+ Pavardė8        Vardas8         Antradienis          09:35                   4
+ Pavardė9        Vardas9         Ketvirtadienis       12:30                   2
+ Pavardė10       Vardas10        Pirmadienis          08:05                   1
+ Pavardė11       Vardas11        Antradienis          09:35                   4
+ Pavardė12       Vardas12        Šeštadienis          16:45                   7
+ Pavardė13       Vardas13        Trečiadienis         15:25                   6
+ Pavardė14       Vardas14        Sekmadienis          10:20                   3
+ Pavardė15       Vardas15        Ketvirtadienis       12:30                   2
+--------------------------------------------------------------------------------
+
+Atrinkti maršrutai:
+--------------------------------------------------------
+  Nr. Savaitės diena       Išvykimo laikas        Kaina
+--------------------------------------------------------
+    1 Pirmadienis          08:05                   5,55
+    2 Ketvirtadienis       12:30                   2,50
+    3 Sekmadienis          10:20                   3,99
+    4 Antradienis          09:35                   5,55
+    5 Penktadienis         11:10                   6,00
+    6 Trečiadienis         15:25                   1,65
+    7 Šeštadienis          16:45                   4,15
+    8 Pirmadienis          21:50                   3,80
+    9 Penktadienis         20:40                   2,95
+--------------------------------------------------------
+
+Pelningiausi maršrutai:
+--------------------------------------------------------
+  Nr. Savaitės diena       Išvykimo laikas        Kaina
+--------------------------------------------------------
+    1 Pirmadienis          08:05                   5,55
+    4 Antradienis          09:35                   5,55
+--------------------------------------------------------
+

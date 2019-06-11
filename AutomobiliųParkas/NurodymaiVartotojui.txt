@@ -1,0 +1,29 @@
+﻿1. Paleiskite programą;
+
+2. Atsidariusiame lange spauskite Failas -> Nuskaityti;
+
+3. Norėdami spausdinti, spauskite Failas -> Spausdinti;
+
+4. Toliau galite atlikti skaičiavimus:
+   4.1. Norėdami rasti geriausius automobilius, spauskite
+   Skaičiavimas -> Geriausi automobiliai;
+
+   4.2. Norėdami rasti seniausius mikroautobusus, spauskite
+   Skaičiavimas -> Seniausi mikroautobusai;
+
+   4.1. Norėdami rasti filialų krovininius automobilius, spauskite
+   Skaičiavimas -> Krovininiai automobiliai;
+
+   4.1. Norėdami rasti automobilių technines apžiūras, spauskite
+   Skaičiavimas -> Techninė apžiūra;
+   PASTABA: šio skaičiavimo duomenys ekrane nespausdinami,
+   juos rasti galite faile "Apžiūra.txt";
+
+5. Norėdami peržiūrėti pagalbą vartotojui, spauskite
+   Pagalba -> Nurodymai vartotojui;
+
+6. Norėdami peržiūrėti naudojimo sąlygas, spauskite
+   Pagalba -> Naudojimo sąlygos;
+
+7. Norėdami baigti darbą su programa, spauskite
+   Failas -> Baigti.
