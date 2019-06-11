@@ -1,8 +1,0 @@
-﻿Šiauliai
-Mindaugo g. 50
-siauliai1@greitis.lt
-l; FGH567; Toyota; Auris; 2015 12; 2017-07-21; elektra; 4,9; 184567;
-k; JKL901; Seat; HQ; 2010 04; 2017-11-21; dyzelinas; 7,1; 490;
-m; DFE267; Opel; Astra; 2010 05; 2017-11-13; dujos; 8,2; 15;
-m; MNO234; Subaru; X10; 2004 11; 2018-04-16; dyzelinas; 7,6; 18;
-l; EFG456; BMW; X1; 2004 08; 2017-05-31; dyzelinas; 6,5; 164570;

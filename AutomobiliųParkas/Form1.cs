@@ -7,12 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
 
 namespace AutomobiliųParkas
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         const string data = "..\\..\\Miestai1.txt";
         const string output = "..\\..\\output1.txt";
         const string apziura = "..\\..\\Apžiūra1.txt";
@@ -340,3 +344,11 @@ namespace AutomobiliųParkas
         }
     }
 }
+=======
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AutomobiliųParkas
 {
+<<<<<<< HEAD
     abstract class Transportas : IComparable<Transportas>
+=======
+    abstract class Transportas
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
     {
         public string ValstybinisNumeris { get; set; }
         public string Gamintojas { get; set; }
@@ -27,6 +31,7 @@ namespace AutomobiliųParkas
             this.VidutinėsSąnaudos = vid;
         }
 
+<<<<<<< HEAD
         public abstract double PapildomasRodiklis();
 
         public string TechninėApžiūraToString(DateTime techApžiūrosGaliojimoPabaiga)
@@ -80,6 +85,11 @@ namespace AutomobiliųParkas
 
 
             return 0;
+=======
+        public override string ToString()
+        {
+            return string.Format(" {0, -10}     {1, -7}         {2:yyyy MM}            {3, -15} ", Gamintojas, Modelis, PagaminimoData, Kuras);
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
         }
     }
 }

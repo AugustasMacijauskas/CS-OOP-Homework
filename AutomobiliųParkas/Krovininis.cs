@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutomobiliųParkas
 {
+<<<<<<< HEAD
     class Krovininis : Transportas, IComparable<Krovininis>
     {
         public double PriekabosTalpa { get; set; }
@@ -45,3 +46,15 @@ namespace AutomobiliųParkas
         }
     }
 }
+=======
+    class Krovininis : Transportas
+    {
+        public double PriekabosTalpa { get; set; }
+
+        public Krovininis(string valstNr, string gam, string mod, DateTime pag, DateTime tech, string kur, double vid, double talp) : base (valstNr, gam, mod, pag, tech, kur, vid)
+        {
+            this.PriekabosTalpa = talp;
+        }
+    }
+}
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d

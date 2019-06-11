@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.failasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuskaityti = new System.Windows.Forms.ToolStripMenuItem();
@@ -206,6 +207,14 @@
         private System.Windows.Forms.ToolStripMenuItem pagalbaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nurodymaiVartotojui;
         private System.Windows.Forms.ToolStripMenuItem naudojimoSąlygos;
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Text = "Form1";
+        }
+
+        #endregion
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
     }
 }
 

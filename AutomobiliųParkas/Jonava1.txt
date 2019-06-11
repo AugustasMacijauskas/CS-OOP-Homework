@@ -1,8 +1,0 @@
-﻿Jonava
-Pilies g. 46
-jonava1@greitis.lt
-l; ABC012; Toyota; Avensis; 2000 08; 2018-07-16; dyzelinas; 8,6; 123456;
-l; BCD123; Volkswagen; Golf; 2001 07; 2018-08-20; benzinas; 8,2; 90456;
-k; GHI678; Nissan; Qashqai; 1998 01; 2018-02-07; dujos; 7,9; 500;
-m; UPS456; Skoda; X; 2000 08; 2017-03-09; dyzelinas; 8,1; 16;
-m; POK; Skoda; Cap; 2005 04; 2016-10-15; benzinas; 7,8; 18;

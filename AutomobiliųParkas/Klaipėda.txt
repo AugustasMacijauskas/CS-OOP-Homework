@@ -1,9 +1,0 @@
-﻿Klaipėda
-Jūros g. 12
-klaipeda@greitis.lt
-l; CDE234; Audi; E92; 2006 05; 2016-01-11; dujos; 8,1; 201333;
-k; IJK890; Peugeot; 3008; 2005 03; 2017-10-13; dujos; 7,9; 650;
-l; DEF345; Mercedes; Benz; 2005 01; 2017-04-06; benzinas; 8,3; 104506;
-m; PSE456; Volkswagen; Jetta; 2000 08; 2018-04-16; benzinas; 8,6; 16;
-m; KLT528; Lexus; 10; 2006 08; 2017-01-31; dyzelinas; 8,6; 15;
-k; HIJ789; Opel; Astra; 1999 02; 2017-09-22; dyzelinas; 8,9; 500;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using TablePrinter;
 
 namespace Augustas_Mačijauskas_Kontrolinis5
 {
@@ -237,24 +238,33 @@ namespace Augustas_Mačijauskas_Kontrolinis5
 
         static void Spausdinti(Poliklinika mas, string antraste)
         {
-            const string virsus = "--------------------------------------------------------------------------------------\r\n" +
-                                  " Nr. Pavardė vardas            Telefono nr.     Sodros pažymėjimo nr.     Gimimo data \r\n" +
-                                  "--------------------------------------------------------------------------------------";
+            Table<Klientas> pavadinimas = new Table<Klientas>();
+            pavadinimas.AddColumn(x => x.PavardėVardas, "Pavardė");
+            pavadinimas.AddColumn(x => x.TelefonoNr, "Tlf");
+            pavadinimas.AddColumn(x => x.SodrosNr, "Sodra");
+            pavadinimas.AddColumn(x => x.GimimoData, "Data");
 
-            Console.WriteLine(antraste);
-            if (mas.n > 0)
-            {
-                Console.WriteLine(virsus);
-                for (int i = 0; i < mas.n; i++)
-                {
-                    Console.WriteLine("{0, 3:d} {1} ", i + 1, mas.Imti(i).ToString());
-                }
-                Console.WriteLine("--------------------------------------------------------------------------------------\r\n");
-            }
-            else
-            {
-                Console.WriteLine("Sąrašas tuščias!\r\n");
-            }
+            pavadinimas.CellAlign = CellAlign.Left;
+            pavadinimas.CellBorderMargin = 5;
+            pavadinimas.PrintPigeonContainer(mas, mas.n);
+            //const string virsus = "--------------------------------------------------------------------------------------\r\n" +
+            //                      " Nr. Pavardė vardas            Telefono nr.     Sodros pažymėjimo nr.     Gimimo data \r\n" +
+            //                      "--------------------------------------------------------------------------------------";
+
+            //Console.WriteLine(antraste);
+            //if (mas.n > 0)
+            //{
+            //    Console.WriteLine(virsus);
+            //    for (int i = 0; i < mas.n; i++)
+            //    {
+            //        Console.WriteLine("{0, 3:d} {1} ", i + 1, mas.Imti(i).ToString());
+            //    }
+            //    Console.WriteLine("--------------------------------------------------------------------------------------\r\n");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sąrašas tuščias!\r\n");
+            //}
         }
     }
 }
