@@ -15,7 +15,7 @@ namespace L3_AugustasMačijauskas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Autumobiliai());
+            Application.Run(new Form1());
         }
     }
 }

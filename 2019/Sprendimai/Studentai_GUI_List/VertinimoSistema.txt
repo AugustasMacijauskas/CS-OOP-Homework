@@ -1,0 +1,10 @@
+﻿10; Puikiai;
+9; Labai gerai;
+8; Gerai;
+7; Vidutiniškai;
+6; Patenkinamai;
+5; Silpnai;
+4; Nepatenkinamai;
+3; Nepatenkinamai;
+2; Nepatenkinamai;
+1; Nepatenkinamai;

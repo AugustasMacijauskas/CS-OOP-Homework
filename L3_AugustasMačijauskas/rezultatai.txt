@@ -36,22 +36,24 @@ Antras naujausias automobilis:
                Kuro tipas :              Elektra
             Kuro sąnaudos :                    0
 
-W25 Silver Arrow markės automobiliai:
+ModelX markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,0
-  2         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,0
-  3         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,0
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
+  2         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  4         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
-Surikiuoti W25 Silver Arrow markės automobiliai:
+Surikiuoti ModelX markės automobiliai:
 ------------------------------------------------------------------------------------------------------------------------------------
  Nr. Valstybinis numeris     Gamintojas     Modelis          Pagaminimo data     Techninė apžiūra      Kuro tipas     Kuro sąnaudos 
 ------------------------------------------------------------------------------------------------------------------------------------
-  1         PLM562           Mercedes       W25 Silver Arrow     2011 04            2018 06 22         Dujos               10,0
-  2         ZLM562           Mercedes       W25 Silver Arrow     2011 06            2018 08 22         Dujos               10,0
-  3         ABC123           Mercedes       W25 Silver Arrow     2011 01            2018 12 31         Dujos               10,0
+  1         OFG896           Tesla          ModelX               2009 06            2018 04 09         Hibridas             4,0
+  2         LEK159           Tesla          ModelX               2017 11            2018 06 01         Elektra              0,0
+  3         ASD653           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
+  4         KLG576           Tesla          ModelX               2017 12            2018 06 20         Elektra              0,0
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Gamintojų sąrašas:

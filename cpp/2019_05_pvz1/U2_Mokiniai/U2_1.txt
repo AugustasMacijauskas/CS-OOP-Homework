@@ -1,0 +1,4 @@
+3 5
+Antanaitis Antanas  vyr  5  6  7 10  9
+Augaitis Augustas   vyr 10  8  8 10 10
+Povilaitis Povilas  vyr  5  7 10 10 10

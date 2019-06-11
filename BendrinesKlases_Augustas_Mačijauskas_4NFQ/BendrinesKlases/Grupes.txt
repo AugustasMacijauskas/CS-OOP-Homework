@@ -1,0 +1,7 @@
+﻿B; 1; IFX-5/1; -; Jonaitis Jonas
+B; 1; IFX-5/2; -; Jonaitis Jonas
+B; 2; IFX-4/1; -; Kazlauskas Kazys
+B; 3; IFP-3/1; Programavimas; Jankauskas Juozas
+B; 3; IFM-3/1; Multimedija; Stasiulis Stasys
+M; 1; IFT-1; Tinklai; Andriukaitis Andrius
+M; 1; IFPI-1; Programų inžinerija; Andriukaitis Andrius

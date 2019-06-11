@@ -1,0 +1,14 @@
+5
+Prek1                10  5
+Prek2                20 15
+Prek1                10  9
+Prek3                30 10
+Prek5                30 30
+7
+Prek1                10  9
+Prek3                10  6
+Prek4 A              10  7
+Prek4 A              10  8
+Prek1                10  9
+Prek5                30 30
+Prek4 A              100 90

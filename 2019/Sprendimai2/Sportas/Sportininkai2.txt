@@ -1,0 +1,17 @@
+﻿k;Žalgiris;Kavaliauskas;Antanas;36;225;95;34;
+f;Žalgiris;Šernas;Darvynas;40;6;8;
+f;Žalgiris;Mikoliūnas;Saulius;44;5;9;
+k;Žalgiris;Milaknis;Artūras;36;250;53;28;
+k;Žalgiris;Ulanovas;Edgaras;34;101;110;80;45;
+f;Jonava;Klimavičius;Arūnas;44;3;10;
+k;Neptūnas;Jucikas;Matas;19;34;28;5;
+k;Neptūnas;Einikis;Aidas;5;7;4;2;
+k;Vytautas;Ball;Lamelo;10;52;9;19;
+k;Lietuvos Rytas;Jomantas;Artūras;32;107;33;11;
+k;Vytautas;Žukauskas;Eigirdas;36;298;129;82;
+f;Trakai;Vorobjovas;Modestas;44;2;2;
+k;Vytautas;Šeškus;Edvinas;36;222;68;48;
+k;Neptūnas;Seibutis;Renaldas;36;421;78;54;
+k;Lietuvos Rytas;Giedraitis;Rokas;36;359;97;54;
+f;Trakai;Marazas;Justinas;40;2;1;
+k;Lietuvos Rytas;Lukauskas;Mindaugas;28;84;45;16;

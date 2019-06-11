@@ -1,0 +1,5 @@
+﻿Petraitis; Petras; 123456; IFT-1; 8.8; VF;6G pritaikymo galimybės
+Simona;Tinklaitė;92725;IFT-1;8.6;VF;Naujų tinklo protokolų kūrimas
+Audrius;Dalgiauskas;97362;IFPI-1;8.9;VF;Išmanus programinės įrangos testavimas
+Audronė;Grindžiūtė;99827;IFPI-1;9.1;VF;Daiktų interneto pritaikymo galimybės
+Vytenis;Dygliauskas;94725;IFT-1;8.7;VF;Gramatikos evoliucija ir jos praktiniai taikymai 

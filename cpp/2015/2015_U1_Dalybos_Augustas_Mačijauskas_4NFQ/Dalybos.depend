@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554106337 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2015\dalybos\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

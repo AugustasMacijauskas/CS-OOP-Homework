@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1555315112 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2018\slidininkai\main.cpp
+	<fstream>
+	<vector>
+	<iostream>
+

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1pirma-1", "L1pirma-1.csproj", "{C575575B-AB91-4647-908B-5AED637A60ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciklas", "..\Ciklas\Ciklas.csproj", "{8965B0E8-AB14-44BC-A163-0D38A9111263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematikaFunkcjos", "ConsoleApplication1\MatematikaFunkcjos.csproj", "{E801CCA7-4323-41B8-BED3-E3E4E88FBC00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C575575B-AB91-4647-908B-5AED637A60ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C575575B-AB91-4647-908B-5AED637A60ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C575575B-AB91-4647-908B-5AED637A60ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C575575B-AB91-4647-908B-5AED637A60ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8965B0E8-AB14-44BC-A163-0D38A9111263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8965B0E8-AB14-44BC-A163-0D38A9111263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8965B0E8-AB14-44BC-A163-0D38A9111263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8965B0E8-AB14-44BC-A163-0D38A9111263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E801CCA7-4323-41B8-BED3-E3E4E88FBC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E801CCA7-4323-41B8-BED3-E3E4E88FBC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E801CCA7-4323-41B8-BED3-E3E4E88FBC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E801CCA7-4323-41B8-BED3-E3E4E88FBC00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

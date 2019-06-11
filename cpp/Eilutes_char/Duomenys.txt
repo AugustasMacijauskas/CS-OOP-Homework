@@ -1,0 +1,6 @@
+5
+Tomas Baravykas;11c; 8
+Lina Voveraite;11a; 7
+Ingrida Lepsaite;11c; 10
+Simas Raudonikis;11c; 5
+Benas Kelmutis;11a; 9

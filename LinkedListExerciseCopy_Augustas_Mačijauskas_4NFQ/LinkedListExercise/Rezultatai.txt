@@ -1,0 +1,75 @@
+Mikas Humanitaras
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Motorola W156                 | Mobilusis telefonas  |   465,00     |
+|Nokia 1200                    | Mobilusis telefonas  |   390,00     |
+|Samsung B520                  | Mobilusis telefonas  |   350,00     |
+|Sony Walkman NWZ-A826B        | MP3 grotuvas         |    45,00     |
+|Sony Walkman NWZ-E436FB       | MP3 grotuvas         |    45,00     |
+|Garmin Oregon 300             | Navigacine sistema   |    16,00     |
++------------------------------+----------------------+--------------+
+
+Darius Elektronikas
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Sony Ericsson K610i           | Mobilusis telefonas  |   480,00     |
+|Motorola Razor V3             | Mobilusis telefonas  |   400,00     |
+|Creative Zen                  | MP3 grotuvas         |    40,00     |
+|Apple iPod Shuffle            | MP3 grotuvas         |    40,00     |
++------------------------------+----------------------+--------------+
+
+StudentsDevices: Mikas Humanitaras, ilgiausiai veikianti baterija 
+Modelis: Motorola W156, tipas: Mobilusis telefonas, trukmė: 465.
+
+StudentsDevices: Darius Elektronikas, ilgiausiai veikianti baterija 
+Modelis:  Sony Ericsson K610i, tipas: Mobilusis telefonas, trukmė: 480.
+
+Atrinkti nerikiuoti (Mobilusis telefonas)
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Motorola W156                 | Mobilusis telefonas  |   465,00     |
+|Nokia 1200                    | Mobilusis telefonas  |   390,00     |
+|Samsung B520                  | Mobilusis telefonas  |   350,00     |
+|Sony Ericsson K610i           | Mobilusis telefonas  |   480,00     |
+|Motorola Razor V3             | Mobilusis telefonas  |   400,00     |
++------------------------------+----------------------+--------------+
+
+
+Atrinkti surikiuoti (Mobilusis telefonas)
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Samsung B520                  | Mobilusis telefonas  |   350,00     |
+|Nokia 1200                    | Mobilusis telefonas  |   390,00     |
+|Motorola Razor V3             | Mobilusis telefonas  |   400,00     |
+|Motorola W156                 | Mobilusis telefonas  |   465,00     |
+|Sony Ericsson K610i           | Mobilusis telefonas  |   480,00     |
++------------------------------+----------------------+--------------+
+
+Rimas Kurpius
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Apple iPod Shuffle            | Grotuvas             |   400,00     |
+|Sony Ericsson K6109           | Mobilusis telefonas1 |   455,00     |
+|Tavo                          | Mobilusis telefonas  |   650,00     |
+|Motorola Razor V4             | Mobilusis telefonas1 |   490,00     |
++------------------------------+----------------------+--------------+
+
+Rikiuotas po papildymo
++------------------------------+----------------------+--------------+
+|           Modelis            |      Tipas           | Veik. trukmė |
++------------------------------+----------------------+--------------+
+|Samsung B520                  | Mobilusis telefonas  |   350,00     |
+|Nokia 1200                    | Mobilusis telefonas  |   390,00     |
+|Motorola Razor V3             | Mobilusis telefonas  |   400,00     |
+|Motorola W156                 | Mobilusis telefonas  |   465,00     |
+|Sony Ericsson K610i           | Mobilusis telefonas  |   480,00     |
+|Tavo                          | Mobilusis telefonas  |   650,00     |
++------------------------------+----------------------+--------------+
+
+Naujas sąrašas sunaikintas.
+

@@ -1,0 +1,2 @@
+﻿Duona;maisto; 0,92; 100
+Sviestas;maisto;2,42; 200

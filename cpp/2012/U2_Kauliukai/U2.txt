@@ -1,0 +1,4 @@
+3 4
+Hermis     1 1 2 1
+Hera       6 6 1 3
+Hera1      2 2 2 2

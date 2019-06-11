@@ -1,0 +1,4 @@
+﻿2019 06 07; 0.0.0.0;
+08:00:05; 255.255.10.0; ktug.lt/priemimas
+10:20:49; 254.254.254.1; ktug.lt/bandomasis/darkartra
+12:39:21; 123.231.26.19; facebook.com/feed

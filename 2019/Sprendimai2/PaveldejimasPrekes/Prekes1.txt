@@ -1,0 +1,7 @@
+﻿Batonas;maisto;0,99; 150
+Valiklis;ūkio;2,59;50
+Vitaminas C;papildai;7,59;90
+Sūris;maisto;1,45;300
+Ledai;desertai;0,56;150
+Vytautas;gėrimai;0,69;120
+Sūrelis;maisto;0,34;200

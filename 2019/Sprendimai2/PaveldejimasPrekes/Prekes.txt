@@ -1,0 +1,6 @@
+﻿Duona;maisto; 0,92; 100
+Sviestas;maisto;2,42; 200
+Bulvės;daržovės;0,27;200
+Kopūstai;daržovės;1,09;300
+Morkos;daržovės;0,88;150
+Burokai;daržovės;0,88;120

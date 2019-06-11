@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1557315071 source:c:\users\amacijauskas\desktop\info_kartojimas\cpp\2019_05_pvz1\u1_firma\main.cpp
+	<fstream>
+	<iomanip>
+

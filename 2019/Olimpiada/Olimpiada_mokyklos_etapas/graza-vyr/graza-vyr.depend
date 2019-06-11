@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542362055 source:c:\users\amacijauskas\desktop\olimpiada_mokyklos_etapas\graza-vyr\main.cpp
+	<bits/stdc++.h>
+	<fstream>
+

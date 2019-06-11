@@ -1,0 +1,5 @@
+3 3
+Ia
+Petras petraitis,Vyr,Ia 7 8 9
+Jonas Jonaitis,Vyr,Ib 9 9 8
+Jonë Jonaitytë,Mot,Ic 9 9 9

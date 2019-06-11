@@ -46,14 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Filialas.cs" />
+    <Compile Include="FilialoDuomenys.cs" />
+=======
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Krovininis.cs" />
+    <Compile Include="Lengvasis.cs" />
+    <Compile Include="Mikroautobusas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transportas.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,6 +93,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <Content Include="Apžiūra.txt" />
+    <Content Include="Jonava.txt" />
+    <Content Include="Kaunas.txt" />
+    <Content Include="Klaipėda.txt" />
+    <Content Include="Miestai.txt" />
+    <Content Include="NaudojimoSalygos.txt" />
+    <Content Include="NurodymaiVartotojui.txt" />
+    <Content Include="output.txt" />
+    <Content Include="Vilnius.txt" />
+  </ItemGroup>
+=======
+>>>>>>> cfc5373580dd3e017a31e595e5e73ffbdcc6884d
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

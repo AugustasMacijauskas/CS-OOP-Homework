@@ -10,7 +10,7 @@ using System.IO;
 
 namespace L3_AugustasMačijauskas
 {
-    public partial class Autumobiliai : Form
+    public partial class Form1 : Form
     {
         List<Automobilis> automobiliai;
         List<Automobilis> markes;
@@ -18,7 +18,7 @@ namespace L3_AugustasMačijauskas
         string rez = "";
         const string info = "..\\..\\informacijaVartotojui.txt";
 
-        public Autumobiliai()
+        public Form1()
         {
             InitializeComponent();
             Skaiciuoti.Enabled = false;
