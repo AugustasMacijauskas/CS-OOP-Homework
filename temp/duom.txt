@@ -1,0 +1,16 @@
+autorius1;pavadinimas1;leidykla1;15
+autorius2;pavadinimas2;leidykla2;45
+autorius3;pavadinimas3;leidykla3;17
+autorius4;pavadinimas4;leidykla4;15
+autorius4;pavadinimas4;leidykla1;15
+autorius5;pavadinimas5;leidykla1;23,254
+autorius6;pavadinimas6;leidykla6;3,1415
+autorius7;pavadinimas7;leidykla7;15
+autorius8;pavadinimas8;leidykla8;36
+autorius9;pavadinimas9;leidykla1;615
+autorius1;pavadinimas10;leidykla10;15
+autorius1;pavadinimas10;leidykla1;15
+autorius11;pavadinimas11;leidykla11;2,78
+autorius11;pavadinimas11;leidykla1;2,78
+autorius12;pavadinimas12;leidykla1;1
+autorąėeųius12;pavaėdinimas12;leičdykla1;1

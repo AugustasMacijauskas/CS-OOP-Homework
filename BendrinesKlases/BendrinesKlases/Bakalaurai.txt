@@ -1,0 +1,19 @@
+﻿Petraitis; Petras; 123456; IFX-5/1; 8,5; VF
+Arnas;Sofauskas;91357;IFX-5/1;6,8;VF
+Gailė;Pagalvytė;92468;IFX-5/2;7,2;VNF
+Jonas;Kėdžius;93579;IFX-4/1;8,9;VF
+Radvilė;Staliukaitė;94680;IFX-5/1;9,2;VF
+Ignas;Lovauskas;90864;IFX-4/1;4,6;VNF
+Indrė;Langaitė;99753;IFX-4/1;7,8;VF
+Diana;Paveikslaitė;98642;IFX-5/1;9,6;VF
+Dainius;Lentauskas;97531;IFP-3/1;5,6;VNF
+Raminta;Foteliūtė;96420;IFX-5/2;8,8;VF
+Raigardas;Knygius;95790;IFP-3/1;6,5;VNF
+Giedrius;Palangiauskas;91470;IFM-3/1;7,5;VF
+Rasa;Plaktukaitė;92683;IFX-5/2;8,5;VF
+Ieva;Pjūklaitė;90273;IFM-3/1;7,8;VF
+Gintaras;Grėbliauskas;90876;IFX-4/1;7,7;VF
+Vladimiras;Lygiauskas;93261;IFX-5/1;6,9;VNF
+Z;Dėklaitė;97365;IFX-5/2;5,6;VNF
+Jomantė;Dėklaitė;97365;IFX-5/2;5,6;VNF
+A;Dėklaitė;97365;IFX-5/2;5,6;VNF
